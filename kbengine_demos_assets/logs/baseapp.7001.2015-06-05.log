@@ -1,0 +1,705 @@
+  INFO root [0x00001674] [2015-06-05 11:37:44,031] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001674] [2015-06-05 11:37:44,142] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00001674] [2015-06-05 11:37:44,143] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x00001674] [2015-06-05 11:37:44,143] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00001674] [2015-06-05 11:37:44,163] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:20015 )
+  INFO root [0x00001674] [2015-06-05 11:37:44,164] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.107:20015, SOMAXCONN=128.
+  INFO root [0x00001674] [2015-06-05 11:37:44,165] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:4299 )
+  INFO root [0x00001674] [2015-06-05 11:37:44,165] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:4299, SOMAXCONN=128.
+  INFO root [0x00001674] [2015-06-05 11:37:44,165] - server-configs:
+  INFO root [0x00001674] [2015-06-05 11:37:44,173] - 	gameUpdateHertz : 10
+  INFO root [0x00001674] [2015-06-05 11:37:44,173] - 	entryScriptFile : kbengine
+  INFO root [0x00001674] [2015-06-05 11:37:44,173] - 	internalAddr : 192.168.1.107:4299
+  INFO root [0x00001674] [2015-06-05 11:37:44,173] - 	externalAddr : 192.168.1.107:20015
+  INFO root [0x00001674] [2015-06-05 11:37:44,173] - 	componentID : 7001
+  INFO root [0x00001674] [2015-06-05 11:37:44,402] - ---- baseapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 98670BB559BC40DD73E41BC67006A9BA. Config: Debug. Built: 10:37:17 Jun  3 2015. AppID: 7001. UID: 52554. PID: 6068 ----
+  INFO root [0x00001674] [2015-06-05 11:37:44,403] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x00001674] [2015-06-05 11:37:44,403] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001674] [2015-06-05 11:37:44,404] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,700] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,729] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,742] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,769] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,775] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,806] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001674] [2015-06-05 11:37:44,889] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001674] [2015-06-05 11:37:44,925] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:37:56) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001674] [2015-06-05 11:37:44,925] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,284] - loaded script:Account(1).
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,349] - loaded script:Avatar(2).
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,358] - loaded script:Spaces(6).
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,398] - loaded script:Space(7).
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,404] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x00001674] [2015-06-05 11:37:45,406] - loaded script:SpawnPoint(9).
+  INFO root [0x00001674] [2015-06-05 11:37:45,406] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001674] [2015-06-05 11:37:45,415] - TelnetServer server is running on port 40000
+  INFO root [0x00001674] [2015-06-05 11:37:46,262] - ---- baseapp is running ----
+ DEBUG root [0x00001674] [2015-06-05 11:37:46,263] - Components::process(): Request for the process of identity...
+  WARN root [0x00001674] [2015-06-05 11:37:52,335] - EntityApp::checkTickPeriod: tick took 6072% (6.07 seconds)!
+  INFO root [0x00001674] [2015-06-05 11:37:53,371] - Components::findInterfaces: find logger(1)...
+  INFO root [0x00001674] [2015-06-05 11:37:53,477] - Components::findInterfaces: found logger, addr:192.168.1.107:4294
+  INFO root [0x00001674] [2015-06-05 11:37:53,477] - Components::addComponent[logger], uid=52554, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001674] [2015-06-05 11:37:53,486] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x00001674] [2015-06-05 11:37:53,494] - Components::findInterfaces: found logger, addr:192.168.1.107:4294
+  INFO root [0x00001674] [2015-06-05 11:37:53,611] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:4298
+  INFO root [0x00001674] [2015-06-05 11:37:53,612] - Components::addComponent[dbmgr], uid=52554, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x00001674] [2015-06-05 11:37:53,627] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:4298
+  WARN root [0x00001674] [2015-06-05 11:37:54,627] - Forwarding logs to logger[192.168.1.107:4294/0/0/0]...
+ ERROR root [0x00001674] [2015-06-05 11:42:43,665] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x00001674] [2015-06-05 11:42:43,687] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00001674] [2015-06-05 11:42:43,753] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001674] [2015-06-05 11:42:43,765] - Components::removeComponentFromChannel: baseappmgr : 5000, Abnormal exit.
+ ERROR root [0x00001674] [2015-06-05 11:42:43,766] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x00001674] [2015-06-05 11:42:43,767] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00001674] [2015-06-05 11:42:43,768] - onBaseAppShutDown: state=0
+  INFO root [0x00001674] [2015-06-05 11:42:43,768] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00001674] [2015-06-05 11:42:43,768] - onBaseAppShutDown: state=1
+  INFO root [0x00001674] [2015-06-05 11:42:43,768] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00001674] [2015-06-05 11:42:43,769] - onBaseAppShutDown: state=2
+  INFO root [0x00001674] [2015-06-05 11:42:43,796] - SpawnPoint::~SpawnPoint(): 9
+  INFO root [0x00001674] [2015-06-05 11:42:43,796] - SpawnPoint::~SpawnPoint(): 65
+  INFO root [0x00001674] [2015-06-05 11:42:43,796] - SpawnPoint::~SpawnPoint(): 3
+  INFO root [0x00001674] [2015-06-05 11:42:43,797] - SpawnPoint::~SpawnPoint(): 4
+  INFO root [0x00001674] [2015-06-05 11:42:43,797] - SpawnPoint::~SpawnPoint(): 5
+  INFO root [0x00001674] [2015-06-05 11:42:43,797] - SpawnPoint::~SpawnPoint(): 6
+  INFO root [0x00001674] [2015-06-05 11:42:43,798] - SpawnPoint::~SpawnPoint(): 7
+  INFO root [0x00001674] [2015-06-05 11:42:43,798] - SpawnPoint::~SpawnPoint(): 8
+  INFO root [0x00001674] [2015-06-05 11:42:43,798] - SpawnPoint::~SpawnPoint(): 11
+  INFO root [0x00001674] [2015-06-05 11:42:43,799] - SpawnPoint::~SpawnPoint(): 12
+  INFO root [0x00001674] [2015-06-05 11:42:43,799] - SpawnPoint::~SpawnPoint(): 13
+  INFO root [0x00001674] [2015-06-05 11:42:43,799] - SpawnPoint::~SpawnPoint(): 14
+  INFO root [0x00001674] [2015-06-05 11:42:43,800] - SpawnPoint::~SpawnPoint(): 15
+  INFO root [0x00001674] [2015-06-05 11:42:43,800] - SpawnPoint::~SpawnPoint(): 16
+  INFO root [0x00001674] [2015-06-05 11:42:43,800] - SpawnPoint::~SpawnPoint(): 17
+  INFO root [0x00001674] [2015-06-05 11:42:43,801] - SpawnPoint::~SpawnPoint(): 18
+  INFO root [0x00001674] [2015-06-05 11:42:43,801] - SpawnPoint::~SpawnPoint(): 19
+  INFO root [0x00001674] [2015-06-05 11:42:43,801] - SpawnPoint::~SpawnPoint(): 20
+  INFO root [0x00001674] [2015-06-05 11:42:43,802] - SpawnPoint::~SpawnPoint(): 21
+  INFO root [0x00001674] [2015-06-05 11:42:43,802] - SpawnPoint::~SpawnPoint(): 22
+  INFO root [0x00001674] [2015-06-05 11:42:43,802] - SpawnPoint::~SpawnPoint(): 23
+  INFO root [0x00001674] [2015-06-05 11:42:43,803] - SpawnPoint::~SpawnPoint(): 24
+  INFO root [0x00001674] [2015-06-05 11:42:43,803] - SpawnPoint::~SpawnPoint(): 25
+  INFO root [0x00001674] [2015-06-05 11:42:43,803] - SpawnPoint::~SpawnPoint(): 26
+  INFO root [0x00001674] [2015-06-05 11:42:43,804] - SpawnPoint::~SpawnPoint(): 27
+  INFO root [0x00001674] [2015-06-05 11:42:43,804] - SpawnPoint::~SpawnPoint(): 29
+  INFO root [0x00001674] [2015-06-05 11:42:43,804] - SpawnPoint::~SpawnPoint(): 30
+  INFO root [0x00001674] [2015-06-05 11:42:43,804] - SpawnPoint::~SpawnPoint(): 31
+  INFO root [0x00001674] [2015-06-05 11:42:43,806] - SpawnPoint::~SpawnPoint(): 32
+  INFO root [0x00001674] [2015-06-05 11:42:43,806] - SpawnPoint::~SpawnPoint(): 33
+  INFO root [0x00001674] [2015-06-05 11:42:43,807] - SpawnPoint::~SpawnPoint(): 34
+  INFO root [0x00001674] [2015-06-05 11:42:43,807] - SpawnPoint::~SpawnPoint(): 35
+  INFO root [0x00001674] [2015-06-05 11:42:43,807] - SpawnPoint::~SpawnPoint(): 36
+  INFO root [0x00001674] [2015-06-05 11:42:43,808] - SpawnPoint::~SpawnPoint(): 37
+  INFO root [0x00001674] [2015-06-05 11:42:43,808] - SpawnPoint::~SpawnPoint(): 38
+  INFO root [0x00001674] [2015-06-05 11:42:43,808] - SpawnPoint::~SpawnPoint(): 39
+  INFO root [0x00001674] [2015-06-05 11:42:43,809] - SpawnPoint::~SpawnPoint(): 40
+  INFO root [0x00001674] [2015-06-05 11:42:43,809] - SpawnPoint::~SpawnPoint(): 41
+  INFO root [0x00001674] [2015-06-05 11:42:43,810] - SpawnPoint::~SpawnPoint(): 42
+  INFO root [0x00001674] [2015-06-05 11:42:43,810] - SpawnPoint::~SpawnPoint(): 43
+  INFO root [0x00001674] [2015-06-05 11:42:43,810] - SpawnPoint::~SpawnPoint(): 44
+  INFO root [0x00001674] [2015-06-05 11:42:43,811] - SpawnPoint::~SpawnPoint(): 45
+  INFO root [0x00001674] [2015-06-05 11:42:43,811] - SpawnPoint::~SpawnPoint(): 46
+  INFO root [0x00001674] [2015-06-05 11:42:43,811] - SpawnPoint::~SpawnPoint(): 47
+  INFO root [0x00001674] [2015-06-05 11:42:43,812] - SpawnPoint::~SpawnPoint(): 48
+  INFO root [0x00001674] [2015-06-05 11:42:43,812] - SpawnPoint::~SpawnPoint(): 49
+  INFO root [0x00001674] [2015-06-05 11:42:43,813] - SpawnPoint::~SpawnPoint(): 50
+  INFO root [0x00001674] [2015-06-05 11:42:43,813] - SpawnPoint::~SpawnPoint(): 51
+  INFO root [0x00001674] [2015-06-05 11:42:43,814] - SpawnPoint::~SpawnPoint(): 52
+  INFO root [0x00001674] [2015-06-05 11:42:43,815] - SpawnPoint::~SpawnPoint(): 53
+  INFO root [0x00001674] [2015-06-05 11:42:43,815] - SpawnPoint::~SpawnPoint(): 54
+  INFO root [0x00001674] [2015-06-05 11:42:43,815] - SpawnPoint::~SpawnPoint(): 56
+  INFO root [0x00001674] [2015-06-05 11:42:43,816] - SpawnPoint::~SpawnPoint(): 57
+  INFO root [0x00001674] [2015-06-05 11:42:43,816] - SpawnPoint::~SpawnPoint(): 58
+  INFO root [0x00001674] [2015-06-05 11:42:43,816] - SpawnPoint::~SpawnPoint(): 59
+  INFO root [0x00001674] [2015-06-05 11:42:43,817] - SpawnPoint::~SpawnPoint(): 60
+  INFO root [0x00001674] [2015-06-05 11:42:43,817] - SpawnPoint::~SpawnPoint(): 61
+  INFO root [0x00001674] [2015-06-05 11:42:43,817] - SpawnPoint::~SpawnPoint(): 62
+  INFO root [0x00001674] [2015-06-05 11:42:43,818] - SpawnPoint::~SpawnPoint(): 63
+  INFO root [0x00001674] [2015-06-05 11:42:43,818] - SpawnPoint::~SpawnPoint(): 64
+  INFO root [0x00001674] [2015-06-05 11:42:43,818] - SpawnPoint::~SpawnPoint(): 66
+  INFO root [0x00001674] [2015-06-05 11:42:43,819] - SpawnPoint::~SpawnPoint(): 67
+  INFO root [0x00001674] [2015-06-05 11:42:43,819] - SpawnPoint::~SpawnPoint(): 68
+  INFO root [0x00001674] [2015-06-05 11:42:43,819] - SpawnPoint::~SpawnPoint(): 69
+  INFO root [0x00001674] [2015-06-05 11:42:43,820] - SpawnPoint::~SpawnPoint(): 70
+  INFO root [0x00001674] [2015-06-05 11:42:43,820] - SpawnPoint::~SpawnPoint(): 71
+  INFO root [0x00001674] [2015-06-05 11:42:43,820] - SpawnPoint::~SpawnPoint(): 72
+  INFO root [0x00001674] [2015-06-05 11:42:43,821] - SpawnPoint::~SpawnPoint(): 73
+  INFO root [0x00001674] [2015-06-05 11:42:43,821] - SpawnPoint::~SpawnPoint(): 74
+  INFO root [0x00001674] [2015-06-05 11:42:43,821] - SpawnPoint::~SpawnPoint(): 75
+  INFO root [0x00001674] [2015-06-05 11:42:43,822] - SpawnPoint::~SpawnPoint(): 76
+  INFO root [0x00001674] [2015-06-05 11:42:43,822] - SpawnPoint::~SpawnPoint(): 77
+  INFO root [0x00001674] [2015-06-05 11:42:43,823] - SpawnPoint::~SpawnPoint(): 79
+  INFO root [0x00001674] [2015-06-05 11:42:43,823] - SpawnPoint::~SpawnPoint(): 80
+  INFO root [0x00001674] [2015-06-05 11:42:43,823] - SpawnPoint::~SpawnPoint(): 81
+  INFO root [0x00001674] [2015-06-05 11:42:43,824] - SpawnPoint::~SpawnPoint(): 82
+  INFO root [0x00001674] [2015-06-05 11:42:43,824] - SpawnPoint::~SpawnPoint(): 83
+  INFO root [0x00001674] [2015-06-05 11:42:43,824] - SpawnPoint::~SpawnPoint(): 84
+  INFO root [0x00001674] [2015-06-05 11:42:43,825] - SpawnPoint::~SpawnPoint(): 85
+  INFO root [0x00001674] [2015-06-05 11:42:43,825] - SpawnPoint::~SpawnPoint(): 86
+  INFO root [0x00001674] [2015-06-05 11:42:43,825] - SpawnPoint::~SpawnPoint(): 87
+  INFO root [0x00001674] [2015-06-05 11:42:43,826] - SpawnPoint::~SpawnPoint(): 88
+  INFO root [0x00001674] [2015-06-05 11:42:43,826] - SpawnPoint::~SpawnPoint(): 89
+  INFO root [0x00001674] [2015-06-05 11:42:43,826] - SpawnPoint::~SpawnPoint(): 90
+  INFO root [0x00001674] [2015-06-05 11:42:43,827] - SpawnPoint::~SpawnPoint(): 91
+  INFO root [0x00001674] [2015-06-05 11:42:43,827] - SpawnPoint::~SpawnPoint(): 92
+  INFO root [0x00001674] [2015-06-05 11:42:43,828] - SpawnPoint::~SpawnPoint(): 93
+  INFO root [0x00001674] [2015-06-05 11:42:43,828] - SpawnPoint::~SpawnPoint(): 94
+  INFO root [0x00001674] [2015-06-05 11:42:43,828] - SpawnPoint::~SpawnPoint(): 95
+  INFO root [0x00001674] [2015-06-05 11:42:43,829] - SpawnPoint::~SpawnPoint(): 96
+  INFO root [0x00001674] [2015-06-05 11:42:43,829] - SpawnPoint::~SpawnPoint(): 97
+  INFO root [0x00001674] [2015-06-05 11:42:43,829] - SpawnPoint::~SpawnPoint(): 98
+  INFO root [0x00001674] [2015-06-05 11:42:43,830] - SpawnPoint::~SpawnPoint(): 99
+  INFO root [0x00001674] [2015-06-05 11:42:43,830] - SpawnPoint::~SpawnPoint(): 100
+  INFO root [0x00001674] [2015-06-05 11:42:43,830] - SpawnPoint::~SpawnPoint(): 101
+  INFO root [0x00001674] [2015-06-05 11:42:43,831] - SpawnPoint::~SpawnPoint(): 102
+  INFO root [0x00001674] [2015-06-05 11:42:43,831] - SpawnPoint::~SpawnPoint(): 103
+  INFO root [0x00001674] [2015-06-05 11:42:43,831] - SpawnPoint::~SpawnPoint(): 104
+  INFO root [0x00001674] [2015-06-05 11:42:43,832] - SpawnPoint::~SpawnPoint(): 105
+  INFO root [0x00001674] [2015-06-05 11:42:43,832] - SpawnPoint::~SpawnPoint(): 106
+  INFO root [0x00001674] [2015-06-05 11:42:43,832] - SpawnPoint::~SpawnPoint(): 107
+  INFO root [0x00001674] [2015-06-05 11:42:43,833] - SpawnPoint::~SpawnPoint(): 108
+  INFO root [0x00001674] [2015-06-05 11:42:43,833] - SpawnPoint::~SpawnPoint(): 109
+  INFO root [0x00001674] [2015-06-05 11:42:43,834] - SpawnPoint::~SpawnPoint(): 110
+  INFO root [0x00001674] [2015-06-05 11:42:43,834] - SpawnPoint::~SpawnPoint(): 111
+  INFO root [0x00001674] [2015-06-05 11:42:43,834] - SpawnPoint::~SpawnPoint(): 112
+  INFO root [0x00001674] [2015-06-05 11:42:43,835] - SpawnPoint::~SpawnPoint(): 113
+  INFO root [0x00001674] [2015-06-05 11:42:43,835] - SpawnPoint::~SpawnPoint(): 114
+  INFO root [0x00001674] [2015-06-05 11:42:43,835] - SpawnPoint::~SpawnPoint(): 115
+  INFO root [0x00001674] [2015-06-05 11:42:43,836] - SpawnPoint::~SpawnPoint(): 116
+  INFO root [0x00001674] [2015-06-05 11:42:43,836] - SpawnPoint::~SpawnPoint(): 117
+  INFO root [0x00001674] [2015-06-05 11:42:43,836] - SpawnPoint::~SpawnPoint(): 118
+  INFO root [0x00001674] [2015-06-05 11:42:43,837] - SpawnPoint::~SpawnPoint(): 119
+  INFO root [0x00001674] [2015-06-05 11:42:43,837] - SpawnPoint::~SpawnPoint(): 120
+  INFO root [0x00001674] [2015-06-05 11:42:43,839] - SpawnPoint::~SpawnPoint(): 121
+  INFO root [0x00001674] [2015-06-05 11:42:43,839] - SpawnPoint::~SpawnPoint(): 122
+  INFO root [0x00001674] [2015-06-05 11:42:43,839] - SpawnPoint::~SpawnPoint(): 123
+  INFO root [0x00001674] [2015-06-05 11:42:43,840] - SpawnPoint::~SpawnPoint(): 124
+  INFO root [0x00001674] [2015-06-05 11:42:43,840] - SpawnPoint::~SpawnPoint(): 125
+  INFO root [0x00001674] [2015-06-05 11:42:43,841] - SpawnPoint::~SpawnPoint(): 126
+  INFO root [0x00001674] [2015-06-05 11:42:43,841] - SpawnPoint::~SpawnPoint(): 127
+  INFO root [0x00001674] [2015-06-05 11:42:43,842] - SpawnPoint::~SpawnPoint(): 128
+  INFO root [0x00001674] [2015-06-05 11:42:43,842] - SpawnPoint::~SpawnPoint(): 129
+  INFO root [0x00001674] [2015-06-05 11:42:43,842] - SpawnPoint::~SpawnPoint(): 130
+  INFO root [0x00001674] [2015-06-05 11:42:43,843] - SpawnPoint::~SpawnPoint(): 131
+  INFO root [0x00001674] [2015-06-05 11:42:43,843] - SpawnPoint::~SpawnPoint(): 132
+  INFO root [0x00001674] [2015-06-05 11:42:43,843] - SpawnPoint::~SpawnPoint(): 133
+  INFO root [0x00001674] [2015-06-05 11:42:43,844] - SpawnPoint::~SpawnPoint(): 134
+  INFO root [0x00001674] [2015-06-05 11:42:43,844] - SpawnPoint::~SpawnPoint(): 135
+  INFO root [0x00001674] [2015-06-05 11:42:43,844] - SpawnPoint::~SpawnPoint(): 136
+  INFO root [0x00001674] [2015-06-05 11:42:43,845] - SpawnPoint::~SpawnPoint(): 137
+  INFO root [0x00001674] [2015-06-05 11:42:43,845] - SpawnPoint::~SpawnPoint(): 138
+  INFO root [0x00001674] [2015-06-05 11:42:43,845] - SpawnPoint::~SpawnPoint(): 139
+  INFO root [0x00001674] [2015-06-05 11:42:43,846] - SpawnPoint::~SpawnPoint(): 140
+  INFO root [0x00001674] [2015-06-05 11:42:43,846] - SpawnPoint::~SpawnPoint(): 141
+  INFO root [0x00001674] [2015-06-05 11:42:43,847] - SpawnPoint::~SpawnPoint(): 142
+  INFO root [0x00001674] [2015-06-05 11:42:43,847] - SpawnPoint::~SpawnPoint(): 143
+  INFO root [0x00001674] [2015-06-05 11:42:43,848] - SpawnPoint::~SpawnPoint(): 144
+  INFO root [0x00001674] [2015-06-05 11:42:43,848] - SpawnPoint::~SpawnPoint(): 145
+  INFO root [0x00001674] [2015-06-05 11:42:43,848] - SpawnPoint::~SpawnPoint(): 146
+  INFO root [0x00001674] [2015-06-05 11:42:43,850] - SpawnPoint::~SpawnPoint(): 147
+  INFO root [0x00001674] [2015-06-05 11:42:43,850] - SpawnPoint::~SpawnPoint(): 148
+  INFO root [0x00001674] [2015-06-05 11:42:43,851] - SpawnPoint::~SpawnPoint(): 149
+  INFO root [0x00001674] [2015-06-05 11:42:43,851] - SpawnPoint::~SpawnPoint(): 150
+  INFO root [0x00001674] [2015-06-05 11:42:43,852] - SpawnPoint::~SpawnPoint(): 151
+  INFO root [0x00001674] [2015-06-05 11:42:43,852] - SpawnPoint::~SpawnPoint(): 152
+  INFO root [0x00001674] [2015-06-05 11:42:43,852] - SpawnPoint::~SpawnPoint(): 153
+  INFO root [0x00001674] [2015-06-05 11:42:43,853] - Spaces::~Spaces(): 1
+  INFO root [0x00001674] [2015-06-05 11:42:43,853] - Space::~Space(): 10
+  INFO root [0x00001674] [2015-06-05 11:42:43,853] - Space::~Space(): 2
+  INFO root [0x00001674] [2015-06-05 11:42:43,854] - Space::~Space(): 78
+  INFO root [0x00001674] [2015-06-05 11:42:43,854] - Space::~Space(): 55
+  INFO root [0x00001674] [2015-06-05 11:42:43,854] - Space::~Space(): 28
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,858] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,859] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,859] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,859] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,860] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,860] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001674] [2015-06-05 11:42:43,860] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001d70] [2015-06-05 11:53:01,632] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001d70] [2015-06-05 11:53:01,633] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00001d70] [2015-06-05 11:53:01,633] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x00001d70] [2015-06-05 11:53:01,634] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00001d70] [2015-06-05 11:53:01,651] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:20015 )
+  INFO root [0x00001d70] [2015-06-05 11:53:01,651] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.107:20015, SOMAXCONN=128.
+  INFO root [0x00001d70] [2015-06-05 11:53:01,659] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:4506 )
+  INFO root [0x00001d70] [2015-06-05 11:53:01,660] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:4506, SOMAXCONN=128.
+  INFO root [0x00001d70] [2015-06-05 11:53:01,660] - server-configs:
+  INFO root [0x00001d70] [2015-06-05 11:53:01,660] - 	gameUpdateHertz : 10
+  INFO root [0x00001d70] [2015-06-05 11:53:01,660] - 	entryScriptFile : kbengine
+  INFO root [0x00001d70] [2015-06-05 11:53:01,661] - 	internalAddr : 192.168.1.107:4506
+  INFO root [0x00001d70] [2015-06-05 11:53:01,661] - 	externalAddr : 192.168.1.107:20015
+  INFO root [0x00001d70] [2015-06-05 11:53:01,661] - 	componentID : 7001
+  INFO root [0x00001d70] [2015-06-05 11:53:02,028] - ---- baseapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 98670BB559BC40DD73E41BC67006A9BA. Config: Debug. Built: 10:37:17 Jun  3 2015. AppID: 7001. UID: 52554. PID: 7200 ----
+  INFO root [0x00001d70] [2015-06-05 11:53:02,029] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x00001d70] [2015-06-05 11:53:02,029] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001d70] [2015-06-05 11:53:02,030] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,161] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,162] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,162] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,166] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,167] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,202] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,231] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001d70] [2015-06-05 11:53:02,278] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:37:56) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001d70] [2015-06-05 11:53:02,279] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,734] - loaded script:Account(1).
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,738] - loaded script:Avatar(2).
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,750] - loaded script:Spaces(6).
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,756] - loaded script:Space(7).
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,757] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x00001d70] [2015-06-05 11:53:02,758] - loaded script:SpawnPoint(9).
+  INFO root [0x00001d70] [2015-06-05 11:53:02,759] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001d70] [2015-06-05 11:53:02,760] - TelnetServer server is running on port 40000
+  INFO root [0x00001d70] [2015-06-05 11:53:03,433] - ---- baseapp is running ----
+ DEBUG root [0x00001d70] [2015-06-05 11:53:03,434] - Components::process(): Request for the process of identity...
+  WARN root [0x00001d70] [2015-06-05 11:53:09,447] - EntityApp::checkTickPeriod: tick took 6013% (6.01 seconds)!
+  INFO root [0x00001d70] [2015-06-05 11:53:10,533] - Components::findInterfaces: find logger(1)...
+  INFO root [0x00001d70] [2015-06-05 11:53:10,635] - Components::findInterfaces: found logger, addr:192.168.1.107:4505
+  INFO root [0x00001d70] [2015-06-05 11:53:10,635] - Components::addComponent[logger], uid=52554, componentID=2000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x00001d70] [2015-06-05 11:53:10,637] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x00001d70] [2015-06-05 11:53:10,650] - Components::findInterfaces: found logger, addr:192.168.1.107:4505
+  INFO root [0x00001d70] [2015-06-05 11:53:10,797] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:4501
+  INFO root [0x00001d70] [2015-06-05 11:53:10,797] - Components::addComponent[dbmgr], uid=52554, componentID=4000, globalorderid=7, grouporderid=1, totalcount=1
+  INFO root [0x00001d70] [2015-06-05 11:53:10,812] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:4501
+  WARN root [0x00001d70] [2015-06-05 11:53:11,812] - EntityApp::checkTickPeriod: tick took 1379% (1.38 seconds)!
+  WARN root [0x00001d70] [2015-06-05 11:53:11,813] - Forwarding logs to logger[192.168.1.107:4505/0/0/0]...
+ ERROR root [0x00001d70] [2015-06-05 12:07:05,244] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x00001d70] [2015-06-05 12:07:05,303] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001d70] [2015-06-05 12:07:05,339] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x00001d70] [2015-06-05 12:07:05,343] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00001d70] [2015-06-05 12:07:05,344] - onBaseAppShutDown: state=0
+  INFO root [0x00001d70] [2015-06-05 12:07:05,344] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00001d70] [2015-06-05 12:07:05,344] - onBaseAppShutDown: state=1
+  INFO root [0x00001d70] [2015-06-05 12:07:05,345] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00001d70] [2015-06-05 12:07:05,345] - onBaseAppShutDown: state=2
+  INFO root [0x00001d70] [2015-06-05 12:07:05,373] - SpawnPoint::~SpawnPoint(): 9
+  INFO root [0x00001d70] [2015-06-05 12:07:05,374] - SpawnPoint::~SpawnPoint(): 65
+  INFO root [0x00001d70] [2015-06-05 12:07:05,374] - SpawnPoint::~SpawnPoint(): 3
+  INFO root [0x00001d70] [2015-06-05 12:07:05,374] - SpawnPoint::~SpawnPoint(): 4
+  INFO root [0x00001d70] [2015-06-05 12:07:05,375] - SpawnPoint::~SpawnPoint(): 5
+  INFO root [0x00001d70] [2015-06-05 12:07:05,375] - SpawnPoint::~SpawnPoint(): 6
+  INFO root [0x00001d70] [2015-06-05 12:07:05,375] - SpawnPoint::~SpawnPoint(): 7
+  INFO root [0x00001d70] [2015-06-05 12:07:05,376] - SpawnPoint::~SpawnPoint(): 8
+  INFO root [0x00001d70] [2015-06-05 12:07:05,376] - SpawnPoint::~SpawnPoint(): 11
+  INFO root [0x00001d70] [2015-06-05 12:07:05,376] - SpawnPoint::~SpawnPoint(): 12
+  INFO root [0x00001d70] [2015-06-05 12:07:05,377] - SpawnPoint::~SpawnPoint(): 13
+  INFO root [0x00001d70] [2015-06-05 12:07:05,378] - SpawnPoint::~SpawnPoint(): 14
+  INFO root [0x00001d70] [2015-06-05 12:07:05,378] - SpawnPoint::~SpawnPoint(): 15
+  INFO root [0x00001d70] [2015-06-05 12:07:05,378] - SpawnPoint::~SpawnPoint(): 16
+  INFO root [0x00001d70] [2015-06-05 12:07:05,379] - SpawnPoint::~SpawnPoint(): 17
+  INFO root [0x00001d70] [2015-06-05 12:07:05,379] - SpawnPoint::~SpawnPoint(): 18
+  INFO root [0x00001d70] [2015-06-05 12:07:05,379] - SpawnPoint::~SpawnPoint(): 19
+  INFO root [0x00001d70] [2015-06-05 12:07:05,380] - SpawnPoint::~SpawnPoint(): 20
+  INFO root [0x00001d70] [2015-06-05 12:07:05,380] - SpawnPoint::~SpawnPoint(): 21
+  INFO root [0x00001d70] [2015-06-05 12:07:05,381] - SpawnPoint::~SpawnPoint(): 22
+  INFO root [0x00001d70] [2015-06-05 12:07:05,381] - SpawnPoint::~SpawnPoint(): 23
+  INFO root [0x00001d70] [2015-06-05 12:07:05,381] - SpawnPoint::~SpawnPoint(): 24
+  INFO root [0x00001d70] [2015-06-05 12:07:05,382] - SpawnPoint::~SpawnPoint(): 25
+  INFO root [0x00001d70] [2015-06-05 12:07:05,382] - SpawnPoint::~SpawnPoint(): 26
+  INFO root [0x00001d70] [2015-06-05 12:07:05,382] - SpawnPoint::~SpawnPoint(): 27
+  INFO root [0x00001d70] [2015-06-05 12:07:05,383] - SpawnPoint::~SpawnPoint(): 29
+  INFO root [0x00001d70] [2015-06-05 12:07:05,383] - SpawnPoint::~SpawnPoint(): 30
+  INFO root [0x00001d70] [2015-06-05 12:07:05,383] - SpawnPoint::~SpawnPoint(): 31
+  INFO root [0x00001d70] [2015-06-05 12:07:05,384] - SpawnPoint::~SpawnPoint(): 32
+  INFO root [0x00001d70] [2015-06-05 12:07:05,384] - SpawnPoint::~SpawnPoint(): 33
+  INFO root [0x00001d70] [2015-06-05 12:07:05,384] - SpawnPoint::~SpawnPoint(): 34
+  INFO root [0x00001d70] [2015-06-05 12:07:05,386] - SpawnPoint::~SpawnPoint(): 35
+  INFO root [0x00001d70] [2015-06-05 12:07:05,386] - SpawnPoint::~SpawnPoint(): 36
+  INFO root [0x00001d70] [2015-06-05 12:07:05,386] - SpawnPoint::~SpawnPoint(): 37
+  INFO root [0x00001d70] [2015-06-05 12:07:05,387] - SpawnPoint::~SpawnPoint(): 38
+  INFO root [0x00001d70] [2015-06-05 12:07:05,387] - SpawnPoint::~SpawnPoint(): 39
+  INFO root [0x00001d70] [2015-06-05 12:07:05,388] - SpawnPoint::~SpawnPoint(): 40
+  INFO root [0x00001d70] [2015-06-05 12:07:05,388] - SpawnPoint::~SpawnPoint(): 41
+  INFO root [0x00001d70] [2015-06-05 12:07:05,388] - SpawnPoint::~SpawnPoint(): 42
+  INFO root [0x00001d70] [2015-06-05 12:07:05,389] - SpawnPoint::~SpawnPoint(): 43
+  INFO root [0x00001d70] [2015-06-05 12:07:05,389] - SpawnPoint::~SpawnPoint(): 44
+  INFO root [0x00001d70] [2015-06-05 12:07:05,390] - SpawnPoint::~SpawnPoint(): 45
+  INFO root [0x00001d70] [2015-06-05 12:07:05,391] - SpawnPoint::~SpawnPoint(): 46
+  INFO root [0x00001d70] [2015-06-05 12:07:05,391] - SpawnPoint::~SpawnPoint(): 47
+  INFO root [0x00001d70] [2015-06-05 12:07:05,391] - SpawnPoint::~SpawnPoint(): 48
+  INFO root [0x00001d70] [2015-06-05 12:07:05,392] - SpawnPoint::~SpawnPoint(): 49
+  INFO root [0x00001d70] [2015-06-05 12:07:05,392] - SpawnPoint::~SpawnPoint(): 50
+  INFO root [0x00001d70] [2015-06-05 12:07:05,392] - SpawnPoint::~SpawnPoint(): 51
+  INFO root [0x00001d70] [2015-06-05 12:07:05,393] - SpawnPoint::~SpawnPoint(): 52
+  INFO root [0x00001d70] [2015-06-05 12:07:05,393] - SpawnPoint::~SpawnPoint(): 53
+  INFO root [0x00001d70] [2015-06-05 12:07:05,393] - SpawnPoint::~SpawnPoint(): 54
+  INFO root [0x00001d70] [2015-06-05 12:07:05,394] - SpawnPoint::~SpawnPoint(): 55
+  INFO root [0x00001d70] [2015-06-05 12:07:05,394] - SpawnPoint::~SpawnPoint(): 57
+  INFO root [0x00001d70] [2015-06-05 12:07:05,394] - SpawnPoint::~SpawnPoint(): 58
+  INFO root [0x00001d70] [2015-06-05 12:07:05,395] - SpawnPoint::~SpawnPoint(): 59
+  INFO root [0x00001d70] [2015-06-05 12:07:05,395] - SpawnPoint::~SpawnPoint(): 60
+  INFO root [0x00001d70] [2015-06-05 12:07:05,396] - SpawnPoint::~SpawnPoint(): 61
+  INFO root [0x00001d70] [2015-06-05 12:07:05,396] - SpawnPoint::~SpawnPoint(): 62
+  INFO root [0x00001d70] [2015-06-05 12:07:05,396] - SpawnPoint::~SpawnPoint(): 63
+  INFO root [0x00001d70] [2015-06-05 12:07:05,397] - SpawnPoint::~SpawnPoint(): 64
+  INFO root [0x00001d70] [2015-06-05 12:07:05,397] - SpawnPoint::~SpawnPoint(): 66
+  INFO root [0x00001d70] [2015-06-05 12:07:05,397] - SpawnPoint::~SpawnPoint(): 67
+  INFO root [0x00001d70] [2015-06-05 12:07:05,398] - SpawnPoint::~SpawnPoint(): 68
+  INFO root [0x00001d70] [2015-06-05 12:07:05,398] - SpawnPoint::~SpawnPoint(): 69
+  INFO root [0x00001d70] [2015-06-05 12:07:05,398] - SpawnPoint::~SpawnPoint(): 70
+  INFO root [0x00001d70] [2015-06-05 12:07:05,398] - SpawnPoint::~SpawnPoint(): 71
+  INFO root [0x00001d70] [2015-06-05 12:07:05,399] - SpawnPoint::~SpawnPoint(): 72
+  INFO root [0x00001d70] [2015-06-05 12:07:05,399] - SpawnPoint::~SpawnPoint(): 73
+  INFO root [0x00001d70] [2015-06-05 12:07:05,399] - SpawnPoint::~SpawnPoint(): 74
+  INFO root [0x00001d70] [2015-06-05 12:07:05,400] - SpawnPoint::~SpawnPoint(): 75
+  INFO root [0x00001d70] [2015-06-05 12:07:05,400] - SpawnPoint::~SpawnPoint(): 76
+  INFO root [0x00001d70] [2015-06-05 12:07:05,401] - SpawnPoint::~SpawnPoint(): 77
+  INFO root [0x00001d70] [2015-06-05 12:07:05,401] - SpawnPoint::~SpawnPoint(): 79
+  INFO root [0x00001d70] [2015-06-05 12:07:05,401] - SpawnPoint::~SpawnPoint(): 80
+  INFO root [0x00001d70] [2015-06-05 12:07:05,402] - SpawnPoint::~SpawnPoint(): 81
+  INFO root [0x00001d70] [2015-06-05 12:07:05,402] - SpawnPoint::~SpawnPoint(): 82
+  INFO root [0x00001d70] [2015-06-05 12:07:05,402] - SpawnPoint::~SpawnPoint(): 83
+  INFO root [0x00001d70] [2015-06-05 12:07:05,403] - SpawnPoint::~SpawnPoint(): 84
+  INFO root [0x00001d70] [2015-06-05 12:07:05,403] - SpawnPoint::~SpawnPoint(): 85
+  INFO root [0x00001d70] [2015-06-05 12:07:05,403] - SpawnPoint::~SpawnPoint(): 86
+  INFO root [0x00001d70] [2015-06-05 12:07:05,404] - SpawnPoint::~SpawnPoint(): 87
+  INFO root [0x00001d70] [2015-06-05 12:07:05,404] - SpawnPoint::~SpawnPoint(): 88
+  INFO root [0x00001d70] [2015-06-05 12:07:05,404] - SpawnPoint::~SpawnPoint(): 89
+  INFO root [0x00001d70] [2015-06-05 12:07:05,405] - SpawnPoint::~SpawnPoint(): 90
+  INFO root [0x00001d70] [2015-06-05 12:07:05,405] - SpawnPoint::~SpawnPoint(): 91
+  INFO root [0x00001d70] [2015-06-05 12:07:05,405] - SpawnPoint::~SpawnPoint(): 92
+  INFO root [0x00001d70] [2015-06-05 12:07:05,406] - SpawnPoint::~SpawnPoint(): 93
+  INFO root [0x00001d70] [2015-06-05 12:07:05,406] - SpawnPoint::~SpawnPoint(): 94
+  INFO root [0x00001d70] [2015-06-05 12:07:05,407] - SpawnPoint::~SpawnPoint(): 95
+  INFO root [0x00001d70] [2015-06-05 12:07:05,407] - SpawnPoint::~SpawnPoint(): 96
+  INFO root [0x00001d70] [2015-06-05 12:07:05,407] - SpawnPoint::~SpawnPoint(): 97
+  INFO root [0x00001d70] [2015-06-05 12:07:05,408] - SpawnPoint::~SpawnPoint(): 98
+  INFO root [0x00001d70] [2015-06-05 12:07:05,408] - SpawnPoint::~SpawnPoint(): 99
+  INFO root [0x00001d70] [2015-06-05 12:07:05,408] - SpawnPoint::~SpawnPoint(): 100
+  INFO root [0x00001d70] [2015-06-05 12:07:05,409] - SpawnPoint::~SpawnPoint(): 101
+  INFO root [0x00001d70] [2015-06-05 12:07:05,409] - SpawnPoint::~SpawnPoint(): 102
+  INFO root [0x00001d70] [2015-06-05 12:07:05,409] - SpawnPoint::~SpawnPoint(): 103
+  INFO root [0x00001d70] [2015-06-05 12:07:05,409] - SpawnPoint::~SpawnPoint(): 104
+  INFO root [0x00001d70] [2015-06-05 12:07:05,410] - SpawnPoint::~SpawnPoint(): 105
+  INFO root [0x00001d70] [2015-06-05 12:07:05,410] - SpawnPoint::~SpawnPoint(): 106
+  INFO root [0x00001d70] [2015-06-05 12:07:05,410] - SpawnPoint::~SpawnPoint(): 107
+  INFO root [0x00001d70] [2015-06-05 12:07:05,411] - SpawnPoint::~SpawnPoint(): 108
+  INFO root [0x00001d70] [2015-06-05 12:07:05,411] - SpawnPoint::~SpawnPoint(): 109
+  INFO root [0x00001d70] [2015-06-05 12:07:05,412] - SpawnPoint::~SpawnPoint(): 110
+  INFO root [0x00001d70] [2015-06-05 12:07:05,412] - SpawnPoint::~SpawnPoint(): 111
+  INFO root [0x00001d70] [2015-06-05 12:07:05,413] - SpawnPoint::~SpawnPoint(): 112
+  INFO root [0x00001d70] [2015-06-05 12:07:05,413] - SpawnPoint::~SpawnPoint(): 113
+  INFO root [0x00001d70] [2015-06-05 12:07:05,413] - SpawnPoint::~SpawnPoint(): 114
+  INFO root [0x00001d70] [2015-06-05 12:07:05,413] - SpawnPoint::~SpawnPoint(): 115
+  INFO root [0x00001d70] [2015-06-05 12:07:05,414] - SpawnPoint::~SpawnPoint(): 116
+  INFO root [0x00001d70] [2015-06-05 12:07:05,414] - SpawnPoint::~SpawnPoint(): 117
+  INFO root [0x00001d70] [2015-06-05 12:07:05,414] - SpawnPoint::~SpawnPoint(): 118
+  INFO root [0x00001d70] [2015-06-05 12:07:05,415] - SpawnPoint::~SpawnPoint(): 119
+  INFO root [0x00001d70] [2015-06-05 12:07:05,415] - SpawnPoint::~SpawnPoint(): 120
+  INFO root [0x00001d70] [2015-06-05 12:07:05,415] - SpawnPoint::~SpawnPoint(): 121
+  INFO root [0x00001d70] [2015-06-05 12:07:05,416] - SpawnPoint::~SpawnPoint(): 122
+  INFO root [0x00001d70] [2015-06-05 12:07:05,416] - SpawnPoint::~SpawnPoint(): 123
+  INFO root [0x00001d70] [2015-06-05 12:07:05,416] - SpawnPoint::~SpawnPoint(): 124
+  INFO root [0x00001d70] [2015-06-05 12:07:05,417] - SpawnPoint::~SpawnPoint(): 125
+  INFO root [0x00001d70] [2015-06-05 12:07:05,417] - SpawnPoint::~SpawnPoint(): 126
+  INFO root [0x00001d70] [2015-06-05 12:07:05,418] - SpawnPoint::~SpawnPoint(): 127
+  INFO root [0x00001d70] [2015-06-05 12:07:05,418] - SpawnPoint::~SpawnPoint(): 128
+  INFO root [0x00001d70] [2015-06-05 12:07:05,418] - SpawnPoint::~SpawnPoint(): 129
+  INFO root [0x00001d70] [2015-06-05 12:07:05,419] - SpawnPoint::~SpawnPoint(): 130
+  INFO root [0x00001d70] [2015-06-05 12:07:05,419] - SpawnPoint::~SpawnPoint(): 131
+  INFO root [0x00001d70] [2015-06-05 12:07:05,419] - SpawnPoint::~SpawnPoint(): 132
+  INFO root [0x00001d70] [2015-06-05 12:07:05,420] - SpawnPoint::~SpawnPoint(): 133
+  INFO root [0x00001d70] [2015-06-05 12:07:05,420] - SpawnPoint::~SpawnPoint(): 134
+  INFO root [0x00001d70] [2015-06-05 12:07:05,420] - SpawnPoint::~SpawnPoint(): 135
+  INFO root [0x00001d70] [2015-06-05 12:07:05,421] - SpawnPoint::~SpawnPoint(): 136
+  INFO root [0x00001d70] [2015-06-05 12:07:05,421] - SpawnPoint::~SpawnPoint(): 137
+  INFO root [0x00001d70] [2015-06-05 12:07:05,421] - SpawnPoint::~SpawnPoint(): 138
+  INFO root [0x00001d70] [2015-06-05 12:07:05,422] - SpawnPoint::~SpawnPoint(): 139
+  INFO root [0x00001d70] [2015-06-05 12:07:05,422] - SpawnPoint::~SpawnPoint(): 140
+  INFO root [0x00001d70] [2015-06-05 12:07:05,422] - SpawnPoint::~SpawnPoint(): 141
+  INFO root [0x00001d70] [2015-06-05 12:07:05,423] - SpawnPoint::~SpawnPoint(): 142
+  INFO root [0x00001d70] [2015-06-05 12:07:05,423] - SpawnPoint::~SpawnPoint(): 143
+  INFO root [0x00001d70] [2015-06-05 12:07:05,424] - SpawnPoint::~SpawnPoint(): 144
+  INFO root [0x00001d70] [2015-06-05 12:07:05,424] - SpawnPoint::~SpawnPoint(): 145
+  INFO root [0x00001d70] [2015-06-05 12:07:05,424] - SpawnPoint::~SpawnPoint(): 146
+  INFO root [0x00001d70] [2015-06-05 12:07:05,425] - SpawnPoint::~SpawnPoint(): 147
+  INFO root [0x00001d70] [2015-06-05 12:07:05,426] - SpawnPoint::~SpawnPoint(): 148
+  INFO root [0x00001d70] [2015-06-05 12:07:05,426] - SpawnPoint::~SpawnPoint(): 149
+  INFO root [0x00001d70] [2015-06-05 12:07:05,426] - SpawnPoint::~SpawnPoint(): 150
+  INFO root [0x00001d70] [2015-06-05 12:07:05,427] - SpawnPoint::~SpawnPoint(): 151
+  INFO root [0x00001d70] [2015-06-05 12:07:05,428] - SpawnPoint::~SpawnPoint(): 152
+  INFO root [0x00001d70] [2015-06-05 12:07:05,429] - SpawnPoint::~SpawnPoint(): 153
+  INFO root [0x00001d70] [2015-06-05 12:07:05,429] - Spaces::~Spaces(): 1
+  INFO root [0x00001d70] [2015-06-05 12:07:05,429] - Space::~Space(): 10
+  INFO root [0x00001d70] [2015-06-05 12:07:05,431] - Space::~Space(): 56
+  INFO root [0x00001d70] [2015-06-05 12:07:05,431] - Space::~Space(): 2
+  INFO root [0x00001d70] [2015-06-05 12:07:05,431] - Space::~Space(): 28
+  INFO root [0x00001d70] [2015-06-05 12:07:05,432] - Space::~Space(): 78
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,436] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,436] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,436] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,437] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,437] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,437] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,437] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001d70] [2015-06-05 12:07:05,450] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001d70] [2015-06-05 12:07:05,451] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00001834] [2015-06-05 15:05:12,889] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001834] [2015-06-05 15:05:12,890] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00001834] [2015-06-05 15:05:12,890] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x00001834] [2015-06-05 15:05:12,891] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00001834] [2015-06-05 15:05:12,938] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:20015 )
+  INFO root [0x00001834] [2015-06-05 15:05:12,939] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.107:20015, SOMAXCONN=128.
+  INFO root [0x00001834] [2015-06-05 15:05:13,002] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:13105 )
+  INFO root [0x00001834] [2015-06-05 15:05:13,003] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:13105, SOMAXCONN=128.
+  INFO root [0x00001834] [2015-06-05 15:05:13,003] - server-configs:
+  INFO root [0x00001834] [2015-06-05 15:05:13,003] - 	gameUpdateHertz : 10
+  INFO root [0x00001834] [2015-06-05 15:05:13,003] - 	entryScriptFile : kbengine
+  INFO root [0x00001834] [2015-06-05 15:05:13,004] - 	internalAddr : 192.168.1.107:13105
+  INFO root [0x00001834] [2015-06-05 15:05:13,004] - 	externalAddr : 192.168.1.107:20015
+  INFO root [0x00001834] [2015-06-05 15:05:13,004] - 	componentID : 7001
+  INFO root [0x00001834] [2015-06-05 15:05:13,562] - ---- baseapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 98670BB559BC40DD73E41BC67006A9BA. Config: Debug. Built: 10:37:17 Jun  3 2015. AppID: 7001. UID: 52554. PID: 7032 ----
+  INFO root [0x00001834] [2015-06-05 15:05:13,562] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x00001834] [2015-06-05 15:05:13,562] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001834] [2015-06-05 15:05:13,563] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,688] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,689] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,689] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,693] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,694] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,694] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001834] [2015-06-05 15:05:13,815] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001834] [2015-06-05 15:05:13,844] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:37:56) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001834] [2015-06-05 15:05:13,845] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,117] - loaded script:Account(1).
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,122] - loaded script:Avatar(2).
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,127] - loaded script:Spaces(6).
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,133] - loaded script:Space(7).
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,135] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,136] - loaded script:SpawnPoint(9).
+  INFO root [0x00001834] [2015-06-05 15:05:14,136] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001834] [2015-06-05 15:05:14,137] - TelnetServer server is running on port 40000
+  INFO root [0x00001834] [2015-06-05 15:05:14,863] - ---- baseapp is running ----
+ DEBUG root [0x00001834] [2015-06-05 15:05:14,863] - Components::process(): Request for the process of identity...
+  WARN root [0x00001834] [2015-06-05 15:05:20,877] - EntityApp::checkTickPeriod: tick took 6014% (6.01 seconds)!
+  INFO root [0x00001834] [2015-06-05 15:05:21,920] - Components::findInterfaces: find logger(1)...
+  INFO root [0x00001834] [2015-06-05 15:05:22,027] - Components::findInterfaces: found logger, addr:192.168.1.107:13100
+  INFO root [0x00001834] [2015-06-05 15:05:22,028] - Components::addComponent[logger], uid=52554, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001834] [2015-06-05 15:05:22,029] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x00001834] [2015-06-05 15:05:22,048] - Components::findInterfaces: found logger, addr:192.168.1.107:13100
+  INFO root [0x00001834] [2015-06-05 15:05:22,165] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:13102
+  INFO root [0x00001834] [2015-06-05 15:05:22,165] - Components::addComponent[dbmgr], uid=52554, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x00001834] [2015-06-05 15:05:22,182] - Components::findInterfaces: found dbmgr, addr:192.168.1.107:13102
+  WARN root [0x00001834] [2015-06-05 15:05:23,182] - Forwarding logs to logger[192.168.1.107:13100/0/0/0]...
+ ERROR root [0x00001834] [2015-06-05 15:07:59,465] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x00001834] [2015-06-05 15:07:59,492] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00001834] [2015-06-05 15:07:59,564] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001834] [2015-06-05 15:07:59,565] - Components::removeComponentFromChannel: baseappmgr : 5000, Abnormal exit.
+ ERROR root [0x00001834] [2015-06-05 15:07:59,566] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x00001834] [2015-06-05 15:07:59,568] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00001834] [2015-06-05 15:07:59,568] - onBaseAppShutDown: state=0
+  INFO root [0x00001834] [2015-06-05 15:07:59,569] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00001834] [2015-06-05 15:07:59,570] - onBaseAppShutDown: state=1
+  INFO root [0x00001834] [2015-06-05 15:07:59,570] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00001834] [2015-06-05 15:07:59,570] - onBaseAppShutDown: state=2
+  INFO root [0x00001834] [2015-06-05 15:07:59,571] - Baseapp::onBackupEntityCellData: SpawnPoint(3), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,572] - SpawnPoint::onLoseCell: 3
+  INFO root [0x00001834] [2015-06-05 15:07:59,573] - SpawnPoint::~SpawnPoint(): 3
+  INFO root [0x00001834] [2015-06-05 15:07:59,573] - Baseapp::onBackupEntityCellData: SpawnPoint(4), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,573] - SpawnPoint::onLoseCell: 4
+  INFO root [0x00001834] [2015-06-05 15:07:59,574] - SpawnPoint::~SpawnPoint(): 4
+  INFO root [0x00001834] [2015-06-05 15:07:59,574] - Baseapp::onBackupEntityCellData: SpawnPoint(5), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,574] - SpawnPoint::onLoseCell: 5
+  INFO root [0x00001834] [2015-06-05 15:07:59,575] - SpawnPoint::~SpawnPoint(): 5
+  INFO root [0x00001834] [2015-06-05 15:07:59,575] - Baseapp::onBackupEntityCellData: SpawnPoint(6), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,575] - SpawnPoint::onLoseCell: 6
+  INFO root [0x00001834] [2015-06-05 15:07:59,576] - SpawnPoint::~SpawnPoint(): 6
+  INFO root [0x00001834] [2015-06-05 15:07:59,576] - Baseapp::onBackupEntityCellData: SpawnPoint(7), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,576] - SpawnPoint::onLoseCell: 7
+  INFO root [0x00001834] [2015-06-05 15:07:59,577] - SpawnPoint::~SpawnPoint(): 7
+  INFO root [0x00001834] [2015-06-05 15:07:59,577] - Baseapp::onBackupEntityCellData: SpawnPoint(8), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,577] - SpawnPoint::onLoseCell: 8
+  INFO root [0x00001834] [2015-06-05 15:07:59,578] - SpawnPoint::~SpawnPoint(): 8
+  INFO root [0x00001834] [2015-06-05 15:07:59,578] - Baseapp::onBackupEntityCellData: SpawnPoint(9), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,578] - SpawnPoint::onLoseCell: 9
+  INFO root [0x00001834] [2015-06-05 15:07:59,579] - SpawnPoint::~SpawnPoint(): 9
+  INFO root [0x00001834] [2015-06-05 15:07:59,579] - Baseapp::onBackupEntityCellData: SpawnPoint(11), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,579] - SpawnPoint::onLoseCell: 11
+  INFO root [0x00001834] [2015-06-05 15:07:59,580] - SpawnPoint::~SpawnPoint(): 11
+  INFO root [0x00001834] [2015-06-05 15:07:59,580] - Baseapp::onBackupEntityCellData: SpawnPoint(12), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,581] - SpawnPoint::onLoseCell: 12
+  INFO root [0x00001834] [2015-06-05 15:07:59,581] - SpawnPoint::~SpawnPoint(): 12
+  INFO root [0x00001834] [2015-06-05 15:07:59,581] - Baseapp::onBackupEntityCellData: SpawnPoint(13), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,582] - SpawnPoint::onLoseCell: 13
+  INFO root [0x00001834] [2015-06-05 15:07:59,582] - SpawnPoint::~SpawnPoint(): 13
+  INFO root [0x00001834] [2015-06-05 15:07:59,583] - Baseapp::onBackupEntityCellData: SpawnPoint(29), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,583] - SpawnPoint::onLoseCell: 29
+  INFO root [0x00001834] [2015-06-05 15:07:59,584] - SpawnPoint::~SpawnPoint(): 29
+  INFO root [0x00001834] [2015-06-05 15:07:59,585] - Baseapp::onBackupEntityCellData: SpawnPoint(14), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,585] - SpawnPoint::onLoseCell: 14
+  INFO root [0x00001834] [2015-06-05 15:07:59,586] - SpawnPoint::~SpawnPoint(): 14
+  INFO root [0x00001834] [2015-06-05 15:07:59,586] - Baseapp::onBackupEntityCellData: SpawnPoint(70), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,586] - SpawnPoint::onLoseCell: 70
+  INFO root [0x00001834] [2015-06-05 15:07:59,587] - SpawnPoint::~SpawnPoint(): 70
+  INFO root [0x00001834] [2015-06-05 15:07:59,587] - Baseapp::onBackupEntityCellData: SpawnPoint(68), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,588] - SpawnPoint::onLoseCell: 68
+  INFO root [0x00001834] [2015-06-05 15:07:59,588] - SpawnPoint::~SpawnPoint(): 68
+  INFO root [0x00001834] [2015-06-05 15:07:59,588] - Baseapp::onBackupEntityCellData: SpawnPoint(16), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,589] - SpawnPoint::onLoseCell: 16
+  INFO root [0x00001834] [2015-06-05 15:07:59,589] - SpawnPoint::~SpawnPoint(): 16
+  INFO root [0x00001834] [2015-06-05 15:07:59,589] - Baseapp::onBackupEntityCellData: SpawnPoint(18), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,590] - SpawnPoint::onLoseCell: 18
+  INFO root [0x00001834] [2015-06-05 15:07:59,590] - SpawnPoint::~SpawnPoint(): 18
+  INFO root [0x00001834] [2015-06-05 15:07:59,590] - Baseapp::onBackupEntityCellData: SpawnPoint(20), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,591] - SpawnPoint::onLoseCell: 20
+  INFO root [0x00001834] [2015-06-05 15:07:59,591] - SpawnPoint::~SpawnPoint(): 20
+  INFO root [0x00001834] [2015-06-05 15:07:59,591] - Baseapp::onBackupEntityCellData: SpawnPoint(22), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,592] - SpawnPoint::onLoseCell: 22
+  INFO root [0x00001834] [2015-06-05 15:07:59,592] - SpawnPoint::~SpawnPoint(): 22
+  INFO root [0x00001834] [2015-06-05 15:07:59,593] - Baseapp::onBackupEntityCellData: SpawnPoint(24), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,593] - SpawnPoint::onLoseCell: 24
+  INFO root [0x00001834] [2015-06-05 15:07:59,593] - SpawnPoint::~SpawnPoint(): 24
+  INFO root [0x00001834] [2015-06-05 15:07:59,594] - Baseapp::onBackupEntityCellData: SpawnPoint(26), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,594] - SpawnPoint::onLoseCell: 26
+  INFO root [0x00001834] [2015-06-05 15:07:59,595] - SpawnPoint::~SpawnPoint(): 26
+  INFO root [0x00001834] [2015-06-05 15:07:59,595] - Baseapp::onBackupEntityCellData: SpawnPoint(31), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,595] - SpawnPoint::onLoseCell: 31
+  INFO root [0x00001834] [2015-06-05 15:07:59,596] - SpawnPoint::~SpawnPoint(): 31
+  INFO root [0x00001834] [2015-06-05 15:07:59,596] - Baseapp::onBackupEntityCellData: SpawnPoint(33), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,596] - SpawnPoint::onLoseCell: 33
+  INFO root [0x00001834] [2015-06-05 15:07:59,597] - SpawnPoint::~SpawnPoint(): 33
+  INFO root [0x00001834] [2015-06-05 15:07:59,597] - Baseapp::onBackupEntityCellData: SpawnPoint(35), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,598] - SpawnPoint::onLoseCell: 35
+  INFO root [0x00001834] [2015-06-05 15:07:59,598] - SpawnPoint::~SpawnPoint(): 35
+  INFO root [0x00001834] [2015-06-05 15:07:59,598] - Baseapp::onBackupEntityCellData: SpawnPoint(38), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,599] - SpawnPoint::onLoseCell: 38
+  INFO root [0x00001834] [2015-06-05 15:07:59,599] - SpawnPoint::~SpawnPoint(): 38
+  INFO root [0x00001834] [2015-06-05 15:07:59,600] - Baseapp::onBackupEntityCellData: SpawnPoint(41), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,600] - SpawnPoint::onLoseCell: 41
+  INFO root [0x00001834] [2015-06-05 15:07:59,600] - SpawnPoint::~SpawnPoint(): 41
+  INFO root [0x00001834] [2015-06-05 15:07:59,601] - Baseapp::onBackupEntityCellData: SpawnPoint(44), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,601] - SpawnPoint::onLoseCell: 44
+  INFO root [0x00001834] [2015-06-05 15:07:59,602] - SpawnPoint::~SpawnPoint(): 44
+  INFO root [0x00001834] [2015-06-05 15:07:59,602] - Baseapp::onBackupEntityCellData: SpawnPoint(47), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,602] - SpawnPoint::onLoseCell: 47
+  INFO root [0x00001834] [2015-06-05 15:07:59,604] - SpawnPoint::~SpawnPoint(): 47
+  INFO root [0x00001834] [2015-06-05 15:07:59,604] - Baseapp::onBackupEntityCellData: SpawnPoint(50), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,604] - SpawnPoint::onLoseCell: 50
+  INFO root [0x00001834] [2015-06-05 15:07:59,605] - SpawnPoint::~SpawnPoint(): 50
+  INFO root [0x00001834] [2015-06-05 15:07:59,605] - Baseapp::onBackupEntityCellData: SpawnPoint(53), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,605] - SpawnPoint::onLoseCell: 53
+  INFO root [0x00001834] [2015-06-05 15:07:59,606] - SpawnPoint::~SpawnPoint(): 53
+  INFO root [0x00001834] [2015-06-05 15:07:59,606] - Baseapp::onBackupEntityCellData: SpawnPoint(59), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,607] - SpawnPoint::onLoseCell: 59
+  INFO root [0x00001834] [2015-06-05 15:07:59,607] - SpawnPoint::~SpawnPoint(): 59
+  INFO root [0x00001834] [2015-06-05 15:07:59,607] - Baseapp::onBackupEntityCellData: SpawnPoint(61), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,608] - SpawnPoint::onLoseCell: 61
+  INFO root [0x00001834] [2015-06-05 15:07:59,608] - SpawnPoint::~SpawnPoint(): 61
+  INFO root [0x00001834] [2015-06-05 15:07:59,608] - Baseapp::onBackupEntityCellData: SpawnPoint(63), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,609] - SpawnPoint::onLoseCell: 63
+  INFO root [0x00001834] [2015-06-05 15:07:59,609] - SpawnPoint::~SpawnPoint(): 63
+  INFO root [0x00001834] [2015-06-05 15:07:59,609] - Baseapp::onBackupEntityCellData: SpawnPoint(65), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,610] - SpawnPoint::onLoseCell: 65
+  INFO root [0x00001834] [2015-06-05 15:07:59,611] - SpawnPoint::~SpawnPoint(): 65
+  INFO root [0x00001834] [2015-06-05 15:07:59,611] - Baseapp::onBackupEntityCellData: Space(2), size=79.
+ S_DBG root [0x00001834] [2015-06-05 15:07:59,612] - Space::onLoseCell: 2
+  INFO root [0x00001834] [2015-06-05 15:07:59,640] - SpawnPoint::~SpawnPoint(): 15
+  INFO root [0x00001834] [2015-06-05 15:07:59,640] - SpawnPoint::~SpawnPoint(): 17
+  INFO root [0x00001834] [2015-06-05 15:07:59,640] - SpawnPoint::~SpawnPoint(): 19
+  INFO root [0x00001834] [2015-06-05 15:07:59,641] - SpawnPoint::~SpawnPoint(): 21
+  INFO root [0x00001834] [2015-06-05 15:07:59,641] - SpawnPoint::~SpawnPoint(): 23
+  INFO root [0x00001834] [2015-06-05 15:07:59,641] - SpawnPoint::~SpawnPoint(): 25
+  INFO root [0x00001834] [2015-06-05 15:07:59,642] - SpawnPoint::~SpawnPoint(): 27
+  INFO root [0x00001834] [2015-06-05 15:07:59,642] - SpawnPoint::~SpawnPoint(): 30
+  INFO root [0x00001834] [2015-06-05 15:07:59,642] - SpawnPoint::~SpawnPoint(): 32
+  INFO root [0x00001834] [2015-06-05 15:07:59,643] - SpawnPoint::~SpawnPoint(): 34
+  INFO root [0x00001834] [2015-06-05 15:07:59,643] - SpawnPoint::~SpawnPoint(): 36
+  INFO root [0x00001834] [2015-06-05 15:07:59,643] - SpawnPoint::~SpawnPoint(): 37
+  INFO root [0x00001834] [2015-06-05 15:07:59,645] - SpawnPoint::~SpawnPoint(): 39
+  INFO root [0x00001834] [2015-06-05 15:07:59,645] - SpawnPoint::~SpawnPoint(): 40
+  INFO root [0x00001834] [2015-06-05 15:07:59,646] - SpawnPoint::~SpawnPoint(): 42
+  INFO root [0x00001834] [2015-06-05 15:07:59,646] - SpawnPoint::~SpawnPoint(): 43
+  INFO root [0x00001834] [2015-06-05 15:07:59,646] - SpawnPoint::~SpawnPoint(): 45
+  INFO root [0x00001834] [2015-06-05 15:07:59,646] - SpawnPoint::~SpawnPoint(): 46
+  INFO root [0x00001834] [2015-06-05 15:07:59,647] - SpawnPoint::~SpawnPoint(): 48
+  INFO root [0x00001834] [2015-06-05 15:07:59,647] - SpawnPoint::~SpawnPoint(): 49
+  INFO root [0x00001834] [2015-06-05 15:07:59,648] - SpawnPoint::~SpawnPoint(): 51
+  INFO root [0x00001834] [2015-06-05 15:07:59,648] - SpawnPoint::~SpawnPoint(): 52
+  INFO root [0x00001834] [2015-06-05 15:07:59,648] - SpawnPoint::~SpawnPoint(): 54
+  INFO root [0x00001834] [2015-06-05 15:07:59,648] - SpawnPoint::~SpawnPoint(): 55
+  INFO root [0x00001834] [2015-06-05 15:07:59,649] - SpawnPoint::~SpawnPoint(): 57
+  INFO root [0x00001834] [2015-06-05 15:07:59,649] - SpawnPoint::~SpawnPoint(): 58
+  INFO root [0x00001834] [2015-06-05 15:07:59,649] - SpawnPoint::~SpawnPoint(): 60
+  INFO root [0x00001834] [2015-06-05 15:07:59,650] - SpawnPoint::~SpawnPoint(): 62
+  INFO root [0x00001834] [2015-06-05 15:07:59,650] - SpawnPoint::~SpawnPoint(): 64
+  INFO root [0x00001834] [2015-06-05 15:07:59,650] - SpawnPoint::~SpawnPoint(): 66
+  INFO root [0x00001834] [2015-06-05 15:07:59,650] - SpawnPoint::~SpawnPoint(): 67
+  INFO root [0x00001834] [2015-06-05 15:07:59,651] - SpawnPoint::~SpawnPoint(): 69
+  INFO root [0x00001834] [2015-06-05 15:07:59,651] - SpawnPoint::~SpawnPoint(): 71
+  INFO root [0x00001834] [2015-06-05 15:07:59,651] - SpawnPoint::~SpawnPoint(): 72
+  INFO root [0x00001834] [2015-06-05 15:07:59,652] - SpawnPoint::~SpawnPoint(): 73
+  INFO root [0x00001834] [2015-06-05 15:07:59,652] - SpawnPoint::~SpawnPoint(): 74
+  INFO root [0x00001834] [2015-06-05 15:07:59,652] - SpawnPoint::~SpawnPoint(): 75
+  INFO root [0x00001834] [2015-06-05 15:07:59,653] - SpawnPoint::~SpawnPoint(): 76
+  INFO root [0x00001834] [2015-06-05 15:07:59,653] - SpawnPoint::~SpawnPoint(): 77
+  INFO root [0x00001834] [2015-06-05 15:07:59,653] - SpawnPoint::~SpawnPoint(): 79
+  INFO root [0x00001834] [2015-06-05 15:07:59,654] - SpawnPoint::~SpawnPoint(): 80
+  INFO root [0x00001834] [2015-06-05 15:07:59,654] - SpawnPoint::~SpawnPoint(): 81
+  INFO root [0x00001834] [2015-06-05 15:07:59,654] - SpawnPoint::~SpawnPoint(): 82
+  INFO root [0x00001834] [2015-06-05 15:07:59,655] - SpawnPoint::~SpawnPoint(): 83
+  INFO root [0x00001834] [2015-06-05 15:07:59,655] - SpawnPoint::~SpawnPoint(): 84
+  INFO root [0x00001834] [2015-06-05 15:07:59,655] - SpawnPoint::~SpawnPoint(): 85
+  INFO root [0x00001834] [2015-06-05 15:07:59,655] - SpawnPoint::~SpawnPoint(): 86
+  INFO root [0x00001834] [2015-06-05 15:07:59,656] - SpawnPoint::~SpawnPoint(): 87
+  INFO root [0x00001834] [2015-06-05 15:07:59,656] - SpawnPoint::~SpawnPoint(): 88
+  INFO root [0x00001834] [2015-06-05 15:07:59,656] - SpawnPoint::~SpawnPoint(): 89
+  INFO root [0x00001834] [2015-06-05 15:07:59,657] - SpawnPoint::~SpawnPoint(): 90
+  INFO root [0x00001834] [2015-06-05 15:07:59,657] - SpawnPoint::~SpawnPoint(): 91
+  INFO root [0x00001834] [2015-06-05 15:07:59,657] - SpawnPoint::~SpawnPoint(): 92
+  INFO root [0x00001834] [2015-06-05 15:07:59,658] - SpawnPoint::~SpawnPoint(): 93
+  INFO root [0x00001834] [2015-06-05 15:07:59,658] - SpawnPoint::~SpawnPoint(): 94
+  INFO root [0x00001834] [2015-06-05 15:07:59,659] - SpawnPoint::~SpawnPoint(): 95
+  INFO root [0x00001834] [2015-06-05 15:07:59,660] - SpawnPoint::~SpawnPoint(): 96
+  INFO root [0x00001834] [2015-06-05 15:07:59,660] - SpawnPoint::~SpawnPoint(): 97
+  INFO root [0x00001834] [2015-06-05 15:07:59,660] - SpawnPoint::~SpawnPoint(): 98
+  INFO root [0x00001834] [2015-06-05 15:07:59,661] - SpawnPoint::~SpawnPoint(): 99
+  INFO root [0x00001834] [2015-06-05 15:07:59,661] - SpawnPoint::~SpawnPoint(): 100
+  INFO root [0x00001834] [2015-06-05 15:07:59,662] - SpawnPoint::~SpawnPoint(): 101
+  INFO root [0x00001834] [2015-06-05 15:07:59,662] - SpawnPoint::~SpawnPoint(): 102
+  INFO root [0x00001834] [2015-06-05 15:07:59,662] - SpawnPoint::~SpawnPoint(): 103
+  INFO root [0x00001834] [2015-06-05 15:07:59,663] - SpawnPoint::~SpawnPoint(): 104
+  INFO root [0x00001834] [2015-06-05 15:07:59,663] - SpawnPoint::~SpawnPoint(): 105
+  INFO root [0x00001834] [2015-06-05 15:07:59,669] - SpawnPoint::~SpawnPoint(): 106
+  INFO root [0x00001834] [2015-06-05 15:07:59,670] - SpawnPoint::~SpawnPoint(): 107
+  INFO root [0x00001834] [2015-06-05 15:07:59,670] - SpawnPoint::~SpawnPoint(): 108
+  INFO root [0x00001834] [2015-06-05 15:07:59,670] - SpawnPoint::~SpawnPoint(): 109
+  INFO root [0x00001834] [2015-06-05 15:07:59,671] - SpawnPoint::~SpawnPoint(): 110
+  INFO root [0x00001834] [2015-06-05 15:07:59,671] - SpawnPoint::~SpawnPoint(): 111
+  INFO root [0x00001834] [2015-06-05 15:07:59,671] - SpawnPoint::~SpawnPoint(): 112
+  INFO root [0x00001834] [2015-06-05 15:07:59,672] - SpawnPoint::~SpawnPoint(): 113
+  INFO root [0x00001834] [2015-06-05 15:07:59,672] - SpawnPoint::~SpawnPoint(): 114
+  INFO root [0x00001834] [2015-06-05 15:07:59,672] - SpawnPoint::~SpawnPoint(): 115
+  INFO root [0x00001834] [2015-06-05 15:07:59,672] - SpawnPoint::~SpawnPoint(): 116
+  INFO root [0x00001834] [2015-06-05 15:07:59,673] - SpawnPoint::~SpawnPoint(): 117
+  INFO root [0x00001834] [2015-06-05 15:07:59,673] - SpawnPoint::~SpawnPoint(): 118
+  INFO root [0x00001834] [2015-06-05 15:07:59,673] - SpawnPoint::~SpawnPoint(): 119
+  INFO root [0x00001834] [2015-06-05 15:07:59,674] - SpawnPoint::~SpawnPoint(): 120
+  INFO root [0x00001834] [2015-06-05 15:07:59,674] - SpawnPoint::~SpawnPoint(): 121
+  INFO root [0x00001834] [2015-06-05 15:07:59,674] - SpawnPoint::~SpawnPoint(): 122
+  INFO root [0x00001834] [2015-06-05 15:07:59,675] - SpawnPoint::~SpawnPoint(): 123
+  INFO root [0x00001834] [2015-06-05 15:07:59,675] - SpawnPoint::~SpawnPoint(): 124
+  INFO root [0x00001834] [2015-06-05 15:07:59,675] - SpawnPoint::~SpawnPoint(): 125
+  INFO root [0x00001834] [2015-06-05 15:07:59,676] - SpawnPoint::~SpawnPoint(): 126
+  INFO root [0x00001834] [2015-06-05 15:07:59,676] - SpawnPoint::~SpawnPoint(): 127
+  INFO root [0x00001834] [2015-06-05 15:07:59,676] - SpawnPoint::~SpawnPoint(): 128
+  INFO root [0x00001834] [2015-06-05 15:07:59,677] - SpawnPoint::~SpawnPoint(): 129
+  INFO root [0x00001834] [2015-06-05 15:07:59,677] - SpawnPoint::~SpawnPoint(): 130
+  INFO root [0x00001834] [2015-06-05 15:07:59,677] - SpawnPoint::~SpawnPoint(): 131
+  INFO root [0x00001834] [2015-06-05 15:07:59,677] - SpawnPoint::~SpawnPoint(): 132
+  INFO root [0x00001834] [2015-06-05 15:07:59,678] - SpawnPoint::~SpawnPoint(): 133
+  INFO root [0x00001834] [2015-06-05 15:07:59,678] - SpawnPoint::~SpawnPoint(): 134
+  INFO root [0x00001834] [2015-06-05 15:07:59,678] - SpawnPoint::~SpawnPoint(): 135
+  INFO root [0x00001834] [2015-06-05 15:07:59,679] - SpawnPoint::~SpawnPoint(): 136
+  INFO root [0x00001834] [2015-06-05 15:07:59,679] - SpawnPoint::~SpawnPoint(): 137
+  INFO root [0x00001834] [2015-06-05 15:07:59,679] - SpawnPoint::~SpawnPoint(): 138
+  INFO root [0x00001834] [2015-06-05 15:07:59,680] - SpawnPoint::~SpawnPoint(): 139
+  INFO root [0x00001834] [2015-06-05 15:07:59,680] - SpawnPoint::~SpawnPoint(): 140
+  INFO root [0x00001834] [2015-06-05 15:07:59,680] - SpawnPoint::~SpawnPoint(): 141
+  INFO root [0x00001834] [2015-06-05 15:07:59,680] - SpawnPoint::~SpawnPoint(): 142

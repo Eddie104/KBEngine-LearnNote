@@ -1,0 +1,48 @@
+  INFO root [2015-06-05 11:37:42,974] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-05 11:37:43,043] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-05 11:37:43,044] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-05 11:37:43,044] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-05 11:37:43,109] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:30099 )
+  INFO root [2015-06-05 11:37:43,111] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:30099, SOMAXCONN=5.
+  INFO root [2015-06-05 11:37:43,161] - ---- interfaces Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8EB19230201D8E14A50DF947C035BB3B. Config: Debug. Built: 10:36:52 Jun  3 2015. AppID: 3000. UID: 52554. PID: 4800 ----
+  INFO root [2015-06-05 11:37:43,162] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-05 11:37:43,162] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-05 11:37:43,163] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-05 11:37:43,263] - AnonymousChannel::bind: 0.0.0.0:30040
+  INFO root [2015-06-05 11:37:44,052] - ---- interfaces is running ----
+ DEBUG root [2015-06-05 11:37:44,053] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-05 11:37:51,163] - Components::process(): Found all the components!
+  INFO root [2015-06-05 11:53:01,894] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-05 11:53:01,895] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-05 11:53:01,896] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-05 11:53:01,896] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-05 11:53:01,952] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:30099 )
+  INFO root [2015-06-05 11:53:01,953] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:30099, SOMAXCONN=5.
+  INFO root [2015-06-05 11:53:01,961] - ---- interfaces Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8EB19230201D8E14A50DF947C035BB3B. Config: Debug. Built: 10:36:52 Jun  3 2015. AppID: 3000. UID: 52554. PID: 7820 ----
+  INFO root [2015-06-05 11:53:01,962] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-05 11:53:01,962] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-05 11:53:01,963] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-05 11:53:02,090] - AnonymousChannel::bind: 0.0.0.0:30040
+  INFO root [2015-06-05 11:53:02,933] - ---- interfaces is running ----
+ DEBUG root [2015-06-05 11:53:02,933] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-05 11:53:09,997] - Components::process(): Found all the components!
+  INFO root [2015-06-05 15:05:12,719] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-05 15:05:12,720] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-05 15:05:12,720] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-05 15:05:12,721] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-05 15:05:12,732] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.107 ( 192.168.1.107:30099 )
+  INFO root [2015-06-05 15:05:12,733] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.107:30099, SOMAXCONN=5.
+  INFO root [2015-06-05 15:05:12,740] - ---- interfaces Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8EB19230201D8E14A50DF947C035BB3B. Config: Debug. Built: 10:36:52 Jun  3 2015. AppID: 3000. UID: 52554. PID: 8360 ----
+  INFO root [2015-06-05 15:05:12,764] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-05 15:05:12,766] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-05 15:05:12,768] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-05 15:05:12,872] - AnonymousChannel::bind: 0.0.0.0:30040
+  INFO root [2015-06-05 15:05:13,566] - ---- interfaces is running ----
+ DEBUG root [2015-06-05 15:05:13,568] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-05 15:05:20,674] - Components::process(): Found all the components!

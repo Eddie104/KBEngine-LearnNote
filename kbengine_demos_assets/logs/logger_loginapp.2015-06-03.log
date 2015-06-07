@@ -1,0 +1,275 @@
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:20013 )
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:8081 )
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:8081, SOMAXCONN=128.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - server-configs:
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - 	internalAddr : 192.168.1.106:8081
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - 	externalAddr : 192.168.1.106:20013
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 024] - 	componentID : 9000
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 289] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 10:37:15 Jun  3 2015. AppID: 9000. UID: 6319. PID: 1708 ----
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 289] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 289] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:00 289] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:01 334] - ---- loginapp is running ----
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:53:01 381] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:08 761] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:08 902] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:08 902] - Components::addComponent[logger], uid=6319, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:08 902] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:08 933] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:11 058] - Components::findInterfaces: find dbmgr(3)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:13 166] - Components::findInterfaces: find dbmgr(4)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:15 240] - Components::findInterfaces: find dbmgr(5)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:17 299] - Components::findInterfaces: find dbmgr(6)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:19 396] - Components::findInterfaces: find dbmgr(7)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:21 496] - Components::findInterfaces: find dbmgr(8)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:23 516] - Components::findInterfaces: find dbmgr(9)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:25 558] - Components::findInterfaces: find dbmgr(10)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:27 658] - Components::findInterfaces: find dbmgr(11)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:29 678] - Components::findInterfaces: find dbmgr(12)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:31 798] - Components::findInterfaces: find dbmgr(13)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:33 898] - Components::findInterfaces: find dbmgr(14)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:36 018] - Components::findInterfaces: find dbmgr(15)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:38 124] - Components::findInterfaces: find dbmgr(16)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:40 164] - Components::findInterfaces: find dbmgr(17)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:42 256] - Components::findInterfaces: find dbmgr(18)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:44 278] - Components::findInterfaces: find dbmgr(19)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:46 382] - Components::findInterfaces: find dbmgr(20)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:48 435] - Components::findInterfaces: find dbmgr(21)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:50 476] - Components::findInterfaces: find dbmgr(22)...
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:53:52 576] - Components::findInterfaces: find dbmgr(23)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:52 666] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:8084
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:52 666] - Components::addComponent[dbmgr], uid=6319, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:52 686] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:8084
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:54 696] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:54 836] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:8080
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:54 836] - Components::addComponent[baseappmgr], uid=6319, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:54 866] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:8080
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:56 916] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:56 936] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:53:56 946] - Components::process(): Found all the components!
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:02 986] - Loginapp::_createAccount: accountName=zhangsan, passwordsize=6, type=1, oldType=3.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:02 986] - PendingLoginMgr::add: zhangsan, size=1.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:03 196] - Loginapp::onReqCreateAccountResult: accountName=zhangsan, failedcode=0.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:03 196] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:03 376] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=FD1450B1B53F34DA05757F2BAAD15DCC.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:03 376] - HTTPCBHandler::bind: 192.168.1.106:21103
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:06 676] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:8158/0/0/0
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:54:06 676] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:8158/0/0/0
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:06 876] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:06 876] - Loginapp::loginFailed: loginName=zhangsan login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:06 876] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:13 580] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:20 335] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:8173/0/0/0
+ WARNING   loginapp-1 6319 9000  [2015-06-03 10:54:20 335] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:8173/0/0/0
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:20 435] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 6319 9000  [2015-06-03 10:54:20 435] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=zhangsan, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:20 615] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=zhangsan, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 6319 9000  [2015-06-03 10:54:20 615] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 500] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 501] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 501] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 501] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 506] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:20013 )
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 507] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 533] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13577 )
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 534] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13577, SOMAXCONN=128.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 534] - server-configs:
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 534] - 	internalAddr : 192.168.1.106:13577
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 534] - 	externalAddr : 192.168.1.106:20013
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 534] - 	componentID : 9000
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 944] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 10:37:15 Jun  3 2015. AppID: 9000. UID: 26385. PID: 5308 ----
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 944] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 945] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:39 945] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:40 803] - ---- loginapp is running ----
+   DEBUG   loginapp-1 26385 9000  [2015-06-03 15:22:40 804] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:47 845] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 025] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 026] - Components::addComponent[logger], uid=26385, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 027] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 042] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 158] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 159] - Components::addComponent[dbmgr], uid=26385, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:48 176] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:50 186] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:50 297] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:13574
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:50 297] - Components::addComponent[baseappmgr], uid=26385, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:50 314] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:13574
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:52 366] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:52 385] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:52 401] - Components::process(): Found all the components!
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:58 306] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=FD1450B1B53F34DA05757F2BAAD15DCC.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:22:58 306] - HTTPCBHandler::bind: 192.168.1.106:21103
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:23:08 486] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:25:09 046] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:13625/0/0/0
+ WARNING   loginapp-1 26385 9000  [2015-06-03 15:25:09 046] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:13625/0/0/0
+   DEBUG   loginapp-1 26385 9000  [2015-06-03 15:25:09 146] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 26385 9000  [2015-06-03 15:25:09 146] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=zhangsan, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 26385 9000  [2015-06-03 15:25:09 306] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=zhangsan, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 26385 9000  [2015-06-03 15:25:09 306] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 429] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 430] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 430] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 430] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 502] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:20013 )
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 502] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 566] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13929 )
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 567] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13929, SOMAXCONN=128.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 567] - server-configs:
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 567] - 	internalAddr : 192.168.1.106:13929
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 567] - 	externalAddr : 192.168.1.106:20013
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:50 567] - 	componentID : 9000
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:51 150] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 10:37:15 Jun  3 2015. AppID: 9000. UID: 30731. PID: 7508 ----
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:51 151] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:51 151] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:51 152] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:52 168] - ---- loginapp is running ----
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:44:52 168] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 216] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 293] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 294] - Components::addComponent[logger], uid=30731, componentID=2000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 295] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 312] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 471] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 472] - Components::addComponent[dbmgr], uid=30731, componentID=4000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:44:59 491] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:01 496] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:01 598] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:13925
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:01 598] - Components::addComponent[baseappmgr], uid=30731, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:01 615] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:13925
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:03 640] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:03 656] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:03 676] - Components::process(): Found all the components!
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:08 976] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=FD1450B1B53F34DA05757F2BAAD15DCC.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:08 976] - HTTPCBHandler::bind: 192.168.1.106:21103
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:14 836] - Loginapp::_createAccount: accountName=lisi, passwordsize=6, type=1, oldType=3.
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:14 836] - PendingLoginMgr::add: lisi, size=1.
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:14 916] - Loginapp::onReqCreateAccountResult: accountName=lisi, failedcode=0.
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:14 916] - PendingLoginMgr::remove: lisi, size=0.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:18 316] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:37 936] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:13972/0/0/0
+ WARNING   loginapp-1 30731 9000  [2015-06-03 15:45:37 936] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:13972/0/0/0
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:38 036] - PendingLoginMgr::add: lisi, size=1.
+    INFO   loginapp-1 30731 9000  [2015-06-03 15:45:38 036] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=lisi, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:38 176] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=lisi, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 30731 9000  [2015-06-03 15:45:38 176] - PendingLoginMgr::remove: lisi, size=0.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 486] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 487] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 487] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 487] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 505] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:20013 )
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 505] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 508] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14065 )
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 509] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14065, SOMAXCONN=128.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 509] - server-configs:
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 509] - 	internalAddr : 192.168.1.106:14065
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 509] - 	externalAddr : 192.168.1.106:20013
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 509] - 	componentID : 9000
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 721] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 10:37:15 Jun  3 2015. AppID: 9000. UID: 331. PID: 7676 ----
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 722] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 722] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:55 723] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 331 9000  [2015-06-03 15:56:56 930] - ---- loginapp is running ----
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:56:56 945] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 264] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 344] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 345] - Components::addComponent[logger], uid=331, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 346] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 361] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 512] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 512] - Components::addComponent[dbmgr], uid=331, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:04 529] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:06 544] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:06 651] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:14063
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:06 651] - Components::addComponent[baseappmgr], uid=331, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:06 668] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:14063
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:08 704] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:08 724] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:08 739] - Components::process(): Found all the components!
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:14 505] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=FD1450B1B53F34DA05757F2BAAD15DCC.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:14 505] - HTTPCBHandler::bind: 192.168.1.106:21103
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:22 144] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14100/0/0/0
+ WARNING   loginapp-1 331 9000  [2015-06-03 15:57:22 144] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14100/0/0/0
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:57:22 244] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:22 244] - Loginapp::loginFailed: loginName=zhangsan login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:57:22 244] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:24 604] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:52 845] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14101/0/0/0
+ WARNING   loginapp-1 331 9000  [2015-06-03 15:57:52 845] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14101/0/0/0
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:57:52 945] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 331 9000  [2015-06-03 15:57:52 945] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=zhangsan, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:57:53 125] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=zhangsan, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 331 9000  [2015-06-03 15:57:53 125] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:16 702] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:16 703] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:16 703] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:16 703] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 027] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:20013 )
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 028] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 191] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14412 )
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 192] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14412, SOMAXCONN=128.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 192] - server-configs:
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 192] - 	internalAddr : 192.168.1.106:14412
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 192] - 	externalAddr : 192.168.1.106:20013
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 193] - 	componentID : 9000
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 467] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 10:37:15 Jun  3 2015. AppID: 9000. UID: 4318. PID: 8340 ----
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 469] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 471] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:17 472] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:18 407] - ---- loginapp is running ----
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:18 408] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 448] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 520] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 521] - Components::addComponent[logger], uid=4318, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 522] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 537] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 691] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 691] - Components::addComponent[dbmgr], uid=4318, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:25 707] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:27 708] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:27 795] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:14408
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:27 795] - Components::addComponent[baseappmgr], uid=4318, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:27 812] - Components::findInterfaces: found baseappmgr, addr:192.168.1.106:14408
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:29 868] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:29 887] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:29 905] - Components::process(): Found all the components!
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:34 248] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14440/0/0/0
+ WARNING   loginapp-1 4318 9000  [2015-06-03 16:17:34 248] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14440/0/0/0
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:34 437] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:34 437] - Loginapp::loginFailed: loginName=zhangsan login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:34 437] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:35 268] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=FD1450B1B53F34DA05757F2BAAD15DCC.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:35 268] - HTTPCBHandler::bind: 192.168.1.106:21103
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:38 528] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14441/0/0/0
+ WARNING   loginapp-1 4318 9000  [2015-06-03 16:17:38 528] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14441/0/0/0
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:38 728] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:38 728] - Loginapp::loginFailed: loginName=zhangsan login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:38 728] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:44 588] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:53 629] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14442/0/0/0
+ WARNING   loginapp-1 4318 9000  [2015-06-03 16:17:53 629] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14442/0/0/0
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:53 729] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:17:53 729] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=zhangsan, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:53 828] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=zhangsan, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:17:53 828] - PendingLoginMgr::remove: zhangsan, size=0.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:18:55 568] - ServerApp::onHello: verInfo=0.6.1, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:14446/0/0/0
+ WARNING   loginapp-1 4318 9000  [2015-06-03 16:18:55 568] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:14446/0/0/0
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:18:55 668] - PendingLoginMgr::add: zhangsan, size=1.
+    INFO   loginapp-1 4318 9000  [2015-06-03 16:18:55 668] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=zhangsan, datas=kbengine_unity3d_demo.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:18:55 848] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=zhangsan, addr=192.168.1.106:20015.
+   DEBUG   loginapp-1 4318 9000  [2015-06-03 16:18:55 848] - PendingLoginMgr::remove: zhangsan, size=0.

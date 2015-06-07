@@ -1,0 +1,877 @@
+KBE_BIN_PATH	guiconsole.bat	/^set KBE_BIN_PATH=%KBE_ROOT%\/kbe\/bin\/server\/$/;"	v
+KBE_RES_PATH	guiconsole.bat	/^set KBE_RES_PATH=%KBE_ROOT%\/kbe\/res\/;%curpath%\/;%curpath%\/scripts\/;%curpath%\/res\/$/;"	v
+KBE_ROOT	guiconsole.bat	/^set KBE_ROOT=%cd%$/;"	v
+curpath	guiconsole.bat	/^set curpath=%~dp0$/;"	v
+uid	guiconsole.bat	/^set uid=%random%%%32760+1$/;"	v
+Account	scripts\base\Account.py	/^class Account(KBEngine.Proxy):$/;"	c
+GlobalConst	scripts\base\Account.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\base\Account.py	/^import KBEngine$/;"	i
+TAvatarData	scripts\base\Account.py	/^from AVATAR_DATA import TAvatarData$/;"	i
+TAvatarInfos	scripts\base\Account.py	/^from AVATAR_INFOS import TAvatarInfos$/;"	i
+TAvatarInfosList	scripts\base\Account.py	/^from AVATAR_INFOS import TAvatarInfosList$/;"	i
+__init__	scripts\base\Account.py	/^	def __init__(self):$/;"	m	class:Account
+__onAvatarCreated	scripts\base\Account.py	/^	def __onAvatarCreated(self, baseRef, dbid, wasActive):$/;"	m	class:Account	file:
+_onCharacterSaved	scripts\base\Account.py	/^	def _onCharacterSaved(self, success, avatar):$/;"	m	class:Account
+d_avatar_inittab	scripts\base\Account.py	/^import d_avatar_inittab$/;"	i
+d_spaces	scripts\base\Account.py	/^import d_spaces$/;"	i
+onClientDeath	scripts\base\Account.py	/^	def onClientDeath(self):$/;"	m	class:Account
+onEntitiesEnabled	scripts\base\Account.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Account
+onLogOnAttempt	scripts\base\Account.py	/^	def onLogOnAttempt(self, ip, port, password):$/;"	m	class:Account
+onTimer	scripts\base\Account.py	/^	def onTimer(self, id, userArg):$/;"	m	class:Account
+random	scripts\base\Account.py	/^import random$/;"	i
+reqAvatarList	scripts\base\Account.py	/^	def reqAvatarList(self):$/;"	m	class:Account
+reqCreateAvatar	scripts\base\Account.py	/^	def reqCreateAvatar(self, roleType, name):$/;"	m	class:Account
+reqRemoveAvatar	scripts\base\Account.py	/^	def reqRemoveAvatar(self, name):$/;"	m	class:Account
+selectAvatarGame	scripts\base\Account.py	/^	def selectAvatarGame(self, dbid):$/;"	m	class:Account
+time	scripts\base\Account.py	/^import time$/;"	i
+Avatar	scripts\base\Avatar.py	/^			Teleport):$/;"	c
+GameObject	scripts\base\Avatar.py	/^from interfaces.GameObject import GameObject$/;"	i
+GlobalConst	scripts\base\Avatar.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\base\Avatar.py	/^import KBEngine$/;"	i
+SCDefine	scripts\base\Avatar.py	/^import SCDefine$/;"	i
+Teleport	scripts\base\Avatar.py	/^from interfaces.Teleport import Teleport$/;"	i
+__init__	scripts\base\Avatar.py	/^	def __init__(self):$/;"	m	class:Avatar
+createCell	scripts\base\Avatar.py	/^	def createCell(self, space):$/;"	m	class:Avatar
+d_avatar_inittab	scripts\base\Avatar.py	/^import d_avatar_inittab$/;"	i
+d_spaces	scripts\base\Avatar.py	/^import d_spaces$/;"	i
+destroySelf	scripts\base\Avatar.py	/^	def destroySelf(self):$/;"	m	class:Avatar
+onClientDeath	scripts\base\Avatar.py	/^	def onClientDeath(self):$/;"	m	class:Avatar
+onClientGetCell	scripts\base\Avatar.py	/^	def onClientGetCell(self):$/;"	m	class:Avatar
+onDestroyTimer	scripts\base\Avatar.py	/^	def onDestroyTimer(self, tid, tno):$/;"	m	class:Avatar
+onEntitiesEnabled	scripts\base\Avatar.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Avatar
+onGetCell	scripts\base\Avatar.py	/^	def onGetCell(self):$/;"	m	class:Avatar
+random	scripts\base\Avatar.py	/^import random$/;"	i
+time	scripts\base\Avatar.py	/^import time$/;"	i
+GameObject	scripts\base\Space.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\base\Space.py	/^import KBEngine$/;"	i
+SCDefine	scripts\base\Space.py	/^import SCDefine$/;"	i
+Space	scripts\base\Space.py	/^class Space(KBEngine.Base, GameObject):$/;"	c
+__init__	scripts\base\Space.py	/^	def __init__(self):$/;"	m	class:Space
+copy	scripts\base\Space.py	/^import copy$/;"	i
+createSpawnPointDatas	scripts\base\Space.py	/^	def createSpawnPointDatas(self):$/;"	m	class:Space
+d_entities	scripts\base\Space.py	/^import d_entities$/;"	i
+d_spaces	scripts\base\Space.py	/^import d_spaces$/;"	i
+d_spaces_spawns	scripts\base\Space.py	/^import d_spaces_spawns$/;"	i
+etree	scripts\base\Space.py	/^import xml.etree.ElementTree as etree $/;"	i
+loginToSpace	scripts\base\Space.py	/^	def loginToSpace(self, avatarMailbox, context):$/;"	m	class:Space
+logoutSpace	scripts\base\Space.py	/^	def logoutSpace(self, entityID):$/;"	m	class:Space
+math	scripts\base\Space.py	/^import math$/;"	i
+onEnter	scripts\base\Space.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:Space
+onGetCell	scripts\base\Space.py	/^	def onGetCell(self):$/;"	m	class:Space
+onLeave	scripts\base\Space.py	/^	def onLeave(self, entityID):$/;"	m	class:Space
+onLoseCell	scripts\base\Space.py	/^	def onLoseCell(self):$/;"	m	class:Space
+random	scripts\base\Space.py	/^import random$/;"	i
+spawnOnTimer	scripts\base\Space.py	/^	def spawnOnTimer(self, tid, tno):$/;"	m	class:Space
+teleportSpace	scripts\base\Space.py	/^	def teleportSpace(self, entityMailbox, position, direction, context):$/;"	m	class:Space
+xml	scripts\base\Space.py	/^import xml.etree.ElementTree as etree $/;"	i
+CONST_WAIT_CREATE	scripts\base\SpaceAlloc.py	/^CONST_WAIT_CREATE = -1$/;"	v
+Functor	scripts\base\SpaceAlloc.py	/^import Functor$/;"	i
+KBEngine	scripts\base\SpaceAlloc.py	/^import KBEngine$/;"	i
+SpaceAlloc	scripts\base\SpaceAlloc.py	/^class SpaceAlloc:$/;"	c
+SpaceAllocDuplicate	scripts\base\SpaceAlloc.py	/^class SpaceAllocDuplicate(SpaceAlloc):$/;"	c
+__init__	scripts\base\SpaceAlloc.py	/^	def __init__(self, utype):$/;"	m	class:SpaceAlloc
+__init__	scripts\base\SpaceAlloc.py	/^	def __init__(self, utype):$/;"	m	class:SpaceAllocDuplicate
+alloc	scripts\base\SpaceAlloc.py	/^	def alloc(self, context):$/;"	m	class:SpaceAlloc
+alloc	scripts\base\SpaceAlloc.py	/^	def alloc(self, context):$/;"	m	class:SpaceAllocDuplicate
+copy	scripts\base\SpaceAlloc.py	/^import copy$/;"	i
+createSpace	scripts\base\SpaceAlloc.py	/^	def createSpace(self, spaceKey, context):$/;"	m	class:SpaceAlloc
+d_entities	scripts\base\SpaceAlloc.py	/^import d_entities$/;"	i
+d_spaces	scripts\base\SpaceAlloc.py	/^import d_spaces$/;"	i
+getSpaces	scripts\base\SpaceAlloc.py	/^	def getSpaces(self):$/;"	m	class:SpaceAlloc
+init	scripts\base\SpaceAlloc.py	/^	def init(self):$/;"	m	class:SpaceAlloc
+init	scripts\base\SpaceAlloc.py	/^	def init(self):$/;"	m	class:SpaceAllocDuplicate
+loginToSpace	scripts\base\SpaceAlloc.py	/^	def loginToSpace(self, avatarEntity, context):$/;"	m	class:SpaceAlloc
+onSpaceCreatedCB	scripts\base\SpaceAlloc.py	/^	def onSpaceCreatedCB(self, spaceKey, space):$/;"	m	class:SpaceAlloc
+onSpaceGetCell	scripts\base\SpaceAlloc.py	/^	def onSpaceGetCell(self, spaceMailbox, spaceKey):$/;"	m	class:SpaceAlloc
+onSpaceLoseCell	scripts\base\SpaceAlloc.py	/^	def onSpaceLoseCell(self, spaceKey):$/;"	m	class:SpaceAlloc
+teleportSpace	scripts\base\SpaceAlloc.py	/^	def teleportSpace(self, entityMailbox, position, direction, context):$/;"	m	class:SpaceAlloc
+KBEngine	scripts\base\SpaceDuplicate.py	/^import KBEngine$/;"	i
+Space	scripts\base\SpaceDuplicate.py	/^from Space import Space$/;"	i
+SpaceDuplicate	scripts\base\SpaceDuplicate.py	/^class SpaceDuplicate(Space):$/;"	c
+__init__	scripts\base\SpaceDuplicate.py	/^	def __init__(self):$/;"	m	class:SpaceDuplicate
+d_entities	scripts\base\SpaceDuplicate.py	/^import d_entities$/;"	i
+d_spaces	scripts\base\SpaceDuplicate.py	/^import d_spaces$/;"	i
+random	scripts\base\SpaceDuplicate.py	/^import random$/;"	i
+Functor	scripts\base\Spaces.py	/^import Functor$/;"	i
+GameObject	scripts\base\Spaces.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\base\Spaces.py	/^import KBEngine$/;"	i
+SCDefine	scripts\base\Spaces.py	/^import SCDefine$/;"	i
+Spaces	scripts\base\Spaces.py	/^class Spaces(KBEngine.Base, GameObject):$/;"	c
+Watcher	scripts\base\Spaces.py	/^import Watcher$/;"	i
+__init__	scripts\base\Spaces.py	/^	def __init__(self):$/;"	m	class:Spaces
+createSpaceOnTimer	scripts\base\Spaces.py	/^	def createSpaceOnTimer(self, tid, tno):$/;"	m	class:Spaces
+d_spaces	scripts\base\Spaces.py	/^import d_spaces$/;"	i
+getSpaceAllocs	scripts\base\Spaces.py	/^	def getSpaceAllocs(self):$/;"	m	class:Spaces
+initAlloc	scripts\base\Spaces.py	/^	def initAlloc(self):$/;"	m	class:Spaces
+loginToSpace	scripts\base\Spaces.py	/^	def loginToSpace(self, avatarEntity, spaceUType, context):$/;"	m	class:Spaces
+logoutSpace	scripts\base\Spaces.py	/^	def logoutSpace(self, avatarID, spaceID):$/;"	m	class:Spaces
+onSpaceGetCell	scripts\base\Spaces.py	/^	def onSpaceGetCell(self, spaceUType, spaceMailbox, spaceKey):$/;"	m	class:Spaces
+onSpaceLoseCell	scripts\base\Spaces.py	/^	def onSpaceLoseCell(self, spaceUType, spaceKey):$/;"	m	class:Spaces
+teleportSpace	scripts\base\Spaces.py	/^	def teleportSpace(self, entityMailbox, spaceUType, position, direction, context):$/;"	m	class:Spaces
+GameObject	scripts\base\SpawnPoint.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\base\SpawnPoint.py	/^import KBEngine$/;"	i
+SpawnPoint	scripts\base\SpawnPoint.py	/^class SpawnPoint(KBEngine.Base, GameObject):$/;"	c
+__init__	scripts\base\SpawnPoint.py	/^	def __init__(self):$/;"	m	class:SpawnPoint
+KBEngine	scripts\base\Watcher.py	/^import KBEngine$/;"	i
+countPlayers	scripts\base\Watcher.py	/^def countPlayers():$/;"	f
+setup	scripts\base\Watcher.py	/^def setup():$/;"	f
+GameObject	scripts\base\interfaces\GameObject.py	/^class GameObject:$/;"	c
+KBEngine	scripts\base\interfaces\GameObject.py	/^import KBEngine$/;"	i
+__init__	scripts\base\interfaces\GameObject.py	/^	def __init__(self):$/;"	m	class:GameObject
+destroySelf	scripts\base\interfaces\GameObject.py	/^	def destroySelf(self):$/;"	m	class:GameObject
+getCurrSpace	scripts\base\interfaces\GameObject.py	/^	def getCurrSpace(self):$/;"	m	class:GameObject
+getCurrSpaceBase	scripts\base\interfaces\GameObject.py	/^	def getCurrSpaceBase(self):$/;"	m	class:GameObject
+getScriptName	scripts\base\interfaces\GameObject.py	/^	def getScriptName(self):$/;"	m	class:GameObject
+getSpaces	scripts\base\interfaces\GameObject.py	/^	def getSpaces(self):$/;"	m	class:GameObject
+onGetCell	scripts\base\interfaces\GameObject.py	/^	def onGetCell(self):$/;"	m	class:GameObject
+onLoseCell	scripts\base\interfaces\GameObject.py	/^	def onLoseCell(self):$/;"	m	class:GameObject
+onRestore	scripts\base\interfaces\GameObject.py	/^	def onRestore(self):$/;"	m	class:GameObject
+onTimer	scripts\base\interfaces\GameObject.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:GameObject
+GameObject	scripts\base\interfaces\NPCObject.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\base\interfaces\NPCObject.py	/^import KBEngine$/;"	i
+NPCObject	scripts\base\interfaces\NPCObject.py	/^class NPCObject(GameObject):$/;"	c
+__init__	scripts\base\interfaces\NPCObject.py	/^	def __init__(self):$/;"	m	class:NPCObject
+GlobalConst	scripts\base\interfaces\Teleport.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\base\interfaces\Teleport.py	/^import KBEngine$/;"	i
+Teleport	scripts\base\interfaces\Teleport.py	/^class Teleport:$/;"	c
+__init__	scripts\base\interfaces\Teleport.py	/^	def __init__(self):$/;"	m	class:Teleport
+d_avatar_inittab	scripts\base\interfaces\Teleport.py	/^import d_avatar_inittab$/;"	i
+d_spaces	scripts\base\interfaces\Teleport.py	/^import d_spaces$/;"	i
+onEntitiesEnabled	scripts\base\interfaces\Teleport.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Teleport
+onInit	scripts\base\items\base\__init__.py	/^def onInit():$/;"	f
+KBEngine	scripts\base\kbengine.py	/^import KBEngine$/;"	i
+Watcher	scripts\base\kbengine.py	/^import Watcher$/;"	i
+d_spaces	scripts\base\kbengine.py	/^import d_spaces$/;"	i
+onAutoLoadEntityCreate	scripts\base\kbengine.py	/^def onAutoLoadEntityCreate(entityType, dbid):$/;"	f
+onBaseAppData	scripts\base\kbengine.py	/^def onBaseAppData(key, value):$/;"	f
+onBaseAppDataDel	scripts\base\kbengine.py	/^def onBaseAppDataDel(key):$/;"	f
+onBaseAppReady	scripts\base\kbengine.py	/^def onBaseAppReady(isBootstrap):$/;"	f
+onBaseAppShutDown	scripts\base\kbengine.py	/^def onBaseAppShutDown(state):$/;"	f
+onCellAppDeath	scripts\base\kbengine.py	/^def onCellAppDeath(addr):$/;"	f
+onFini	scripts\base\kbengine.py	/^def onFini():$/;"	f
+onGlobalData	scripts\base\kbengine.py	/^def onGlobalData(key, value):$/;"	f
+onGlobalDataDel	scripts\base\kbengine.py	/^def onGlobalDataDel(key):$/;"	f
+onInit	scripts\base\kbengine.py	/^def onInit(isReload):$/;"	f
+onLoseChargeCB	scripts\base\kbengine.py	/^def onLoseChargeCB(ordersID, dbid, success, datas):$/;"	f
+onReadyForLogin	scripts\base\kbengine.py	/^def onReadyForLogin(isBootstrap):$/;"	f
+onInit	scripts\base\quests\base\__init__.py	/^def onInit():$/;"	f
+Account	scripts\bots\Account.py	/^class Account(KBEngine.Entity):$/;"	c
+KBEngine	scripts\bots\Account.py	/^import KBEngine$/;"	i
+__init__	scripts\bots\Account.py	/^	def __init__(self):$/;"	m	class:Account
+onCreateAvatarResult	scripts\bots\Account.py	/^	def onCreateAvatarResult(self, retcode, info):$/;"	m	class:Account
+onRemoveAvatar	scripts\bots\Account.py	/^	def onRemoveAvatar(self, dbid):$/;"	m	class:Account
+onReqAvatarList	scripts\bots\Account.py	/^	def onReqAvatarList(self, infos):$/;"	m	class:Account
+Avatar	scripts\bots\Avatar.py	/^			Teleport):$/;"	c
+Combat	scripts\bots\Avatar.py	/^from interfaces.Combat import Combat$/;"	i
+Dialog	scripts\bots\Avatar.py	/^from interfaces.Dialog import Dialog$/;"	i
+Flags	scripts\bots\Avatar.py	/^from interfaces.Flags import Flags$/;"	i
+GameObject	scripts\bots\Avatar.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\bots\Avatar.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\Avatar.py	/^import KBExtra$/;"	i
+Motion	scripts\bots\Avatar.py	/^from interfaces.Motion import Motion$/;"	i
+PlayerAvatar	scripts\bots\Avatar.py	/^class PlayerAvatar(Avatar):$/;"	c
+SkillBox	scripts\bots\Avatar.py	/^from interfaces.SkillBox import SkillBox$/;"	i
+Spell	scripts\bots\Avatar.py	/^from interfaces.Spell import Spell$/;"	i
+State	scripts\bots\Avatar.py	/^from interfaces.State import State$/;"	i
+Teleport	scripts\bots\Avatar.py	/^from interfaces.Teleport import Teleport$/;"	i
+__init__	scripts\bots\Avatar.py	/^	def __init__(self):$/;"	m	class:Avatar
+__init__	scripts\bots\Avatar.py	/^	def __init__(self):$/;"	m	class:PlayerAvatar
+onBecomePlayer	scripts\bots\Avatar.py	/^	def onBecomePlayer( self ):$/;"	m	class:Avatar
+onEnterSpace	scripts\bots\Avatar.py	/^	def onEnterSpace(self):$/;"	m	class:Avatar
+onJump	scripts\bots\Avatar.py	/^	def onJump(self):$/;"	m	class:Avatar
+onLeaveSpace	scripts\bots\Avatar.py	/^	def onLeaveSpace(self):$/;"	m	class:Avatar
+GameObject	scripts\bots\Gate.py	/^from interfaces.GameObject import GameObject$/;"	i
+Gate	scripts\bots\Gate.py	/^class Gate(KBEngine.Entity, GameObject):$/;"	c
+KBEngine	scripts\bots\Gate.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\Gate.py	/^import KBExtra$/;"	i
+__init__	scripts\bots\Gate.py	/^	def __init__(self):$/;"	m	class:Gate
+Combat	scripts\bots\Monster.py	/^from interfaces.Combat import Combat$/;"	i
+Flags	scripts\bots\Monster.py	/^from interfaces.Flags import Flags$/;"	i
+GameObject	scripts\bots\Monster.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\bots\Monster.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\Monster.py	/^import KBExtra$/;"	i
+Monster	scripts\bots\Monster.py	/^			Combat):$/;"	c
+Motion	scripts\bots\Monster.py	/^from interfaces.Motion import Motion$/;"	i
+State	scripts\bots\Monster.py	/^from interfaces.State import State$/;"	i
+__init__	scripts\bots\Monster.py	/^	def __init__(self):$/;"	m	class:Monster
+GameObject	scripts\bots\NPC.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\bots\NPC.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\NPC.py	/^import KBExtra$/;"	i
+NPC	scripts\bots\NPC.py	/^class NPC(KBEngine.Entity, GameObject):$/;"	c
+__init__	scripts\bots\NPC.py	/^	def __init__(self):$/;"	m	class:NPC
+Combat	scripts\bots\interfaces\Combat.py	/^class Combat:$/;"	c
+KBEngine	scripts\bots\interfaces\Combat.py	/^import KBEngine$/;"	i
+__init__	scripts\bots\interfaces\Combat.py	/^	def __init__(self):$/;"	m	class:Combat
+recvDamage	scripts\bots\interfaces\Combat.py	/^	def recvDamage(self, attackerID, skillID, damageType, damage):$/;"	m	class:Combat
+Dialog	scripts\bots\interfaces\Dialog.py	/^class Dialog:$/;"	c
+KBEngine	scripts\bots\interfaces\Dialog.py	/^import KBEngine$/;"	i
+__init__	scripts\bots\interfaces\Dialog.py	/^	def __init__(self):$/;"	m	class:Dialog
+dialog_addOption	scripts\bots\interfaces\Dialog.py	/^	def dialog_addOption(self, dialogType, dialogKey, title, extra):$/;"	m	class:Dialog
+dialog_close	scripts\bots\interfaces\Dialog.py	/^	def dialog_close(self):$/;"	m	class:Dialog
+dialog_setText	scripts\bots\interfaces\Dialog.py	/^	def dialog_setText(self, body, isPlayer, headID, sayname):$/;"	m	class:Dialog
+Flags	scripts\bots\interfaces\Flags.py	/^class Flags:$/;"	c
+GlobalDefine	scripts\bots\interfaces\Flags.py	/^import GlobalDefine$/;"	i
+__init__	scripts\bots\interfaces\Flags.py	/^	def __init__(self):$/;"	m	class:Flags
+hasFlags	scripts\bots\interfaces\Flags.py	/^	def hasFlags(self, flags):$/;"	m	class:Flags
+onFlagsChanged_	scripts\bots\interfaces\Flags.py	/^	def onFlagsChanged_(self, oldflags, newflags):$/;"	m	class:Flags
+set_flags	scripts\bots\interfaces\Flags.py	/^	def set_flags(self, old):$/;"	m	class:Flags
+GameObject	scripts\bots\interfaces\GameObject.py	/^class GameObject:$/;"	c
+KBEngine	scripts\bots\interfaces\GameObject.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\interfaces\GameObject.py	/^import KBExtra$/;"	i
+__init__	scripts\bots\interfaces\GameObject.py	/^	def __init__(self):$/;"	m	class:GameObject
+getScriptName	scripts\bots\interfaces\GameObject.py	/^	def getScriptName(self):$/;"	m	class:GameObject
+onEnterWorld	scripts\bots\interfaces\GameObject.py	/^	def onEnterWorld(self):$/;"	m	class:GameObject
+onLeaveWorld	scripts\bots\interfaces\GameObject.py	/^	def onLeaveWorld(self):$/;"	m	class:GameObject
+set_modelNumber	scripts\bots\interfaces\GameObject.py	/^	def set_modelNumber(self, oldValue):$/;"	m	class:GameObject
+set_modelScale	scripts\bots\interfaces\GameObject.py	/^	def set_modelScale(self, oldValue):$/;"	m	class:GameObject
+set_name	scripts\bots\interfaces\GameObject.py	/^	def set_name(self, oldValue):$/;"	m	class:GameObject
+KBEngine	scripts\bots\interfaces\Motion.py	/^import KBEngine$/;"	i
+KBExtra	scripts\bots\interfaces\Motion.py	/^import KBExtra$/;"	i
+Motion	scripts\bots\interfaces\Motion.py	/^class Motion:$/;"	c
+__init__	scripts\bots\interfaces\Motion.py	/^	def __init__(self):$/;"	m	class:Motion
+onMove	scripts\bots\interfaces\Motion.py	/^	def onMove(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveFailure	scripts\bots\interfaces\Motion.py	/^	def onMoveFailure(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveOver	scripts\bots\interfaces\Motion.py	/^	def onMoveOver(self, controllerId, userarg):$/;"	m	class:Motion
+set_moveSpeed	scripts\bots\interfaces\Motion.py	/^	def set_moveSpeed(self, oldValue):$/;"	m	class:Motion
+GlobalConst	scripts\bots\interfaces\SkillBox.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\bots\interfaces\SkillBox.py	/^import KBEngine$/;"	i
+SkillBox	scripts\bots\interfaces\SkillBox.py	/^class SkillBox:$/;"	c
+__init__	scripts\bots\interfaces\SkillBox.py	/^	def __init__(self):$/;"	m	class:SkillBox
+hasSkill	scripts\bots\interfaces\SkillBox.py	/^	def hasSkill(self, skillID):$/;"	m	class:SkillBox
+onAddSkill	scripts\bots\interfaces\SkillBox.py	/^	def onAddSkill(self, skillID):$/;"	m	class:SkillBox
+onRemoveSkill	scripts\bots\interfaces\SkillBox.py	/^	def onRemoveSkill(self, skillID):$/;"	m	class:SkillBox
+pullSkills	scripts\bots\interfaces\SkillBox.py	/^	def pullSkills(self):$/;"	m	class:SkillBox
+skills	scripts\bots\interfaces\SkillBox.py	/^import skills$/;"	i
+GlobalConst	scripts\bots\interfaces\Spell.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\bots\interfaces\Spell.py	/^import KBEngine$/;"	i
+Spell	scripts\bots\interfaces\Spell.py	/^class Spell:$/;"	c
+__init__	scripts\bots\interfaces\Spell.py	/^	def __init__(self):$/;"	m	class:Spell
+addDBuff	scripts\bots\interfaces\Spell.py	/^	def addDBuff(self, buffData):$/;"	m	class:Spell
+onBuffTick	scripts\bots\interfaces\Spell.py	/^	def onBuffTick(self, tid):$/;"	m	class:Spell
+removeDBuff	scripts\bots\interfaces\Spell.py	/^	def removeDBuff(self, buffData):$/;"	m	class:Spell
+skills	scripts\bots\interfaces\Spell.py	/^import skills$/;"	i
+spellTarget	scripts\bots\interfaces\Spell.py	/^	def spellTarget(self, skillID, targetID):$/;"	m	class:Spell
+GlobalDefine	scripts\bots\interfaces\State.py	/^import GlobalDefine$/;"	i
+State	scripts\bots\interfaces\State.py	/^class State:$/;"	c
+__init__	scripts\bots\interfaces\State.py	/^	def __init__(self):$/;"	m	class:State
+getState	scripts\bots\interfaces\State.py	/^	def getState(self):$/;"	m	class:State
+isForbid	scripts\bots\interfaces\State.py	/^	def isForbid(self, forbid):$/;"	m	class:State
+isState	scripts\bots\interfaces\State.py	/^	def isState(self, state):$/;"	m	class:State
+onForbidChanged_	scripts\bots\interfaces\State.py	/^	def onForbidChanged_(self, oldForbids, newForbids):$/;"	m	class:State
+onStateChanged_	scripts\bots\interfaces\State.py	/^	def onStateChanged_(self, oldState, newState):$/;"	m	class:State
+set_effStates	scripts\bots\interfaces\State.py	/^	def set_effStates(self, oldValue):$/;"	m	class:State
+set_forbids	scripts\bots\interfaces\State.py	/^	def set_forbids(self, oldValue):$/;"	m	class:State
+set_state	scripts\bots\interfaces\State.py	/^	def set_state(self, oldValue):$/;"	m	class:State
+KBEngine	scripts\bots\interfaces\Teleport.py	/^import KBEngine$/;"	i
+Teleport	scripts\bots\interfaces\Teleport.py	/^class Teleport:$/;"	c
+__init__	scripts\bots\interfaces\Teleport.py	/^	def __init__(self):$/;"	m	class:Teleport
+onInit	scripts\bots\items\base\__init__.py	/^def onInit():$/;"	f
+KBEngine	scripts\bots\kbengine.py	/^import KBEngine$/;"	i
+onFinish	scripts\bots\kbengine.py	/^def onFinish():$/;"	f
+onInit	scripts\bots\kbengine.py	/^def onInit(isReload):$/;"	f
+onInit	scripts\bots\quests\base\__init__.py	/^def onInit():$/;"	f
+KBEngine	scripts\bots\skills\SkillAttack.py	/^import KBEngine$/;"	i
+SkillAttack	scripts\bots\skills\SkillAttack.py	/^class SkillAttack(SkillInitiative):$/;"	c
+SkillInitiative	scripts\bots\skills\SkillAttack.py	/^from skills.base.SkillInitiative import SkillInitiative$/;"	i
+__init__	scripts\bots\skills\SkillAttack.py	/^	def __init__(self):$/;"	m	class:SkillAttack
+canUse	scripts\bots\skills\SkillAttack.py	/^	def canUse(self, caster, receiver):$/;"	m	class:SkillAttack
+use	scripts\bots\skills\SkillAttack.py	/^	def use(self, caster, receiver):$/;"	m	class:SkillAttack
+SkillAttack	scripts\bots\skills\__init__.py	/^from skills.SkillAttack import SkillAttack$/;"	i
+_g_skills	scripts\bots\skills\__init__.py	/^_g_skills = {}$/;"	v
+d_skills	scripts\bots\skills\__init__.py	/^import d_skills$/;"	i
+getSkill	scripts\bots\skills\__init__.py	/^def getSkill(skillID):$/;"	f
+onInit	scripts\bots\skills\__init__.py	/^def onInit():$/;"	f
+DBuff	scripts\bots\skills\base\DBuff.py	/^class DBuff(SObject):$/;"	c
+KBEngine	scripts\bots\skills\base\DBuff.py	/^import KBEngine$/;"	i
+SObject	scripts\bots\skills\base\DBuff.py	/^from skillbases.SObject import SObject$/;"	i
+__init__	scripts\bots\skills\base\DBuff.py	/^	def __init__(self):$/;"	m	class:DBuff
+loadFromDict	scripts\bots\skills\base\DBuff.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:DBuff
+onAttach	scripts\bots\skills\base\DBuff.py	/^	def onAttach(self, context):$/;"	m	class:DBuff
+onDetach	scripts\bots\skills\base\DBuff.py	/^	def onDetach(self, context):$/;"	m	class:DBuff
+onLoopTrigger	scripts\bots\skills\base\DBuff.py	/^	def onLoopTrigger(self, context):$/;"	m	class:DBuff
+GlobalConst	scripts\bots\skills\base\SkillInitiative.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\bots\skills\base\SkillInitiative.py	/^import KBEngine$/;"	i
+SObject	scripts\bots\skills\base\SkillInitiative.py	/^from skillbases.SObject import SObject$/;"	i
+SkillInitiative	scripts\bots\skills\base\SkillInitiative.py	/^class SkillInitiative(SObject):$/;"	c
+__init__	scripts\bots\skills\base\SkillInitiative.py	/^	def __init__(self):$/;"	m	class:SkillInitiative
+canUse	scripts\bots\skills\base\SkillInitiative.py	/^	def canUse(self, caster, receiver):$/;"	m	class:SkillInitiative
+use	scripts\bots\skills\base\SkillInitiative.py	/^	def use(self, caster, receiver):$/;"	m	class:SkillInitiative
+KBEngine	scripts\bots\skills\base\SkillPassivity.py	/^import KBEngine$/;"	i
+SObject	scripts\bots\skills\base\SkillPassivity.py	/^from skillbases.SObject import SObject$/;"	i
+SkillPassivity	scripts\bots\skills\base\SkillPassivity.py	/^class SkillPassivity(SObject):$/;"	c
+__init__	scripts\bots\skills\base\SkillPassivity.py	/^	def __init__(self):$/;"	m	class:SkillPassivity
+onInit	scripts\bots\skills\base\__init__.py	/^def onInit():$/;"	f
+Account	scripts\cell\Account.py	/^class Account(KBEngine.Entity):$/;"	c
+KBEngine	scripts\cell\Account.py	/^import KBEngine$/;"	i
+__init__	scripts\cell\Account.py	/^	def __init__(self):$/;"	m	class:Account
+Avatar	scripts\cell\Avatar.py	/^			Dialog):$/;"	c
+Combat	scripts\cell\Avatar.py	/^from interfaces.Combat import Combat$/;"	i
+Dialog	scripts\cell\Avatar.py	/^from interfaces.Dialog import Dialog$/;"	i
+Flags	scripts\cell\Avatar.py	/^from interfaces.Flags import Flags$/;"	i
+GameObject	scripts\cell\Avatar.py	/^from interfaces.GameObject import GameObject$/;"	i
+GlobalDefine	scripts\cell\Avatar.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\Avatar.py	/^import KBEngine$/;"	i
+Motion	scripts\cell\Avatar.py	/^from interfaces.Motion import Motion$/;"	i
+SkillBox	scripts\cell\Avatar.py	/^from interfaces.SkillBox import SkillBox$/;"	i
+Spell	scripts\cell\Avatar.py	/^from interfaces.Spell import Spell$/;"	i
+State	scripts\cell\Avatar.py	/^from interfaces.State import State$/;"	i
+Teleport	scripts\cell\Avatar.py	/^from interfaces.Teleport import Teleport$/;"	i
+__init__	scripts\cell\Avatar.py	/^	def __init__(self):$/;"	m	class:Avatar
+isPlayer	scripts\cell\Avatar.py	/^	def isPlayer(self):$/;"	m	class:Avatar
+jump	scripts\cell\Avatar.py	/^	def jump(self, exposed):$/;"	m	class:Avatar
+onDestroy	scripts\cell\Avatar.py	/^	def onDestroy(self):$/;"	m	class:Avatar
+onGetWitness	scripts\cell\Avatar.py	/^	def onGetWitness(self):$/;"	m	class:Avatar
+onLoseWitness	scripts\cell\Avatar.py	/^	def onLoseWitness(self):$/;"	m	class:Avatar
+relive	scripts\cell\Avatar.py	/^	def relive(self, exposed, type):$/;"	m	class:Avatar
+startDestroyTimer	scripts\cell\Avatar.py	/^	def startDestroyTimer(self):$/;"	m	class:Avatar
+GameObject	scripts\cell\Gate.py	/^from interfaces.GameObject import GameObject$/;"	i
+Gate	scripts\cell\Gate.py	/^class Gate(KBEngine.Entity, GameObject):$/;"	c
+KBEngine	scripts\cell\Gate.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\Gate.py	/^import SCDefine$/;"	i
+__init__	scripts\cell\Gate.py	/^	def __init__(self):$/;"	m	class:Gate
+d_spaces	scripts\cell\Gate.py	/^import d_spaces$/;"	i
+math	scripts\cell\Gate.py	/^import math$/;"	i
+onEnterTrap	scripts\cell\Gate.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:Gate
+onHeardTimer	scripts\cell\Gate.py	/^	def onHeardTimer(self, tid, tno):$/;"	m	class:Gate
+onLeaveTrap	scripts\cell\Gate.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:Gate
+random	scripts\cell\Gate.py	/^import random$/;"	i
+time	scripts\cell\Gate.py	/^import time$/;"	i
+AI	scripts\cell\Monster.py	/^from interfaces.AI import AI$/;"	i
+Combat	scripts\cell\Monster.py	/^from interfaces.Combat import Combat$/;"	i
+Flags	scripts\cell\Monster.py	/^from interfaces.Flags import Flags$/;"	i
+KBEngine	scripts\cell\Monster.py	/^import KBEngine$/;"	i
+Monster	scripts\cell\Monster.py	/^			AI):$/;"	c
+Motion	scripts\cell\Monster.py	/^from interfaces.Motion import Motion$/;"	i
+NPCObject	scripts\cell\Monster.py	/^from interfaces.NPCObject import NPCObject$/;"	i
+SCDefine	scripts\cell\Monster.py	/^import SCDefine$/;"	i
+Spell	scripts\cell\Monster.py	/^from interfaces.Spell import Spell$/;"	i
+State	scripts\cell\Monster.py	/^from interfaces.State import State$/;"	i
+__init__	scripts\cell\Monster.py	/^	def __init__(self):$/;"	m	class:Monster
+checkInTerritory	scripts\cell\Monster.py	/^	def checkInTerritory(self):$/;"	m	class:Monster
+initEntity	scripts\cell\Monster.py	/^	def initEntity(self):$/;"	m	class:Monster
+isMonster	scripts\cell\Monster.py	/^	def isMonster(self):$/;"	m	class:Monster
+math	scripts\cell\Monster.py	/^import math$/;"	i
+onAddEnemy	scripts\cell\Monster.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:Monster
+onDestroy	scripts\cell\Monster.py	/^	def onDestroy(self):$/;"	m	class:Monster
+onEnterTrap	scripts\cell\Monster.py	/^	def onEnterTrap(self, entity, range_xz, range_y, controllerID, userarg):$/;"	m	class:Monster
+onFlagsChanged_	scripts\cell\Monster.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:Monster
+onForbidChanged_	scripts\cell\Monster.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:Monster
+onLeaveTrap	scripts\cell\Monster.py	/^	def onLeaveTrap(self, entity, range_xz, range_y, controllerID, userarg):$/;"	m	class:Monster
+onRemoveEnemy	scripts\cell\Monster.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:Monster
+onStateChanged_	scripts\cell\Monster.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:Monster
+onSubStateChanged_	scripts\cell\Monster.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:Monster
+onWitnessed	scripts\cell\Monster.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:Monster
+random	scripts\cell\Monster.py	/^import random$/;"	i
+time	scripts\cell\Monster.py	/^import time$/;"	i
+KBEngine	scripts\cell\NPC.py	/^import KBEngine$/;"	i
+Motion	scripts\cell\NPC.py	/^from interfaces.Motion import Motion$/;"	i
+NPC	scripts\cell\NPC.py	/^class NPC(KBEngine.Entity, NPCObject, Motion):$/;"	c
+NPCObject	scripts\cell\NPC.py	/^from interfaces.NPCObject import NPCObject$/;"	i
+__init__	scripts\cell\NPC.py	/^	def __init__(self):$/;"	m	class:NPC
+isNPC	scripts\cell\NPC.py	/^	def isNPC(self):$/;"	m	class:NPC
+math	scripts\cell\NPC.py	/^import math$/;"	i
+onDestroy	scripts\cell\NPC.py	/^	def onDestroy(self):$/;"	m	class:NPC
+random	scripts\cell\NPC.py	/^import random$/;"	i
+time	scripts\cell\NPC.py	/^import time$/;"	i
+GameObject	scripts\cell\Space.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\cell\Space.py	/^import KBEngine$/;"	i
+Space	scripts\cell\Space.py	/^class Space(KBEngine.Entity, GameObject):$/;"	c
+__init__	scripts\cell\Space.py	/^	def __init__(self):$/;"	m	class:Space
+d_spaces	scripts\cell\Space.py	/^import d_spaces$/;"	i
+onDestroy	scripts\cell\Space.py	/^	def onDestroy(self):$/;"	m	class:Space
+onEnter	scripts\cell\Space.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:Space
+onLeave	scripts\cell\Space.py	/^	def onLeave(self, entityID):$/;"	m	class:Space
+KBEngine	scripts\cell\SpaceContext.py	/^import KBEngine$/;"	i
+SpaceContext	scripts\cell\SpaceContext.py	/^class SpaceContext(dict):$/;"	c
+SpaceDuplicateContext	scripts\cell\SpaceContext.py	/^class SpaceDuplicateContext(SpaceContext):$/;"	c
+__init__	scripts\cell\SpaceContext.py	/^	def __init__(self, entity):$/;"	m	class:SpaceContext
+__init__	scripts\cell\SpaceContext.py	/^	def __init__(self, entity):$/;"	m	class:SpaceDuplicateContext
+create	scripts\cell\SpaceContext.py	/^	def create(entity):$/;"	m	class:SpaceContext
+create	scripts\cell\SpaceContext.py	/^	def create(entity):$/;"	m	class:SpaceDuplicateContext
+createContext	scripts\cell\SpaceContext.py	/^def createContext(entity, spaceUType):$/;"	f
+d_spaces	scripts\cell\SpaceContext.py	/^import d_spaces$/;"	i
+KBEngine	scripts\cell\SpaceDuplicate.py	/^import KBEngine$/;"	i
+Space	scripts\cell\SpaceDuplicate.py	/^from Space import Space$/;"	i
+SpaceDuplicate	scripts\cell\SpaceDuplicate.py	/^class SpaceDuplicate(Space):$/;"	c
+__init__	scripts\cell\SpaceDuplicate.py	/^	def __init__(self):$/;"	m	class:SpaceDuplicate
+d_entities	scripts\cell\SpaceDuplicate.py	/^import d_entities$/;"	i
+d_spaces	scripts\cell\SpaceDuplicate.py	/^import d_spaces$/;"	i
+onEnter	scripts\cell\SpaceDuplicate.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:SpaceDuplicate
+onLeave	scripts\cell\SpaceDuplicate.py	/^	def onLeave(self, entityID):$/;"	m	class:SpaceDuplicate
+random	scripts\cell\SpaceDuplicate.py	/^import random$/;"	i
+GameObject	scripts\cell\SpawnPoint.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\cell\SpawnPoint.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\SpawnPoint.py	/^import SCDefine$/;"	i
+SpawnPoint	scripts\cell\SpawnPoint.py	/^class SpawnPoint(KBEngine.Entity, GameObject):$/;"	c
+__init__	scripts\cell\SpawnPoint.py	/^	def __init__(self):$/;"	m	class:SpawnPoint
+d_entities	scripts\cell\SpawnPoint.py	/^import d_entities$/;"	i
+onDestroy	scripts\cell\SpawnPoint.py	/^	def onDestroy(self):$/;"	m	class:SpawnPoint
+onEntityDestroyed	scripts\cell\SpawnPoint.py	/^	def onEntityDestroyed(self, entityNO):$/;"	m	class:SpawnPoint
+onRestore	scripts\cell\SpawnPoint.py	/^	def onRestore(self):$/;"	m	class:SpawnPoint
+spawnTimer	scripts\cell\SpawnPoint.py	/^	def spawnTimer(self, tid, tno):$/;"	m	class:SpawnPoint
+Dialog	scripts\cell\dialogmgr\Dialog.py	/^class Dialog:$/;"	c
+GlobalDefine	scripts\cell\dialogmgr\Dialog.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\dialogmgr\Dialog.py	/^import KBEngine$/;"	i
+__init__	scripts\cell\dialogmgr\Dialog.py	/^	def __init__(self, datas):$/;"	m	class:Dialog
+c_dialogMgr	scripts\cell\dialogmgr\Dialog.py	/^	c_dialogMgr = None$/;"	v	class:Dialog
+canTalk	scripts\cell\dialogmgr\Dialog.py	/^	def canTalk(self, avatar, talker):$/;"	m	class:Dialog
+dialogmgr	scripts\cell\dialogmgr\Dialog.py	/^import dialogmgr.funcs as funcs$/;"	i
+do	scripts\cell\dialogmgr\Dialog.py	/^	def do(self, avatar, talker):$/;"	m	class:Dialog
+funcs	scripts\cell\dialogmgr\Dialog.py	/^import dialogmgr.funcs as funcs$/;"	i
+getBody	scripts\cell\dialogmgr\Dialog.py	/^	def getBody(self):$/;"	m	class:Dialog
+getKey	scripts\cell\dialogmgr\Dialog.py	/^	def getKey(self):$/;"	m	class:Dialog
+getTitle	scripts\cell\dialogmgr\Dialog.py	/^	def getTitle(self):$/;"	m	class:Dialog
+onTalk	scripts\cell\dialogmgr\Dialog.py	/^	def onTalk(self, avatar, talker):$/;"	m	class:Dialog
+Dialog	scripts\cell\dialogmgr\DialogMgr.py	/^from dialogmgr.Dialog import Dialog$/;"	i
+DialogMgr	scripts\cell\dialogmgr\DialogMgr.py	/^class DialogMgr:$/;"	c
+__init__	scripts\cell\dialogmgr\DialogMgr.py	/^	def __init__(self):$/;"	m	class:DialogMgr
+g_dialogDatas	scripts\cell\dialogmgr\DialogMgr.py	/^from d_dialogs import datas as g_dialogDatas$/;"	i
+getDialog	scripts\cell\dialogmgr\DialogMgr.py	/^	def getDialog(self, key):$/;"	m	class:DialogMgr
+onInit	scripts\cell\dialogmgr\DialogMgr.py	/^	def onInit(self):$/;"	m	class:DialogMgr
+talk	scripts\cell\dialogmgr\DialogMgr.py	/^	def talk(self, key, avatar, talker, args):$/;"	m	class:DialogMgr
+Dialog	scripts\cell\dialogmgr\__init__.py	/^from dialogmgr.Dialog import Dialog$/;"	i
+DialogMgr	scripts\cell\dialogmgr\__init__.py	/^from dialogmgr.DialogMgr import DialogMgr$/;"	i
+d_entities	scripts\cell\dialogmgr\__init__.py	/^import d_entities$/;"	i
+g_dialogMgr	scripts\cell\dialogmgr\__init__.py	/^g_dialogMgr = DialogMgr()$/;"	v
+onGossip	scripts\cell\dialogmgr\__init__.py	/^def onGossip(key, avatar, talker):$/;"	f
+onInit	scripts\cell\dialogmgr\__init__.py	/^def onInit():$/;"	f
+DFClose	scripts\cell\dialogmgr\funcs\DFClose.py	/^class DFClose(iDFunction):$/;"	c
+__init__	scripts\cell\dialogmgr\funcs\DFClose.py	/^	def __init__(self, args):$/;"	m	class:DFClose
+do	scripts\cell\dialogmgr\funcs\DFClose.py	/^	def do(self, avatar, args):$/;"	m	class:DFClose
+iDFunction	scripts\cell\dialogmgr\funcs\DFClose.py	/^from dialogmgr.funcs.iDFunction import iDFunction$/;"	i
+valid	scripts\cell\dialogmgr\funcs\DFClose.py	/^	def valid(self, avatar, args):$/;"	m	class:DFClose
+DFTeleport	scripts\cell\dialogmgr\funcs\DFTeleport.py	/^class DFTeleport(iDFunction):$/;"	c
+__init__	scripts\cell\dialogmgr\funcs\DFTeleport.py	/^	def __init__(self, args):$/;"	m	class:DFTeleport
+do	scripts\cell\dialogmgr\funcs\DFTeleport.py	/^	def do(self, avatar, args):$/;"	m	class:DFTeleport
+iDFunction	scripts\cell\dialogmgr\funcs\DFTeleport.py	/^from dialogmgr.funcs.iDFunction import iDFunction$/;"	i
+valid	scripts\cell\dialogmgr\funcs\DFTeleport.py	/^	def valid(self, avatar, args):$/;"	m	class:DFTeleport
+DFClose	scripts\cell\dialogmgr\funcs\__init__.py	/^from dialogmgr.funcs.DFClose import DFClose$/;"	i
+DFTeleport	scripts\cell\dialogmgr\funcs\__init__.py	/^from dialogmgr.funcs.DFTeleport import DFTeleport$/;"	i
+g_funcs	scripts\cell\dialogmgr\funcs\__init__.py	/^g_funcs = {$/;"	v
+__init__	scripts\cell\dialogmgr\funcs\iDFunction.py	/^	def __init__(self, args):$/;"	m	class:iDFunction
+do	scripts\cell\dialogmgr\funcs\iDFunction.py	/^	def do(self, avatar, args):$/;"	m	class:iDFunction
+iDFunction	scripts\cell\dialogmgr\funcs\iDFunction.py	/^class iDFunction:$/;"	c
+valid	scripts\cell\dialogmgr\funcs\iDFunction.py	/^	def valid(self, avatar, args):$/;"	m	class:iDFunction
+AI	scripts\cell\interfaces\AI.py	/^class AI:$/;"	c
+GlobalDefine	scripts\cell\interfaces\AI.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\interfaces\AI.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\interfaces\AI.py	/^import SCDefine$/;"	i
+SCObject	scripts\cell\interfaces\AI.py	/^from skillbases.SCObject import SCObject$/;"	i
+__TERRITORY_AREA__	scripts\cell\interfaces\AI.py	/^__TERRITORY_AREA__ = 30.0$/;"	v
+__init__	scripts\cell\interfaces\AI.py	/^	def __init__(self):$/;"	m	class:AI
+addTerritory	scripts\cell\interfaces\AI.py	/^	def addTerritory(self):$/;"	m	class:AI
+checkInTerritory	scripts\cell\interfaces\AI.py	/^	def checkInTerritory(self):$/;"	m	class:AI
+choiceTarget	scripts\cell\interfaces\AI.py	/^	def choiceTarget(self):$/;"	m	class:AI
+d_entities	scripts\cell\interfaces\AI.py	/^import d_entities$/;"	i
+delTerritory	scripts\cell\interfaces\AI.py	/^	def delTerritory(self):$/;"	m	class:AI
+disable	scripts\cell\interfaces\AI.py	/^	def disable(self):$/;"	m	class:AI
+enable	scripts\cell\interfaces\AI.py	/^	def enable(self):$/;"	m	class:AI
+initEntity	scripts\cell\interfaces\AI.py	/^	def initEntity(self):$/;"	m	class:AI
+onAddEnemy	scripts\cell\interfaces\AI.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:AI
+onEnterTrap	scripts\cell\interfaces\AI.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:AI
+onFlagsChanged_	scripts\cell\interfaces\AI.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:AI
+onForbidChanged_	scripts\cell\interfaces\AI.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:AI
+onHeardTimer	scripts\cell\interfaces\AI.py	/^	def onHeardTimer(self, tid, tno):$/;"	m	class:AI
+onLeaveTrap	scripts\cell\interfaces\AI.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:AI
+onLoseTarget	scripts\cell\interfaces\AI.py	/^	def onLoseTarget(self):$/;"	m	class:AI
+onRemoveEnemy	scripts\cell\interfaces\AI.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:AI
+onStateChanged_	scripts\cell\interfaces\AI.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:AI
+onSubStateChanged_	scripts\cell\interfaces\AI.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:AI
+onTargetChanged	scripts\cell\interfaces\AI.py	/^	def onTargetChanged(self):$/;"	m	class:AI
+onThinkFight	scripts\cell\interfaces\AI.py	/^	def onThinkFight(self):$/;"	m	class:AI
+onThinkFree	scripts\cell\interfaces\AI.py	/^	def onThinkFree(self):$/;"	m	class:AI
+onThinkOther	scripts\cell\interfaces\AI.py	/^	def onThinkOther(self):$/;"	m	class:AI
+onWitnessed	scripts\cell\interfaces\AI.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:AI
+random	scripts\cell\interfaces\AI.py	/^import random$/;"	i
+setTarget	scripts\cell\interfaces\AI.py	/^	def setTarget(self, entityID):$/;"	m	class:AI
+think	scripts\cell\interfaces\AI.py	/^	def think(self):$/;"	m	class:AI
+time	scripts\cell\interfaces\AI.py	/^import time$/;"	i
+Combat	scripts\cell\interfaces\Combat.py	/^class Combat(CombatPropertys):$/;"	c
+CombatPropertys	scripts\cell\interfaces\Combat.py	/^from interfaces.CombatPropertys import CombatPropertys$/;"	i
+GlobalDefine	scripts\cell\interfaces\Combat.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\interfaces\Combat.py	/^import KBEngine$/;"	i
+__init__	scripts\cell\interfaces\Combat.py	/^	def __init__(self):$/;"	m	class:Combat
+addEnemy	scripts\cell\interfaces\Combat.py	/^	def addEnemy(self, entityID, enmity):$/;"	m	class:Combat
+addLevel	scripts\cell\interfaces\Combat.py	/^	def addLevel(self, lv):$/;"	m	class:Combat
+canDie	scripts\cell\interfaces\Combat.py	/^	def canDie(self, attackerID, skillID, damageType, damage):$/;"	m	class:Combat
+canUpgrade	scripts\cell\interfaces\Combat.py	/^	def canUpgrade(self):$/;"	m	class:Combat
+checkEnemyDist	scripts\cell\interfaces\Combat.py	/^	def checkEnemyDist(self, entity):$/;"	m	class:Combat
+checkEnemys	scripts\cell\interfaces\Combat.py	/^	def checkEnemys(self):$/;"	m	class:Combat
+checkInTerritory	scripts\cell\interfaces\Combat.py	/^	def checkInTerritory(self):$/;"	m	class:Combat
+die	scripts\cell\interfaces\Combat.py	/^	def die(self, killerID):$/;"	m	class:Combat
+isDead	scripts\cell\interfaces\Combat.py	/^	def isDead(self):$/;"	m	class:Combat
+onAddEnemy	scripts\cell\interfaces\Combat.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:Combat
+onAfterDie	scripts\cell\interfaces\Combat.py	/^	def onAfterDie(self, killerID):$/;"	m	class:Combat
+onBeforeDie	scripts\cell\interfaces\Combat.py	/^	def onBeforeDie(self, killerID):$/;"	m	class:Combat
+onDestroy	scripts\cell\interfaces\Combat.py	/^	def onDestroy(self):$/;"	m	class:Combat
+onDie	scripts\cell\interfaces\Combat.py	/^	def onDie(self, killerID):$/;"	m	class:Combat
+onKiller	scripts\cell\interfaces\Combat.py	/^	def onKiller(self, entityID):$/;"	m	class:Combat
+onLevelChanged	scripts\cell\interfaces\Combat.py	/^	def onLevelChanged(self, addlv):$/;"	m	class:Combat
+onRemoveEnemy	scripts\cell\interfaces\Combat.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:Combat
+recvDamage	scripts\cell\interfaces\Combat.py	/^	def recvDamage(self, attackerID, skillID, damageType, damage):$/;"	m	class:Combat
+removeEnemy	scripts\cell\interfaces\Combat.py	/^	def removeEnemy(self, entityID):$/;"	m	class:Combat
+upgrade	scripts\cell\interfaces\Combat.py	/^	def upgrade(self):$/;"	m	class:Combat
+CombatPropertys	scripts\cell\interfaces\CombatPropertys.py	/^class CombatPropertys:$/;"	c
+GlobalDefine	scripts\cell\interfaces\CombatPropertys.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\interfaces\CombatPropertys.py	/^import KBEngine$/;"	i
+__init__	scripts\cell\interfaces\CombatPropertys.py	/^	def __init__(self):$/;"	m	class:CombatPropertys
+addHP	scripts\cell\interfaces\CombatPropertys.py	/^	def addHP(self, val):$/;"	m	class:CombatPropertys
+addMP	scripts\cell\interfaces\CombatPropertys.py	/^	def addMP(self, val):$/;"	m	class:CombatPropertys
+fullPower	scripts\cell\interfaces\CombatPropertys.py	/^	def fullPower(self):$/;"	m	class:CombatPropertys
+setHP	scripts\cell\interfaces\CombatPropertys.py	/^	def setHP(self, hp):$/;"	m	class:CombatPropertys
+setHPMax	scripts\cell\interfaces\CombatPropertys.py	/^	def setHPMax(self, hpmax):$/;"	m	class:CombatPropertys
+setMP	scripts\cell\interfaces\CombatPropertys.py	/^	def setMP(self, mp):$/;"	m	class:CombatPropertys
+setMPMax	scripts\cell\interfaces\CombatPropertys.py	/^	def setMPMax(self, mpmax):$/;"	m	class:CombatPropertys
+Dialog	scripts\cell\interfaces\Dialog.py	/^class Dialog:$/;"	c
+KBEngine	scripts\cell\interfaces\Dialog.py	/^import KBEngine$/;"	i
+__init__	scripts\cell\interfaces\Dialog.py	/^	def __init__(self):$/;"	m	class:Dialog
+dialog	scripts\cell\interfaces\Dialog.py	/^	def dialog(self, srcEntityID, targetID, dialogID):$/;"	m	class:Dialog
+dialogmgr	scripts\cell\interfaces\Dialog.py	/^import dialogmgr$/;"	i
+Flags	scripts\cell\interfaces\Flags.py	/^class Flags:$/;"	c
+GlobalDefine	scripts\cell\interfaces\Flags.py	/^import GlobalDefine$/;"	i
+__init__	scripts\cell\interfaces\Flags.py	/^	def __init__(self):$/;"	m	class:Flags
+addFlags	scripts\cell\interfaces\Flags.py	/^	def addFlags(self, flags):$/;"	m	class:Flags
+hasFlags	scripts\cell\interfaces\Flags.py	/^	def hasFlags(self, flags):$/;"	m	class:Flags
+onFlagsChanged_	scripts\cell\interfaces\Flags.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:Flags
+removeFlags	scripts\cell\interfaces\Flags.py	/^	def removeFlags(self, flags):$/;"	m	class:Flags
+setFlags	scripts\cell\interfaces\Flags.py	/^	def setFlags(self, flags):$/;"	m	class:Flags
+GameObject	scripts\cell\interfaces\GameObject.py	/^class GameObject:$/;"	c
+GlobalDefine	scripts\cell\interfaces\GameObject.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\cell\interfaces\GameObject.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\interfaces\GameObject.py	/^import SCDefine$/;"	i
+__init__	scripts\cell\interfaces\GameObject.py	/^	def __init__(self):$/;"	m	class:GameObject
+d_avatar_inittab	scripts\cell\interfaces\GameObject.py	/^import d_avatar_inittab$/;"	i
+d_entities	scripts\cell\interfaces\GameObject.py	/^import d_entities$/;"	i
+d_spaces	scripts\cell\interfaces\GameObject.py	/^import d_spaces$/;"	i
+getCurrSpace	scripts\cell\interfaces\GameObject.py	/^	def getCurrSpace(self):$/;"	m	class:GameObject
+getCurrSpaceBase	scripts\cell\interfaces\GameObject.py	/^	def getCurrSpaceBase(self):$/;"	m	class:GameObject
+getDatas	scripts\cell\interfaces\GameObject.py	/^	def getDatas(self):$/;"	m	class:GameObject
+getScriptName	scripts\cell\interfaces\GameObject.py	/^	def getScriptName(self):$/;"	m	class:GameObject
+getSpaces	scripts\cell\interfaces\GameObject.py	/^	def getSpaces(self):$/;"	m	class:GameObject
+initEntity	scripts\cell\interfaces\GameObject.py	/^	def initEntity(self):$/;"	m	class:GameObject
+isMonster	scripts\cell\interfaces\GameObject.py	/^	def isMonster(self):$/;"	m	class:GameObject
+isNPC	scripts\cell\interfaces\GameObject.py	/^	def isNPC(self):$/;"	m	class:GameObject
+isPlayer	scripts\cell\interfaces\GameObject.py	/^	def isPlayer(self):$/;"	m	class:GameObject
+onDestroyEntityTimer	scripts\cell\interfaces\GameObject.py	/^	def onDestroyEntityTimer(self, tid, tno):$/;"	m	class:GameObject
+onEnterTrap	scripts\cell\interfaces\GameObject.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:GameObject
+onLeaveTrap	scripts\cell\interfaces\GameObject.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:GameObject
+onRestore	scripts\cell\interfaces\GameObject.py	/^	def onRestore(self):$/;"	m	class:GameObject
+onStateChanged_	scripts\cell\interfaces\GameObject.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:GameObject
+onTimer	scripts\cell\interfaces\GameObject.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:GameObject
+onWitnessed	scripts\cell\interfaces\GameObject.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:GameObject
+startDestroyTimer	scripts\cell\interfaces\GameObject.py	/^	def startDestroyTimer(self):$/;"	m	class:GameObject
+KBEngine	scripts\cell\interfaces\Motion.py	/^import KBEngine$/;"	i
+Math	scripts\cell\interfaces\Motion.py	/^import Math$/;"	i
+Motion	scripts\cell\interfaces\Motion.py	/^class Motion:$/;"	c
+__init__	scripts\cell\interfaces\Motion.py	/^	def __init__(self):$/;"	m	class:Motion
+backSpawnPos	scripts\cell\interfaces\Motion.py	/^	def backSpawnPos(self):$/;"	m	class:Motion
+getStopPoint	scripts\cell\interfaces\Motion.py	/^	def getStopPoint(self, yaw = None, rayLength = 100.0):$/;"	m	class:Motion
+gotoEntity	scripts\cell\interfaces\Motion.py	/^	def gotoEntity(self, targetID, dist = 0.0):$/;"	m	class:Motion
+gotoPosition	scripts\cell\interfaces\Motion.py	/^	def gotoPosition(self, position, dist = 0.0):$/;"	m	class:Motion
+math	scripts\cell\interfaces\Motion.py	/^import math$/;"	i
+onMove	scripts\cell\interfaces\Motion.py	/^	def onMove(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveFailure	scripts\cell\interfaces\Motion.py	/^	def onMoveFailure(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveOver	scripts\cell\interfaces\Motion.py	/^	def onMoveOver(self, controllerId, userarg):$/;"	m	class:Motion
+random	scripts\cell\interfaces\Motion.py	/^import random$/;"	i
+randomWalk	scripts\cell\interfaces\Motion.py	/^	def randomWalk(self, basePos):$/;"	m	class:Motion
+resetSpeed	scripts\cell\interfaces\Motion.py	/^	def resetSpeed(self):$/;"	m	class:Motion
+stopMotion	scripts\cell\interfaces\Motion.py	/^	def stopMotion(self):$/;"	m	class:Motion
+time	scripts\cell\interfaces\Motion.py	/^import time$/;"	i
+GameObject	scripts\cell\interfaces\NPCObject.py	/^from interfaces.GameObject import GameObject$/;"	i
+KBEngine	scripts\cell\interfaces\NPCObject.py	/^import KBEngine$/;"	i
+NPCObject	scripts\cell\interfaces\NPCObject.py	/^class NPCObject(GameObject):$/;"	c
+__init__	scripts\cell\interfaces\NPCObject.py	/^	def __init__(self):$/;"	m	class:NPCObject
+onDestroy	scripts\cell\interfaces\NPCObject.py	/^	def onDestroy(self):$/;"	m	class:NPCObject
+GlobalConst	scripts\cell\interfaces\SkillBox.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\cell\interfaces\SkillBox.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\interfaces\SkillBox.py	/^import SCDefine$/;"	i
+SkillBox	scripts\cell\interfaces\SkillBox.py	/^class SkillBox:$/;"	c
+__init__	scripts\cell\interfaces\SkillBox.py	/^	def __init__(self):$/;"	m	class:SkillBox
+addSkill	scripts\cell\interfaces\SkillBox.py	/^	def addSkill(self, skillID):$/;"	m	class:SkillBox
+hasSkill	scripts\cell\interfaces\SkillBox.py	/^	def hasSkill(self, skillID):$/;"	m	class:SkillBox
+removeSkill	scripts\cell\interfaces\SkillBox.py	/^	def removeSkill(self, skillID):$/;"	m	class:SkillBox
+requestPull	scripts\cell\interfaces\SkillBox.py	/^	def requestPull(self, exposed):$/;"	m	class:SkillBox
+skills	scripts\cell\interfaces\SkillBox.py	/^import skills$/;"	i
+useTargetSkill	scripts\cell\interfaces\SkillBox.py	/^	def useTargetSkill(self, srcEntityID, skillID, targetID):$/;"	m	class:SkillBox
+GlobalConst	scripts\cell\interfaces\Spell.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\cell\interfaces\Spell.py	/^import KBEngine$/;"	i
+SCDefine	scripts\cell\interfaces\Spell.py	/^import SCDefine$/;"	i
+SCObject	scripts\cell\interfaces\Spell.py	/^import skillbases.SCObject as SCObject$/;"	i
+Spell	scripts\cell\interfaces\Spell.py	/^class Spell:$/;"	c
+__init__	scripts\cell\interfaces\Spell.py	/^	def __init__(self):$/;"	m	class:Spell
+addDBuff	scripts\cell\interfaces\Spell.py	/^	def addDBuff(self, buffData):$/;"	m	class:Spell
+intonate	scripts\cell\interfaces\Spell.py	/^	def intonate(self, skill, scObject):$/;"	m	class:Spell
+onBuffTick	scripts\cell\interfaces\Spell.py	/^	def onBuffTick(self, tid, tno):$/;"	m	class:Spell
+removeDBuff	scripts\cell\interfaces\Spell.py	/^	def removeDBuff(self, buffData):$/;"	m	class:Spell
+skillbases	scripts\cell\interfaces\Spell.py	/^import skillbases.SCObject as SCObject$/;"	i
+skills	scripts\cell\interfaces\Spell.py	/^import skills$/;"	i
+spellPosition	scripts\cell\interfaces\Spell.py	/^	def spellPosition(self, position):$/;"	m	class:Spell
+spellTarget	scripts\cell\interfaces\Spell.py	/^	def spellTarget(self, skillID, targetID):$/;"	m	class:Spell
+GlobalDefine	scripts\cell\interfaces\State.py	/^import GlobalDefine$/;"	i
+State	scripts\cell\interfaces\State.py	/^class State:$/;"	c
+__init__	scripts\cell\interfaces\State.py	/^	def __init__(self):$/;"	m	class:State
+changeState	scripts\cell\interfaces\State.py	/^	def changeState(self, state):$/;"	m	class:State
+changeSubState	scripts\cell\interfaces\State.py	/^	def changeSubState(self, subState):$/;"	m	class:State
+forbidCounterDec	scripts\cell\interfaces\State.py	/^	def forbidCounterDec(self, forbids):$/;"	m	class:State
+forbidCounterInc	scripts\cell\interfaces\State.py	/^	def forbidCounterInc(self, forbids):$/;"	m	class:State
+getForbidCounter	scripts\cell\interfaces\State.py	/^	def getForbidCounter(self, forbid):$/;"	m	class:State
+getState	scripts\cell\interfaces\State.py	/^	def getState(self):$/;"	m	class:State
+getSubState	scripts\cell\interfaces\State.py	/^	def getSubState(self):$/;"	m	class:State
+initEntity	scripts\cell\interfaces\State.py	/^	def initEntity(self):$/;"	m	class:State
+isForbid	scripts\cell\interfaces\State.py	/^	def isForbid(self, forbid):$/;"	m	class:State
+isState	scripts\cell\interfaces\State.py	/^	def isState(self, state):$/;"	m	class:State
+isSubState	scripts\cell\interfaces\State.py	/^	def isSubState(self, state):$/;"	m	class:State
+onForbidChanged_	scripts\cell\interfaces\State.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:State
+onStateChanged_	scripts\cell\interfaces\State.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:State
+onSubStateChanged_	scripts\cell\interfaces\State.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:State
+KBEngine	scripts\cell\interfaces\Teleport.py	/^import KBEngine$/;"	i
+SpaceContext	scripts\cell\interfaces\Teleport.py	/^import SpaceContext$/;"	i
+Teleport	scripts\cell\interfaces\Teleport.py	/^class Teleport:$/;"	c
+__init__	scripts\cell\interfaces\Teleport.py	/^	def __init__(self):$/;"	m	class:Teleport
+onDestroy	scripts\cell\interfaces\Teleport.py	/^	def onDestroy(self):$/;"	m	class:Teleport
+onTeleportSpaceCB	scripts\cell\interfaces\Teleport.py	/^	def onTeleportSpaceCB(self, spaceCellMailbox, spaceUType, position, direction):$/;"	m	class:Teleport
+onTeleportSuccess	scripts\cell\interfaces\Teleport.py	/^	def onTeleportSuccess(self, nearbyEntity):$/;"	m	class:Teleport
+teleportSpace	scripts\cell\interfaces\Teleport.py	/^	def teleportSpace(self, spaceUType, position, direction, context):$/;"	m	class:Teleport
+Equip	scripts\cell\items\__init__.py	/^from Equip import Equip$/;"	i
+Item	scripts\cell\items\__init__.py	/^from Item import Item$/;"	i
+KBEngine	scripts\cell\items\__init__.py	/^import KBEngine$/;"	i
+ScriptMaps	scripts\cell\items\__init__.py	/^import ScriptMaps$/;"	i
+Weapon	scripts\cell\items\__init__.py	/^from Weapon import Weapon$/;"	i
+checkItemNo	scripts\cell\items\__init__.py	/^def checkItemNo(itemNO):$/;"	f
+copy	scripts\cell\items\__init__.py	/^import copy$/;"	i
+createItem	scripts\cell\items\__init__.py	/^def createItem(itemNO, amount = 1, owner = None):$/;"	f
+createItemByItem	scripts\cell\items\__init__.py	/^def createItemByItem(item, amount, owner = None):$/;"	f
+d_items	scripts\cell\items\__init__.py	/^from d_items import datas as d_items$/;"	i
+getItemClass	scripts\cell\items\__init__.py	/^def getItemClass(itemNO):$/;"	f
+getItemData	scripts\cell\items\__init__.py	/^def getItemData(itemNO):$/;"	f
+itemNo2NoAlias	scripts\cell\items\__init__.py	/^def itemNo2NoAlias(sid):$/;"	f
+noAlias2ItemNo	scripts\cell\items\__init__.py	/^def noAlias2ItemNo(aid):$/;"	f
+onInit	scripts\cell\items\__init__.py	/^def onInit():$/;"	f
+scdefine	scripts\cell\items\__init__.py	/^import scdefine$/;"	i
+scutils	scripts\cell\items\__init__.py	/^import scutils$/;"	i
+skills	scripts\cell\items\__init__.py	/^import skills$/;"	i
+KBEngine	scripts\cell\kbengine.py	/^import KBEngine$/;"	i
+dialogmgr	scripts\cell\kbengine.py	/^import dialogmgr$/;"	i
+onAllSpaceGeometryLoaded	scripts\cell\kbengine.py	/^def onAllSpaceGeometryLoaded(spaceID, isBootstrap, mapping):$/;"	f
+onCellAppData	scripts\cell\kbengine.py	/^def onCellAppData(key, value):$/;"	f
+onCellAppDataDel	scripts\cell\kbengine.py	/^def onCellAppDataDel(key):$/;"	f
+onGlobalData	scripts\cell\kbengine.py	/^def onGlobalData(key, value):$/;"	f
+onGlobalDataDel	scripts\cell\kbengine.py	/^def onGlobalDataDel(key):$/;"	f
+onInit	scripts\cell\kbengine.py	/^def onInit(isReload):$/;"	f
+onSpaceData	scripts\cell\kbengine.py	/^def onSpaceData( spaceID, key, value ):$/;"	f
+onSpaceGeometryLoaded	scripts\cell\kbengine.py	/^def onSpaceGeometryLoaded(spaceID, mapping):$/;"	f
+skills	scripts\cell\kbengine.py	/^import skills$/;"	i
+onInit	scripts\cell\quests\base\__init__.py	/^def onInit():$/;"	f
+KBEngine	scripts\cell\skills\SkillAttack.py	/^import KBEngine$/;"	i
+SkillAttack	scripts\cell\skills\SkillAttack.py	/^class SkillAttack(SkillInitiative):$/;"	c
+SkillInitiative	scripts\cell\skills\SkillAttack.py	/^from skills.base.SkillInitiative import SkillInitiative$/;"	i
+__init__	scripts\cell\skills\SkillAttack.py	/^	def __init__(self):$/;"	m	class:SkillAttack
+canUse	scripts\cell\skills\SkillAttack.py	/^	def canUse(self, caster, scObject):$/;"	m	class:SkillAttack
+random	scripts\cell\skills\SkillAttack.py	/^import random$/;"	i
+receive	scripts\cell\skills\SkillAttack.py	/^	def receive(self, caster, receiver):$/;"	m	class:SkillAttack
+use	scripts\cell\skills\SkillAttack.py	/^	def use(self, caster, scObject):$/;"	m	class:SkillAttack
+SkillAttack	scripts\cell\skills\__init__.py	/^from skills.SkillAttack import SkillAttack$/;"	i
+_g_skills	scripts\cell\skills\__init__.py	/^_g_skills = {}$/;"	v
+d_skills	scripts\cell\skills\__init__.py	/^import d_skills$/;"	i
+getSkill	scripts\cell\skills\__init__.py	/^def getSkill(skillID):$/;"	f
+onInit	scripts\cell\skills\__init__.py	/^def onInit():$/;"	f
+DBuff	scripts\cell\skills\base\DBuff.py	/^class DBuff(SObject):$/;"	c
+KBEngine	scripts\cell\skills\base\DBuff.py	/^import KBEngine$/;"	i
+SObject	scripts\cell\skills\base\DBuff.py	/^from skillbases.SObject import SObject$/;"	i
+__init__	scripts\cell\skills\base\DBuff.py	/^	def __init__(self):$/;"	m	class:DBuff
+loadFromDict	scripts\cell\skills\base\DBuff.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:DBuff
+onAttach	scripts\cell\skills\base\DBuff.py	/^	def onAttach(self, context):$/;"	m	class:DBuff
+onDetach	scripts\cell\skills\base\DBuff.py	/^	def onDetach(self, context):$/;"	m	class:DBuff
+onLoopTrigger	scripts\cell\skills\base\DBuff.py	/^	def onLoopTrigger(self, context):$/;"	m	class:DBuff
+GlobalConst	scripts\cell\skills\base\SkillInitiative.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\cell\skills\base\SkillInitiative.py	/^import KBEngine$/;"	i
+SCObject	scripts\cell\skills\base\SkillInitiative.py	/^from skillbases.SCObject import SCObject$/;"	i
+SObject	scripts\cell\skills\base\SkillInitiative.py	/^from skillbases.SObject import SObject$/;"	i
+SkillInitiative	scripts\cell\skills\base\SkillInitiative.py	/^class SkillInitiative(SObject):$/;"	c
+__init__	scripts\cell\skills\base\SkillInitiative.py	/^	def __init__(self):$/;"	m	class:SkillInitiative
+canUse	scripts\cell\skills\base\SkillInitiative.py	/^	def canUse(self, caster, scObject):$/;"	m	class:SkillInitiative
+cast	scripts\cell\skills\base\SkillInitiative.py	/^	def cast(self, caster, scObject):$/;"	m	class:SkillInitiative
+distToDelay	scripts\cell\skills\base\SkillInitiative.py	/^	def distToDelay(self, caster, scObject):$/;"	m	class:SkillInitiative
+getCastMaxRange	scripts\cell\skills\base\SkillInitiative.py	/^	def getCastMaxRange(self, caster):$/;"	m	class:SkillInitiative
+getIntonateTime	scripts\cell\skills\base\SkillInitiative.py	/^	def getIntonateTime(self, caster):$/;"	m	class:SkillInitiative
+getMaxReceiverCount	scripts\cell\skills\base\SkillInitiative.py	/^	def getMaxReceiverCount(self):$/;"	m	class:SkillInitiative
+getRangeMax	scripts\cell\skills\base\SkillInitiative.py	/^	def getRangeMax(self, caster):$/;"	m	class:SkillInitiative
+getRangeMin	scripts\cell\skills\base\SkillInitiative.py	/^	def getRangeMin(self, caster):$/;"	m	class:SkillInitiative
+getSpeed	scripts\cell\skills\base\SkillInitiative.py	/^	def getSpeed(self):$/;"	m	class:SkillInitiative
+isRotate	scripts\cell\skills\base\SkillInitiative.py	/^	def isRotate(self):$/;"	m	class:SkillInitiative
+loadFromDict	scripts\cell\skills\base\SkillInitiative.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:SkillInitiative
+onArrived	scripts\cell\skills\base\SkillInitiative.py	/^	def onArrived(self, caster, scObject):$/;"	m	class:SkillInitiative
+onSkillCastOver_	scripts\cell\skills\base\SkillInitiative.py	/^	def onSkillCastOver_(self, caster, scObject):$/;"	m	class:SkillInitiative
+random	scripts\cell\skills\base\SkillInitiative.py	/^import random$/;"	i
+receive	scripts\cell\skills\base\SkillInitiative.py	/^	def receive(self, caster, receiver):$/;"	m	class:SkillInitiative
+use	scripts\cell\skills\base\SkillInitiative.py	/^	def use(self, caster, scObject):$/;"	m	class:SkillInitiative
+KBEngine	scripts\cell\skills\base\SkillPassivity.py	/^import KBEngine$/;"	i
+SObject	scripts\cell\skills\base\SkillPassivity.py	/^from skillbases.SObject import SObject$/;"	i
+SkillPassivity	scripts\cell\skills\base\SkillPassivity.py	/^class SkillPassivity(SObject):$/;"	c
+__init__	scripts\cell\skills\base\SkillPassivity.py	/^	def __init__(self):$/;"	m	class:SkillPassivity
+loadFromDict	scripts\cell\skills\base\SkillPassivity.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:SkillPassivity
+random	scripts\cell\skills\base\SkillPassivity.py	/^import random$/;"	i
+onInit	scripts\cell\skills\base\__init__.py	/^def onInit():$/;"	f
+Functor	scripts\common\Functor.py	/^class Functor:$/;"	c
+__call__	scripts\common\Functor.py	/^	def __call__(self, *args):$/;"	m	class:Functor	file:
+__init__	scripts\common\Functor.py	/^	def __init__(self, func, *args):$/;"	m	class:Functor
+GC_OK	scripts\common\GlobalConst.py	/^GC_OK								= 0x000$/;"	v
+GC_SKILL_ENTITY_DEAD	scripts\common\GlobalConst.py	/^GC_SKILL_ENTITY_DEAD				= 0x002		# Entity已经死亡$/;"	v
+GC_SKILL_MP_NOT_ENGOUH	scripts\common\GlobalConst.py	/^GC_SKILL_MP_NOT_ENGOUH				= 0x001		# 法力值不足$/;"	v
+g_demoMaps	scripts\common\GlobalConst.py	/^g_demoMaps = {$/;"	v
+DIALOG_TYPE_NORMAL	scripts\common\GlobalDefine.py	/^DIALOG_TYPE_NORMAL			= 0 # 普通对话$/;"	v
+DIALOG_TYPE_QUEST	scripts\common\GlobalDefine.py	/^DIALOG_TYPE_QUEST			= 1 # 任务对话$/;"	v
+ENTITY_STATE_DEAD	scripts\common\GlobalDefine.py	/^ENTITY_STATE_DEAD										= 1$/;"	v
+ENTITY_STATE_FIGHT	scripts\common\GlobalDefine.py	/^ENTITY_STATE_FIGHT										= 3$/;"	v
+ENTITY_STATE_FREE	scripts\common\GlobalDefine.py	/^ENTITY_STATE_FREE										= 0$/;"	v
+ENTITY_STATE_MAX	scripts\common\GlobalDefine.py	/^ENTITY_STATE_MAX    									= 4$/;"	v
+ENTITY_STATE_REST	scripts\common\GlobalDefine.py	/^ENTITY_STATE_REST										= 2$/;"	v
+ENTITY_STATE_UNKNOW	scripts\common\GlobalDefine.py	/^ENTITY_STATE_UNKNOW										= -1$/;"	v
+ENTITY_SUB_STATE_CHASE_TARGET	scripts\common\GlobalDefine.py	/^ENTITY_SUB_STATE_CHASE_TARGET							= 3$/;"	v
+ENTITY_SUB_STATE_FLEE	scripts\common\GlobalDefine.py	/^ENTITY_SUB_STATE_FLEE									= 4$/;"	v
+ENTITY_SUB_STATE_GO_BACK	scripts\common\GlobalDefine.py	/^ENTITY_SUB_STATE_GO_BACK								= 2$/;"	v
+ENTITY_SUB_STATE_NORMAL	scripts\common\GlobalDefine.py	/^ENTITY_SUB_STATE_NORMAL									= 0$/;"	v
+ENTITY_SUB_STATE_RANDOM_STROLL	scripts\common\GlobalDefine.py	/^ENTITY_SUB_STATE_RANDOM_STROLL							= 1$/;"	v
+FORBID_ACTIONS	scripts\common\GlobalDefine.py	/^FORBID_ACTIONS = {$/;"	v
+FORBID_ALL	scripts\common\GlobalDefine.py	/^FORBID_ALL = [$/;"	v
+FORBID_ATTACK	scripts\common\GlobalDefine.py	/^FORBID_ATTACK = FORBID_ATTACK_PHY | FORBID_ATTACK_MAG$/;"	v
+FORBID_ATTACK_MAG	scripts\common\GlobalDefine.py	/^FORBID_ATTACK_MAG = FORBID_ATTACK_MAGIC$/;"	v
+FORBID_ATTACK_MAGIC	scripts\common\GlobalDefine.py	/^FORBID_ATTACK_MAGIC										= 0x00000080$/;"	v
+FORBID_ATTACK_PHY	scripts\common\GlobalDefine.py	/^FORBID_ATTACK_PHY = FORBID_ATTACK_PHY_NEAR | FORBID_ATTACK_PHY_FAR$/;"	v
+FORBID_ATTACK_PHY_FAR	scripts\common\GlobalDefine.py	/^FORBID_ATTACK_PHY_FAR									= 0x00000080$/;"	v
+FORBID_ATTACK_PHY_NEAR	scripts\common\GlobalDefine.py	/^FORBID_ATTACK_PHY_NEAR									= 0x00000040$/;"	v
+FORBID_CHAT	scripts\common\GlobalDefine.py	/^FORBID_CHAT												= 0x00000002$/;"	v
+FORBID_EQUIP	scripts\common\GlobalDefine.py	/^FORBID_EQUIP											= 0x00000010$/;"	v
+FORBID_INTONATE	scripts\common\GlobalDefine.py	/^FORBID_INTONATE											= 0x00000020$/;"	v
+FORBID_MOTION	scripts\common\GlobalDefine.py	/^FORBID_MOTION											= 0x00000001$/;"	v
+FORBID_MOTION_YAW	scripts\common\GlobalDefine.py	/^FORBID_MOTION_YAW = FORBID_MOTION | FORBID_YAW$/;"	v
+FORBID_NO	scripts\common\GlobalDefine.py	/^FORBID_NO												= 0x00000000$/;"	v
+FORBID_SPELL	scripts\common\GlobalDefine.py	/^FORBID_SPELL											= 0x00000004$/;"	v
+FORBID_TRADE	scripts\common\GlobalDefine.py	/^FORBID_TRADE											= 0x00000008$/;"	v
+FORBID_YAW	scripts\common\GlobalDefine.py	/^FORBID_YAW												= 0x00008000$/;"	v
+SKILL_OBJECT_TYPE_ENTITY	scripts\common\GlobalDefine.py	/^SKILL_OBJECT_TYPE_ENTITY	= 1$/;"	v
+SKILL_OBJECT_TYPE_POSITION	scripts\common\GlobalDefine.py	/^SKILL_OBJECT_TYPE_POSITION	= 2$/;"	v
+SKILL_OBJECT_TYPE_UNKNOWN	scripts\common\GlobalDefine.py	/^SKILL_OBJECT_TYPE_UNKNOWN	= 0$/;"	v
+DEBUG_MSG	scripts\common\KBEDebug.py	/^def DEBUG_MSG(*args): $/;"	f
+ERROR_MSG	scripts\common\KBEDebug.py	/^def ERROR_MSG(*args): $/;"	f
+INFO_MSG	scripts\common\KBEDebug.py	/^def INFO_MSG(*args): $/;"	f
+KBEngine	scripts\common\KBEDebug.py	/^import KBEngine$/;"	i
+TRACE_MSG	scripts\common\KBEDebug.py	/^def TRACE_MSG(*args): $/;"	f
+WARNING_MSG	scripts\common\KBEDebug.py	/^def WARNING_MSG(*args): $/;"	f
+printMsg	scripts\common\KBEDebug.py	/^def printMsg(args, isPrintPath):$/;"	f
+sys	scripts\common\KBEDebug.py	/^import sys$/;"	i
+GlobalDefine	scripts\common\skillbases\SCObject.py	/^import GlobalDefine$/;"	i
+KBEngine	scripts\common\skillbases\SCObject.py	/^import KBEngine$/;"	i
+SCEntity	scripts\common\skillbases\SCObject.py	/^class SCEntity(SCObject):$/;"	c
+SCObject	scripts\common\skillbases\SCObject.py	/^class SCObject:$/;"	c
+SCPosition	scripts\common\skillbases\SCObject.py	/^class SCPosition(SCObject):$/;"	c
+__init__	scripts\common\skillbases\SCObject.py	/^	def __init__(self, obj):$/;"	m	class:SCEntity
+__init__	scripts\common\skillbases\SCObject.py	/^	def __init__(self, obj):$/;"	m	class:SCObject
+__init__	scripts\common\skillbases\SCObject.py	/^	def __init__(self, obj):$/;"	m	class:SCPosition
+_c_type	scripts\common\skillbases\SCObject.py	/^	_c_type = GlobalDefine.SKILL_OBJECT_TYPE_ENTITY$/;"	v	class:SCEntity
+_c_type	scripts\common\skillbases\SCObject.py	/^	_c_type = GlobalDefine.SKILL_OBJECT_TYPE_POSITION$/;"	v	class:SCPosition
+_c_type	scripts\common\skillbases\SCObject.py	/^	_c_type = GlobalDefine.SKILL_OBJECT_TYPE_UNKNOWN$/;"	v	class:SCObject
+asDict	scripts\common\skillbases\SCObject.py	/^	def asDict(self):$/;"	m	class:SCObject
+createSCEntity	scripts\common\skillbases\SCObject.py	/^def createSCEntity(entity):$/;"	f
+createSCEntityByID	scripts\common\skillbases\SCObject.py	/^def createSCEntityByID(entityID):$/;"	f
+createSCObject	scripts\common\skillbases\SCObject.py	/^def createSCObject(type, obj):$/;"	f
+createSCPosition	scripts\common\skillbases\SCObject.py	/^def createSCPosition(position):$/;"	f
+distToDelay	scripts\common\skillbases\SCObject.py	/^	def distToDelay(self, flySpeed, position):$/;"	m	class:SCEntity
+distToDelay	scripts\common\skillbases\SCObject.py	/^	def distToDelay(self, flySpeed, position):$/;"	m	class:SCObject
+distToDelay	scripts\common\skillbases\SCObject.py	/^	def distToDelay(self, flySpeed, position):$/;"	m	class:SCPosition
+g_scobject_maps	scripts\common\skillbases\SCObject.py	/^g_scobject_maps = {}$/;"	v
+getDirection	scripts\common\skillbases\SCObject.py	/^	def getDirection(self):$/;"	m	class:SCEntity
+getDirection	scripts\common\skillbases\SCObject.py	/^	def getDirection(self):$/;"	m	class:SCObject
+getDirection	scripts\common\skillbases\SCObject.py	/^	def getDirection(self):$/;"	m	class:SCPosition
+getID	scripts\common\skillbases\SCObject.py	/^	def getID(self):$/;"	m	class:SCEntity
+getID	scripts\common\skillbases\SCObject.py	/^	def getID(self):$/;"	m	class:SCObject
+getObject	scripts\common\skillbases\SCObject.py	/^	def getObject(self):$/;"	m	class:SCEntity
+getObject	scripts\common\skillbases\SCObject.py	/^	def getObject(self):$/;"	m	class:SCObject
+getObjectReal	scripts\common\skillbases\SCObject.py	/^	def getObjectReal(self):$/;"	m	class:SCObject
+getPosition	scripts\common\skillbases\SCObject.py	/^	def getPosition(self):$/;"	m	class:SCEntity
+getPosition	scripts\common\skillbases\SCObject.py	/^	def getPosition(self):$/;"	m	class:SCObject
+getPosition	scripts\common\skillbases\SCObject.py	/^	def getPosition(self):$/;"	m	class:SCPosition
+getReference	scripts\common\skillbases\SCObject.py	/^	def getReference(self, entity):$/;"	m	class:SCEntity
+getReference	scripts\common\skillbases\SCObject.py	/^	def getReference(self, entity):$/;"	m	class:SCObject
+getReference	scripts\common\skillbases\SCObject.py	/^	def getReference(self, entity):$/;"	m	class:SCPosition
+getType	scripts\common\skillbases\SCObject.py	/^	def getType(SELF):$/;"	m	class:SCObject
+isType	scripts\common\skillbases\SCObject.py	/^	def isType(SELF, otype):$/;"	m	class:SCObject
+KBEngine	scripts\common\skillbases\SObject.py	/^import KBEngine$/;"	i
+SObject	scripts\common\skillbases\SObject.py	/^class SObject:$/;"	c
+__init__	scripts\common\skillbases\SObject.py	/^	def __init__(self):$/;"	m	class:SObject
+getID	scripts\common\skillbases\SObject.py	/^	def getID(self):$/;"	m	class:SObject
+getIcon	scripts\common\skillbases\SObject.py	/^	def getIcon(self):$/;"	m	class:SObject
+getLevel	scripts\common\skillbases\SObject.py	/^	def getLevel(self):$/;"	m	class:SObject
+getName	scripts\common\skillbases\SObject.py	/^	def getName(self):$/;"	m	class:SObject
+loadFromDict	scripts\common\skillbases\SObject.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:SObject
+allDatas	scripts\data\d_avatar_inittab.py	/^allDatas = {$/;"	v
+datas	scripts\data\d_avatar_inittab.py	/^datas={1: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 1, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 1, 'magic_defense': 15, 'exp': 0}, 2: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 2, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 2, 'magic_defense': 15, 'exp': 0}, 3: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 3, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 3, 'magic_defense': 15, 'exp': 0}, 4: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 4, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 3, 'magic_defense': 15, 'exp': 0}, 5: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 5, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 3, 'magic_defense': 15, 'exp': 0}, 6: {'dexterity': 10, 'mp_max': 97, 'money': 0, 'energy': 10, 'sex': 1, 'spaceUType': 1, 'defense': 19, 'anger': 0, 'speed': 11, 'intellect': 5, 'modelID': 90000001, 'strength': 15, 'constitution': 13, 'magic_damage': 15, 'spawnPos': (771.5861, 211.0021, 776.5501), 'stamina': 12, 'potential': 0, 'role': 6, 'mp': 97, 'dodge': 20, 'modelScale': 1, 'hp': 158, 'anger_max': 150, 'moveSpeed': 60, 'spawnYaw': 0, 'damage': 48, 'hp_max': 158, 'level': 0, 'energy_max': 50, 'hitval': 55, 'race': 3, 'magic_defense': 15, 'exp': 0}}$/;"	v
+allDatas	scripts\data\d_dialogs.py	/^allDatas = {$/;"	v
+datas	scripts\data\d_dialogs.py	/^datas={30001003: {'body': '是人！是人啊，可怕的人来了', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 30001003, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10013003,210`120,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 20001003: {'body': '', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 20001003, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10012002,150`216,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 10001001: {'body': '最近[#scff00#]村外树林[#sc#]出现很多妖魔，你去杀掉[#scff0000#]10个[#sc#]再回来找我，我会给你奖励的。[#nl#]你一直往东走可以看到一个旋转的光圈，那里便是出村的路口了。', 'sayname': '宋异人', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 10001001, 'title': '', 'func3': '', 'func2': '', 'func1': '', 'func5': '', 'func4': '', 'headID': 30011001, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '', 'menu2': 10001003, 'menu3': 0, 'menu1': 10001002, 'menu4': 0, 'menu5': 0}, 10001002: {'body': '这些村民真是没用，几个小妖就一副如临大敌的样子，我倒要去瞧瞧究竟是何妖物。', 'sayname': '', 'isPlayerSay': True, 'funcFailMsg': '', 'id': 10001002, 'title': '不就是几个小妖物，何惧之有。', 'func3': '', 'func2': '', 'func1': '', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '', 'menu2': 0, 'menu3': 0, 'menu1': 10001004, 'menu4': 0, 'menu5': 0}, 10001003: {'body': '', 'sayname': '', 'isPlayerSay': True, 'funcFailMsg': '', 'id': 10001003, 'title': '我没兴趣。', 'func3': '', 'func2': '', 'func1': 'closedialog', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 10001004: {'body': '', 'sayname': '', 'isPlayerSay': True, 'funcFailMsg': '', 'id': 10001004, 'title': '现在出发', 'func3': '', 'func2': '', 'func1': 'closedialog', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 30001002: {'body': '叽叽叽叽……', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 30001002, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10013002,210`120,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 30001001: {'body': '爱护地球爱护植物', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 30001001, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10013001,210`120,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 20001004: {'body': '', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 20001004, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10012003,180`216,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 20001001: {'body': '', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 20001001, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10011002,25`216,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 20001002: {'body': '', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 20001002, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10011001,545`216,180', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}, 30001004: {'body': '你擅闯竹林，准备受死吧！人类', 'sayname': '', 'isPlayerSay': False, 'funcFailMsg': '', 'id': 30001004, 'title': '', 'func3': '', 'func2': '', 'func1': 'teleport', 'func5': '', 'func4': '', 'headID': 0, 'funcargs4': '', 'funcargs5': '', 'funcargs2': '', 'funcargs3': '', 'funcargs1': '10013004,210`120,0', 'menu2': 0, 'menu3': 0, 'menu1': 0, 'menu4': 0, 'menu5': 0}}$/;"	v
+allDatas	scripts\data\d_entities.py	/^allDatas = {$/;"	v
+datas	scripts\data\d_entities.py	/^datas={80008001: {'id': 80008001, 'name': '怪物8', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80008001, 'etype': 1}, 2001: {'id': 2001, 'name': '怪物1', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 2001, 'etype': 1}, 1003: {'id': 1003, 'name': '怪物1', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 1003, 'etype': 1}, 10003001: {'id': 10003001, 'name': '怪物1', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 10001001, 'etype': 1}, 80004001: {'id': 80004001, 'name': '怪物4', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80004001, 'etype': 1}, 80005001: {'id': 80005001, 'name': '怪物5', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80005001, 'etype': 1}, 80013001: {'id': 80013001, 'name': '怪物13', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80013001, 'etype': 1}, 80009001: {'id': 80009001, 'name': '怪物9', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80009001, 'etype': 1}, 80011001: {'id': 80011001, 'name': '怪物11', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80011001, 'etype': 1}, 80002001: {'id': 80002001, 'name': '怪物2', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80002001, 'etype': 1}, 2002: {'id': 2002, 'name': '怪物2', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 2002, 'etype': 1}, 80001001: {'id': 80001001, 'name': '怪物1', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80001001, 'etype': 1}, 20003001: {'id': 20003001, 'name': '怪物3', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 20001001, 'etype': 1}, 80007001: {'id': 80007001, 'name': '怪物7', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80007001, 'etype': 1}, 20001001: {'id': 20001001, 'name': '艾克斯球', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 20001001, 'etype': 1}, 80010001: {'id': 80010001, 'name': '怪物10', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80010001, 'etype': 1}, 10004001: {'id': 10004001, 'name': '怪物2', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 10004001, 'etype': 1}, 20002001: {'id': 20002001, 'name': '压力山大巨龙', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 20002001, 'etype': 1}, 10001001: {'id': 10001001, 'name': '新手接待员', 'runSpeed': 65, 'entityType': 'NPC', 'moveSpeed': 50, 'dialogID': 10001001, 'modelID': 10001001, 'etype': 1}, 40001002: {'id': 40001002, 'name': '传送门(teleport-back)', 'runSpeed': 0, 'entityType': 'Gate', 'moveSpeed': 0, 'dialogID': 0, 'modelID': 40001001, 'etype': 1}, 40001003: {'id': 40001003, 'name': '传送门(teleport-local)', 'runSpeed': 0, 'entityType': 'Gate', 'moveSpeed': 0, 'dialogID': 0, 'modelID': 40001001, 'etype': 1}, 1004: {'id': 1004, 'name': '怪物2', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 1004, 'etype': 1}, 80006001: {'id': 80006001, 'name': '怪物6', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80006001, 'etype': 1}, 1001: {'id': 1001, 'name': '新手接待员', 'runSpeed': 65, 'entityType': 'NPC', 'moveSpeed': 50, 'dialogID': 10001001, 'modelID': 1001, 'etype': 1}, 10002001: {'id': 10002001, 'name': '传送员', 'runSpeed': 65, 'entityType': 'NPC', 'moveSpeed': 50, 'dialogID': 10001001, 'modelID': 10001001, 'etype': 1}, 40001001: {'id': 40001001, 'name': '传送门', 'runSpeed': 0, 'entityType': 'Gate', 'moveSpeed': 0, 'dialogID': 0, 'modelID': 40001001, 'etype': 1}, 80014001: {'id': 80014001, 'name': '怪物14', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80014001, 'etype': 1}, 80003001: {'id': 80003001, 'name': '怪物3', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80003001, 'etype': 1}, 80012001: {'id': 80012001, 'name': '怪物12', 'runSpeed': 60, 'entityType': 'Monster', 'moveSpeed': 30, 'dialogID': 0, 'modelID': 80012001, 'etype': 1}, 1002: {'id': 1002, 'name': '传送员', 'runSpeed': 65, 'entityType': 'NPC', 'moveSpeed': 50, 'dialogID': 10001001, 'modelID': 1002, 'etype': 1}, 2003: {'id': 2003, 'name': '怪物3', 'runSpeed': 65, 'entityType': 'Monster', 'moveSpeed': 50, 'dialogID': 0, 'modelID': 2003, 'etype': 1}}$/;"	v
+datas	scripts\data\d_skills.py	/^datas={1: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 1, 'icon': 0}, 2000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 2000101, 'icon': 0}, 5000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 5000101, 'icon': 0}, 4000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 4000101, 'icon': 0}, 6000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 6000101, 'icon': 0}, 1000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 1000101, 'icon': 0}, 7000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 7000101, 'icon': 0}, 3000101: {'name': '普通攻击', 'descr': '', 'script': 'SkillAttack', 'HP': 0, 'MP': 0, 'speed': 0.0, 'id': 3000101, 'icon': 0}}$/;"	v
+effsdatas	scripts\data\d_skills.py	/^effsdatas={}$/;"	v
+allDatas	scripts\data\d_spaces.py	/^allDatas = {$/;"	v
+datas	scripts\data\d_spaces.py	/^datas={1: {'entityType': 'Space', 'spawnPos': (771.5861, 211.0021, 776.5501), 'resPath': 'xinshoucun', 'id': 1, 'type': 1, 'name': '新手村'}, 2: {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'kbengine_ogre_demo', 'id': 2, 'type': 1, 'name': 'kbengine_ogre_demo'}, 3: {'entityType': 'Space', 'spawnPos': (-97.9299, 1.5, -158.922), 'resPath': 'kbengine_unity3d_demo', 'id': 3, 'type': 1, 'name': 'kbengine_unity3d_demo'}, 4: {'entityType': 'Space', 'spawnPos': (0.0, 1.5, 0.0), 'resPath': 'teleportspace', 'id': 4, 'type': 1, 'name': 'teleportspace'}, 5: {'entityType': 'SpaceDuplicate', 'spawnPos': (0.0, 0.0, 0.0), 'resPath': 'duplicate', 'id': 5, 'type': 2, 'name': 'Duplicate(副本)'}, 6: {'entityType': 'Space', 'spawnPos': (108.0, 0.0, 90.0), 'resPath': 'kbengine_cocos2d_js_demo', 'id': 6, 'type': 1, 'name': 'kbengine_cocos2d_js_demo'}}$/;"	v
+datas	scripts\data\d_spaces_spawns.py	/^datas={$/;"	v
+GlobalConst	scripts\server_common\SCDefine.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\server_common\SCDefine.py	/^import KBEngine$/;"	i
+TIMER_TYPE_BUFF_TICK	scripts\server_common\SCDefine.py	/^TIMER_TYPE_BUFF_TICK								= 1 # buff的tick$/;"	v
+TIMER_TYPE_CREATE_SPACES	scripts\server_common\SCDefine.py	/^TIMER_TYPE_CREATE_SPACES							= 3 # 创建space$/;"	v
+TIMER_TYPE_DESTROY	scripts\server_common\SCDefine.py	/^TIMER_TYPE_DESTROY									= 4 # 延时销毁entity$/;"	v
+TIMER_TYPE_DESTROY	scripts\server_common\SCDefine.py	/^TIMER_TYPE_DESTROY									= 8	# entity销毁/;"	v
+TIMER_TYPE_FIGTH_WATI_INPUT_TIMEOUT	scripts\server_common\SCDefine.py	/^TIMER_TYPE_FIGTH_WATI_INPUT_TIMEOUT					= 6	# 战斗回合等待用户输入超时$/;"	v
+TIMER_TYPE_HEARDBEAT	scripts\server_common\SCDefine.py	/^TIMER_TYPE_HEARDBEAT								= 5	# 心跳$/;"	v
+TIMER_TYPE_SPACE_SPAWN_TICK	scripts\server_common\SCDefine.py	/^TIMER_TYPE_SPACE_SPAWN_TICK							= 2 # space出生怪$/;"	v
+TIMER_TYPE_SPAWN	scripts\server_common\SCDefine.py	/^TIMER_TYPE_SPAWN									= 7	# 出生点出生timer$/;"	v
+AVATAR_DATA_PICKLER	scripts\user_type\AVATAR_DATA.py	/^class AVATAR_DATA_PICKLER:$/;"	c
+GlobalConst	scripts\user_type\AVATAR_DATA.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\user_type\AVATAR_DATA.py	/^import KBEngine$/;"	i
+TAvatarData	scripts\user_type\AVATAR_DATA.py	/^class TAvatarData(dict):$/;"	c
+__init__	scripts\user_type\AVATAR_DATA.py	/^	def __init__(self):$/;"	m	class:AVATAR_DATA_PICKLER
+__init__	scripts\user_type\AVATAR_DATA.py	/^	def __init__(self):$/;"	m	class:TAvatarData
+asDict	scripts\user_type\AVATAR_DATA.py	/^	def asDict(self):$/;"	m	class:TAvatarData
+createFromDict	scripts\user_type\AVATAR_DATA.py	/^	def createFromDict(self, dictData):$/;"	m	class:TAvatarData
+createObjFromDict	scripts\user_type\AVATAR_DATA.py	/^	def createObjFromDict(self, dct):$/;"	m	class:AVATAR_DATA_PICKLER
+getDictFromObj	scripts\user_type\AVATAR_DATA.py	/^	def getDictFromObj(self, obj):$/;"	m	class:AVATAR_DATA_PICKLER
+inst	scripts\user_type\AVATAR_DATA.py	/^inst = AVATAR_DATA_PICKLER()/;"	v
+isSameType	scripts\user_type\AVATAR_DATA.py	/^	def isSameType(self, obj):$/;"	m	class:AVATAR_DATA_PICKLER
+AVATAR_INFOS_LIST_PICKLER	scripts\user_type\AVATAR_INFOS.py	/^class AVATAR_INFOS_LIST_PICKLER:$/;"	c
+AVATAR_INFOS_PICKLER	scripts\user_type\AVATAR_INFOS.py	/^class AVATAR_INFOS_PICKLER:$/;"	c
+GlobalConst	scripts\user_type\AVATAR_INFOS.py	/^import GlobalConst$/;"	i
+KBEngine	scripts\user_type\AVATAR_INFOS.py	/^import KBEngine$/;"	i
+TAvatarInfos	scripts\user_type\AVATAR_INFOS.py	/^class TAvatarInfos(list):$/;"	c
+TAvatarInfosList	scripts\user_type\AVATAR_INFOS.py	/^class TAvatarInfosList(dict):$/;"	c
+__init__	scripts\user_type\AVATAR_INFOS.py	/^	def __init__(self):$/;"	m	class:AVATAR_INFOS_LIST_PICKLER
+__init__	scripts\user_type\AVATAR_INFOS.py	/^	def __init__(self):$/;"	m	class:AVATAR_INFOS_PICKLER
+__init__	scripts\user_type\AVATAR_INFOS.py	/^	def __init__(self):$/;"	m	class:TAvatarInfos
+__init__	scripts\user_type\AVATAR_INFOS.py	/^	def __init__(self):$/;"	m	class:TAvatarInfosList
+asDict	scripts\user_type\AVATAR_INFOS.py	/^	def asDict(self):$/;"	m	class:TAvatarInfos
+asDict	scripts\user_type\AVATAR_INFOS.py	/^	def asDict(self):$/;"	m	class:TAvatarInfosList
+avatar_info_inst	scripts\user_type\AVATAR_INFOS.py	/^avatar_info_inst = AVATAR_INFOS_PICKLER()$/;"	v
+avatar_info_list_inst	scripts\user_type\AVATAR_INFOS.py	/^avatar_info_list_inst = AVATAR_INFOS_LIST_PICKLER()/;"	v
+createFromDict	scripts\user_type\AVATAR_INFOS.py	/^	def createFromDict(self, dictData):$/;"	m	class:TAvatarInfos
+createFromDict	scripts\user_type\AVATAR_INFOS.py	/^	def createFromDict(self, dictData):$/;"	m	class:TAvatarInfosList
+createObjFromDict	scripts\user_type\AVATAR_INFOS.py	/^	def createObjFromDict(self, dct):$/;"	m	class:AVATAR_INFOS_LIST_PICKLER
+createObjFromDict	scripts\user_type\AVATAR_INFOS.py	/^	def createObjFromDict(self, dct):$/;"	m	class:AVATAR_INFOS_PICKLER
+getDictFromObj	scripts\user_type\AVATAR_INFOS.py	/^	def getDictFromObj(self, obj):$/;"	m	class:AVATAR_INFOS_LIST_PICKLER
+getDictFromObj	scripts\user_type\AVATAR_INFOS.py	/^	def getDictFromObj(self, obj):$/;"	m	class:AVATAR_INFOS_PICKLER
+isSameType	scripts\user_type\AVATAR_INFOS.py	/^	def isSameType(self, obj):$/;"	m	class:AVATAR_INFOS_LIST_PICKLER
+isSameType	scripts\user_type\AVATAR_INFOS.py	/^	def isSameType(self, obj):$/;"	m	class:AVATAR_INFOS_PICKLER
+KBE_BIN_PATH	start_bots.bat	/^set KBE_BIN_PATH=%KBE_ROOT%\/kbe\/bin\/server\/$/;"	v
+KBE_RES_PATH	start_bots.bat	/^set KBE_RES_PATH=%KBE_ROOT%\/kbe\/res\/;%curpath%\/;%curpath%\/scripts\/;%curpath%\/res\/$/;"	v
+KBE_ROOT	start_bots.bat	/^set KBE_ROOT=%cd%$/;"	v
+curpath	start_bots.bat	/^set curpath=%~dp0$/;"	v
+uid	start_bots.bat	/^if defined uid (echo UID = %uid%) else set uid=%random%%%32760+1$/;"	v
+KBE_BIN_PATH	start_server.bat	/^set KBE_BIN_PATH=%KBE_ROOT%\/kbe\/bin\/server\/$/;"	v
+KBE_RES_PATH	start_server.bat	/^set KBE_RES_PATH=%KBE_ROOT%\/kbe\/res\/;%curpath%\/;%curpath%\/scripts\/;%curpath%\/res\/$/;"	v
+KBE_ROOT	start_server.bat	/^set KBE_ROOT=%cd%$/;"	v
+curpath	start_server.bat	/^set curpath=%~dp0$/;"	v
+uid	start_server.bat	/^if defined uid (echo UID = %uid%) else set uid=%random%%%32760+1$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

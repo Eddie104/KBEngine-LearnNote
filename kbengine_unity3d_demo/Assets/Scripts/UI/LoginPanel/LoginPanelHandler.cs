@@ -23,23 +23,9 @@ public class LoginPanelHandler : MonoBehaviour {
        EventDelegate.Add(btn_Login.onClick,btn_Login_OnClick);
        EventDelegate.Add(btn_Register.onClick, btn_Register_OnClick);
 
-       // login
+       //listen CreateAccount callBack
        KBEngine.Event.registerOut("onCreateAccountResult", this, "onCreateAccountResult");
-    }
-
-    public void btn_Login_OnClick(){
-
-        Debug.Log(" LoginPanelHandler =>"+"Login ::" + "stringAccount:" + stringAccount + "stringPasswd:" + stringPasswd);
-
-
-        if (stringAccount.Length > 0 && stringPasswd.Length > 5)
-        {
-            KBEngine.Event.fireIn("login", inPut_Name.value, stringPasswd, System.Text.Encoding.UTF8.GetBytes("kbengine_unity3d_demo"));
-        }
-        else
-        {
-           Debug.LogError("account or password is error, length < 6!(账号或者密码错误，长度必须大于5!)");
-        }
+       KBEngine.Event.registerOut("onLoginSuccessfully", this, "onLoginSuccessfully");
     }
 
     public void btn_Register_OnClick()
@@ -48,7 +34,6 @@ public class LoginPanelHandler : MonoBehaviour {
 
         KBEngine.Event.fireIn("createAccount", stringAccount, stringPasswd, System.Text.Encoding.UTF8.GetBytes("kbengine_unity3d_demo"));
     }
-
     public void onCreateAccountResult(UInt16 retcode, byte[] datas)
     {
         if (retcode != 0)
@@ -65,5 +50,25 @@ public class LoginPanelHandler : MonoBehaviour {
         {
             Debug.LogError("createAccount is successfully!(注册账号成功!)");
         }
+    }
+
+
+    public void btn_Login_OnClick()
+    {
+        Debug.Log(" LoginPanelHandler =>" + "Login ::" + "stringAccount:" + stringAccount + "stringPasswd:" + stringPasswd);
+
+        if (stringAccount.Length > 0 && stringPasswd.Length > 5)
+        {
+            KBEngine.Event.fireIn("login", inPut_Name.value, stringPasswd, System.Text.Encoding.UTF8.GetBytes("kbengine_unity3d_demo"));
+        }
+        else
+        {
+            Debug.LogError("account or password is error, length < 6!(账号或者密码错误，长度必须大于5!)");
+        }
+    }
+
+    public void onLoginSuccessfully(UInt64 rndUUID, Int32 eid, Account accountEntity)
+    {
+        Debug.Log("login is successfully!(登陆成功!)");
     }
 }

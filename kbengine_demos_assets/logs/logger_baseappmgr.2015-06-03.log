@@ -1,0 +1,237 @@
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 915] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 915] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 915] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 915] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 977] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:8080 )
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 977] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:8080, SOMAXCONN=5.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 977] - server-configs:
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 977] - 	internalAddr : 192.168.1.106:8080
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 977] - 	componentID : 5000
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 993] - ---- baseappmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8AAF06644A2D64B75AC4B54286B778C1. Config: Debug. Built: 10:37:28 Jun  3 2015. AppID: 5000. UID: 6319. PID: 4712 ----
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 993] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 993] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:52:59 993] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:00 991] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 6319 5000  [2015-06-03 10:53:01 022] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:08 324] - Components::findInterfaces: find logger(1)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:08 402] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:08 402] - Components::addComponent[logger], uid=6319, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:08 402] - Components::findInterfaces: find dbmgr(2)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:08 418] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:10 557] - Components::findInterfaces: find dbmgr(3)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:12 634] - Components::findInterfaces: find dbmgr(4)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:14 697] - Components::findInterfaces: find dbmgr(5)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:16 769] - Components::findInterfaces: find dbmgr(6)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:18 806] - Components::findInterfaces: find dbmgr(7)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:20 906] - Components::findInterfaces: find dbmgr(8)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:23 026] - Components::findInterfaces: find dbmgr(9)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:25 148] - Components::findInterfaces: find dbmgr(10)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:27 248] - Components::findInterfaces: find dbmgr(11)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:29 288] - Components::findInterfaces: find dbmgr(12)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:31 388] - Components::findInterfaces: find dbmgr(13)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:33 508] - Components::findInterfaces: find dbmgr(14)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:35 608] - Components::findInterfaces: find dbmgr(15)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:37 624] - Components::findInterfaces: find dbmgr(16)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:39 644] - Components::findInterfaces: find dbmgr(17)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:41 666] - Components::findInterfaces: find dbmgr(18)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:43 786] - Components::findInterfaces: find dbmgr(19)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:45 872] - Components::findInterfaces: find dbmgr(20)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:47 925] - Components::findInterfaces: find dbmgr(21)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:49 966] - Components::findInterfaces: find dbmgr(22)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:50 276] - BundleBroadcast::BundleBroadcast: Couldn't bind listener socket to port 20034, errorno=10048
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:51 286] - Components::findInterfaces: find dbmgr(23)...
+ WARNING baseappmgr-1 6319 5000  [2015-06-03 10:53:53 366] - Components::findInterfaces: find dbmgr(24)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:53 416] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:8084
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:53 416] - Components::addComponent[dbmgr], uid=6319, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:53 436] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:8084
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:55 446] - Components::findInterfaces: find cellappmgr(1)...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:55 576] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:8077
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:55 576] - Components::addComponent[cellappmgr], uid=6319, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:55 596] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:8077
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:56 946] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8081, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:8132/0/0/0.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:56 946] - Components::addComponent[loginapp], uid=6319, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:57 646] - Components::findInterfaces: register self to dbmgr...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:57 666] - Components::findInterfaces: register self to cellappmgr...
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:57 686] - Components::process(): Found all the components!
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:58 286] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8077, extaddr:nonsupport, extport:0,  from 192.168.1.106:8138/0/0/0.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:58 586] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8082, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:8140/0/0/0.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:53:58 586] - Components::addComponent[baseapp], uid=6319, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:54:00 406] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8083, extaddr:nonsupport, extport:0,  from 192.168.1.106:8148/0/0/0.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:54:00 406] - Components::addComponent[cellapp], uid=6319, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:54:13 570] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:54:13 570] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 6319 5000  [2015-06-03 10:54:20 545] - Baseappmgr::registerPendingAccountToBaseapp:zhangsan. allocBaseapp=[7001].
+    INFO baseappmgr-1 6319 5000  [2015-06-03 10:54:57 671] - ServerApp::onChannelTimeOut: Channel 192.168.1.106:8077/0/0/0 timed out.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 342] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 343] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 343] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 344] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 347] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13574 )
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 348] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13574, SOMAXCONN=5.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 348] - server-configs:
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 348] - 	internalAddr : 192.168.1.106:13574
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 348] - 	componentID : 5000
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 356] - ---- baseappmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8AAF06644A2D64B75AC4B54286B778C1. Config: Debug. Built: 10:37:28 Jun  3 2015. AppID: 5000. UID: 26385. PID: 1592 ----
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 359] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 359] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:39 360] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:40 646] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 26385 5000  [2015-06-03 15:22:40 647] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 700] - Components::findInterfaces: find logger(1)...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 825] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 825] - Components::addComponent[logger], uid=26385, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 827] - Components::findInterfaces: find dbmgr(2)...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 842] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 991] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:47 992] - Components::addComponent[dbmgr], uid=26385, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:48 008] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:50 021] - Components::findInterfaces: find cellappmgr(1)...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:50 162] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:13576
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:50 162] - Components::addComponent[cellappmgr], uid=26385, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:50 180] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:13576
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 121] - ServerApp::onRegisterNewApp: uid:26385, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13576, extaddr:nonsupport, extport:0,  from 192.168.1.106:13595/0/0/0.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 221] - Components::findInterfaces: register self to dbmgr...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 240] - Components::findInterfaces: register self to cellappmgr...
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 245] - Components::process(): Found all the components!
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 401] - ServerApp::onRegisterNewApp: uid:26385, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13577, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:13599/0/0/0.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:52 401] - Components::addComponent[loginapp], uid=26385, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:55 101] - ServerApp::onRegisterNewApp: uid:26385, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13578, extaddr:nonsupport, extport:0,  from 192.168.1.106:13602/0/0/0.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:55 101] - Components::addComponent[cellapp], uid=26385, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:55 301] - ServerApp::onRegisterNewApp: uid:26385, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13579, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:13604/0/0/0.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:22:55 301] - Components::addComponent[baseapp], uid=26385, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:23:08 481] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:23:08 481] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 26385 5000  [2015-06-03 15:23:52 107] - ServerApp::onChannelTimeOut: Channel 192.168.1.106:13595/0/0/0 timed out.
+   DEBUG baseappmgr-1 26385 5000  [2015-06-03 15:25:09 222] - Baseappmgr::registerPendingAccountToBaseapp:zhangsan. allocBaseapp=[7001].
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 247] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 248] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 249] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 249] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 256] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13925 )
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 256] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13925, SOMAXCONN=5.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 256] - server-configs:
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 257] - 	internalAddr : 192.168.1.106:13925
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 257] - 	componentID : 5000
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 264] - ---- baseappmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8AAF06644A2D64B75AC4B54286B778C1. Config: Debug. Built: 10:37:28 Jun  3 2015. AppID: 5000. UID: 30731. PID: 8128 ----
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 265] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 266] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:50 267] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:51 272] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 30731 5000  [2015-06-03 15:44:51 272] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 377] - Components::findInterfaces: find logger(1)...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 439] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 440] - Components::addComponent[logger], uid=30731, componentID=2000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 442] - Components::findInterfaces: find dbmgr(2)...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 460] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 618] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 618] - Components::addComponent[dbmgr], uid=30731, componentID=4000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:44:58 636] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:00 637] - Components::findInterfaces: find cellappmgr(1)...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:00 689] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:13926
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:00 690] - Components::addComponent[cellappmgr], uid=30731, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:00 708] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:13926
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:02 751] - Components::findInterfaces: register self to dbmgr...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:02 756] - Components::findInterfaces: register self to cellappmgr...
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:02 776] - Components::process(): Found all the components!
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:02 897] - ServerApp::onRegisterNewApp: uid:30731, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13926, extaddr:nonsupport, extport:0,  from 192.168.1.106:13951/0/0/0.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:03 677] - ServerApp::onRegisterNewApp: uid:30731, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13929, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:13953/0/0/0.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:03 677] - Components::addComponent[loginapp], uid=30731, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:05 677] - ServerApp::onRegisterNewApp: uid:30731, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13928, extaddr:nonsupport, extport:0,  from 192.168.1.106:13956/0/0/0.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:05 677] - Components::addComponent[cellapp], uid=30731, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:05 977] - ServerApp::onRegisterNewApp: uid:30731, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:13927, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:13959/0/0/0.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:05 977] - Components::addComponent[baseapp], uid=30731, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:18 297] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 30731 5000  [2015-06-03 15:45:18 297] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 30731 5000  [2015-06-03 15:45:38 097] - Baseappmgr::registerPendingAccountToBaseapp:lisi. allocBaseapp=[7001].
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 336] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 337] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 337] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 337] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 340] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14063 )
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 341] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14063, SOMAXCONN=5.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 341] - server-configs:
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 341] - 	internalAddr : 192.168.1.106:14063
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 341] - 	componentID : 5000
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 348] - ---- baseappmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8AAF06644A2D64B75AC4B54286B778C1. Config: Debug. Built: 10:37:28 Jun  3 2015. AppID: 5000. UID: 331. PID: 5308 ----
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 350] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 350] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:55 351] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:56:56 138] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 331 5000  [2015-06-03 15:56:56 142] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 280] - Components::findInterfaces: find logger(1)...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 373] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 373] - Components::addComponent[logger], uid=331, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 375] - Components::findInterfaces: find dbmgr(2)...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 390] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 509] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 509] - Components::addComponent[dbmgr], uid=331, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:03 527] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:05 539] - Components::findInterfaces: find cellappmgr(1)...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:05 618] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:14066
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:05 618] - Components::addComponent[cellappmgr], uid=331, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:05 634] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:14066
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:07 679] - Components::findInterfaces: register self to dbmgr...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:07 699] - Components::findInterfaces: register self to cellappmgr...
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:07 719] - Components::process(): Found all the components!
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:08 739] - ServerApp::onRegisterNewApp: uid:331, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14065, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:14088/0/0/0.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:08 739] - Components::addComponent[loginapp], uid=331, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:08 779] - ServerApp::onRegisterNewApp: uid:331, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14066, extaddr:nonsupport, extport:0,  from 192.168.1.106:14090/0/0/0.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:11 279] - ServerApp::onRegisterNewApp: uid:331, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14067, extaddr:nonsupport, extport:0,  from 192.168.1.106:14093/0/0/0.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:11 279] - Components::addComponent[cellapp], uid=331, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:11 519] - ServerApp::onRegisterNewApp: uid:331, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14068, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:14095/0/0/0.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:11 519] - Components::addComponent[baseapp], uid=331, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:24 600] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:57:24 600] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 331 5000  [2015-06-03 15:57:53 040] - Baseappmgr::registerPendingAccountToBaseapp:zhangsan. allocBaseapp=[7001].
+    INFO baseappmgr-1 331 5000  [2015-06-03 15:58:07 701] - ServerApp::onChannelTimeOut: Channel 192.168.1.106:14066/0/0/0 timed out.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 564] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 565] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 565] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 566] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 572] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14408 )
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 572] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14408, SOMAXCONN=5.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 572] - server-configs:
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 573] - 	internalAddr : 192.168.1.106:14408
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 573] - 	componentID : 5000
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 612] - ---- baseappmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8AAF06644A2D64B75AC4B54286B778C1. Config: Debug. Built: 10:37:28 Jun  3 2015. AppID: 5000. UID: 4318. PID: 7296 ----
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 630] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 630] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:16 631] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:17 466] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 4318 5000  [2015-06-03 16:17:17 467] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 528] - Components::findInterfaces: find logger(1)...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 622] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 622] - Components::addComponent[logger], uid=4318, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 624] - Components::findInterfaces: find dbmgr(2)...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 638] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 754] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 755] - Components::addComponent[dbmgr], uid=4318, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:24 770] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:26 771] - Components::findInterfaces: find cellappmgr(1)...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:26 862] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:14409
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:26 862] - Components::addComponent[cellappmgr], uid=4318, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:26 878] - Components::findInterfaces: found cellappmgr, addr:192.168.1.106:14409
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:27 888] - ServerApp::onRegisterNewApp: uid:4318, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14409, extaddr:nonsupport, extport:0,  from 192.168.1.106:14428/0/0/0.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:28 928] - Components::findInterfaces: register self to dbmgr...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:28 947] - Components::findInterfaces: register self to cellappmgr...
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:28 967] - Components::process(): Found all the components!
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:29 908] - ServerApp::onRegisterNewApp: uid:4318, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14412, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:14432/0/0/0.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:29 908] - Components::addComponent[loginapp], uid=4318, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:32 167] - ServerApp::onRegisterNewApp: uid:4318, username:Administrator, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14410, extaddr:nonsupport, extport:0,  from 192.168.1.106:14435/0/0/0.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:32 167] - Components::addComponent[cellapp], uid=4318, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:32 287] - ServerApp::onRegisterNewApp: uid:4318, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:14411, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:14438/0/0/0.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:32 287] - Components::addComponent[baseapp], uid=4318, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:44 568] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 4318 5000  [2015-06-03 16:17:44 568] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 4318 5000  [2015-06-03 16:17:53 808] - Baseappmgr::registerPendingAccountToBaseapp:zhangsan. allocBaseapp=[7001].
+   DEBUG baseappmgr-1 4318 5000  [2015-06-03 16:18:55 748] - Baseappmgr::registerPendingAccountToBaseapp:zhangsan. allocBaseapp=[7001].

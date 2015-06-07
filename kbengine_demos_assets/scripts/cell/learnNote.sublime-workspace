@@ -1,0 +1,432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"self"
+			],
+			[
+				"sh",
+				"showName"
+			],
+			[
+				"in",
+				"int〔class〕"
+			],
+			[
+				"pr",
+				"print〔keyword〕"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"han",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"tea",
+				"teacher1	teacher ν"
+			],
+			[
+				"te",
+				"teacher1	teacher ν"
+			],
+			[
+				"fu",
+				"func main	func main {...} ʂ"
+			],
+			[
+				"sp",
+				"Sprintf	string ƒ"
+			],
+			[
+				"clo",
+				"closeFunction	 ν"
+			],
+			[
+				"f",
+				"func_test	func() ν"
+			],
+			[
+				"fun",
+				"func_test	 ν"
+			],
+			[
+				"i",
+				"i	int ν"
+			],
+			[
+				"sor",
+				"sort_map	map[int]string ν"
+			],
+			[
+				"ma",
+				"map5	map[int]string ν"
+			],
+			[
+				"va",
+				"value2	 ν"
+			],
+			[
+				"ok",
+				"ok2	 ν"
+			],
+			[
+				"map",
+				"map5	 ν"
+			],
+			[
+				"pri",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/KBEngine-LearnNote/Notes/day2.md",
+			"settings":
+			{
+				"buffer_size": 1092,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/KBEngine-LearnNote/.git/description",
+		"/C/MySql/my.ini",
+		"/E/KBEngine-LearnNote/kbengine_my_assets/start_server.bat",
+		"/E/KBEngine-LearnNote/Day1/note.md",
+		"/E/KBEngine-LearnNote/.idea/workspace.xml",
+		"/E/KBEngine-LearnNote/Day1/day1.md",
+		"/E/KBEngine-LearnNote/Python/test.py",
+		"/E/KBEngine-Python-Tips/tips/CellApp/KBEngine.py",
+		"/E/KBEngine-LearnNote/Python/test2.py",
+		"/C/Python34/Lib/BaseApp/KBEngine.py",
+		"/E/kbengine/kbengine_demos_assets/logs/baseapp.7001.2015-06-03.log",
+		"/E/kbengine/kbengine_demos_assets/logs/cellappmgr.packets.log",
+		"/E/kbengine/kbengine_demos_assets/scripts/entity_defs/Account.def",
+		"/E/kbengine/kbengine_demos_assets/scripts/base/interfaces/GameObject.py",
+		"/E/kbengine/kbengine_demos_assets/scripts/base/kbengine.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/kbengine/kbengine_demos_assets/scripts/data/d_avatar_inittab.py",
+		"/E/kbengine/kbengine_demos_assets/scripts/bots/Account.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/CTags.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/CTags/Default.sublime-mousemap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/E/kbengine/kbengine_demos_assets/scripts/base/Avatar.py",
+		"/C/Go/Development/src/LearnGoLang/tools/笔记.txt",
+		"/E/kbengine/kbengine_demos_assets/res/server/kbengine.xml.dump",
+		"/C/Go/Development/src/LearnGoLang/tools/教程.txt",
+		"/E/SanGuoXxjtClient/FightDay/笔记/2015-5-25.md",
+		"/E/kbengine/kbengine_demos_assets/scripts/entity_defs/alias.xml",
+		"/E/kbengine/kbengine_demos_assets/scripts/user_type/AVATAR_INFOS.py",
+		"/E/kbengine/kbengine_demos_assets/scripts/entity_defs/interfaces/GameObject.def",
+		"/E/kbengine/kbengine_demos_assets/scripts/entity_defs/Avatar.def",
+		"/E/kbengine/kbengine_demos_assets/scripts/base/Account.py",
+		"/E/kbengine/kbe/src/server/baseapp/baseapp.cpp",
+		"/E/kbengine/kbe/src/server/loginapp/loginapp.cpp",
+		"/E/kbengine/kbe/src/server/loginapp/main.cpp",
+		"/E/kbengine/kbengine_demos_assets/start_server.bat",
+		"/E/kbengine/kbengine_demos_assets/scripts/user_type/AVATAR_DATA.py",
+		"/E/kbengine/kbengine_demos_assets/scripts/server_common/SCDefine.py",
+		"/D/Documents/Downloads/kbassets(minimum)/assets/README.md",
+		"/E/kbengine/kbe/res/server/kbengine_defs.xml",
+		"/E/kbengine/kbengine_demos_assets/res/server/kbengine.xml",
+		"/E/kbengine/README.md",
+		"/E/kbengine/docs/tutorial/README.md",
+		"/E/kbengine/kbengine_demos_assets/README.md",
+		"/E/kbengine_unity3d_demo/Assets/Scripts/kbe_scripts/README.md",
+		"/C/Go/Development/src/LearnGoLang/tools/mysql.txt",
+		"/E/kbengine/kbengine_demos_assets/scripts/entities.xml",
+		"/E/SanGuoXxjtClient/FightDay/笔记/2015-4-13.txt",
+		"/E/Unity-Android/Android Learning Note.cs",
+		"/E/Unity-Android/README.md",
+		"/E/Unity-Android/2015-06-02.md",
+		"/E/Unity-Android/应用信息/门萨学院应用信息/应用信息.txt",
+		"/E/Unity-Android/test.md",
+		"/E/MyUnityProject/Split-Animation-Tool/README.md",
+		"/E/MyUnityProject/Split-Animation-Tool/note.md",
+		"/E/SanGuoXxjtClient/FightDay/笔记/note.md",
+		"/E/Unity-Android/广告平台/万普/WapsOffer_ForUnity3d_1.1/WapsOffer_ForUnity3d_1.1/WapsSDK/WapsUnity3dDemo/src/cn/waps/wapsunity3ddemo/MainActivity.java",
+		"/C/Go/Development/src/LearnGoLang/web application/sql.go",
+		"/E/SanGuoXxjtClient/FightDay/策划/Config/StaticBingZhongDataPool.txt",
+		"/E/SanGuoXxjtClient/FightDay/策划/Config/StaticBingZhongDataPool.csv",
+		"/C/Users/Administrator/Desktop/2D动画测试(1)/2D动画测试/帧数.txt",
+		"/E/Unity-Android/广告平台/万普/WapsOffer_ForUnity3d_1.1/WapsOffer_ForUnity3d_1.1/UnityScript/WapsUnitySDK.cs",
+		"/E/Unity-Android/广告平台/万普/WapsOffer_ForUnity3d_1.1/WapsOffer_ForUnity3d_1.1/UnityScript/Main.cs",
+		"/E/SanGuoXxjtClient/FightDay/笔记/Cg_Unity.md",
+		"/E/SanGuoXxjtClient/FightDay/笔记/2015-5-25.txt",
+		"/E/SanGuoXxjtClient/FightDay/笔记/2015-5-25",
+		"/C/Users/Administrator/Desktop/VS2013 快捷键设置.md",
+		"/C/Go/Development/src/LearnGoLang/web application/beego_1.go",
+		"/C/Go/Development/src/LearnGoLang/web application/helloword_http.go",
+		"/C/Go/src/net/http/server.go",
+		"/C/Go/Development/src/LearnGoLang/syntax lecture/array.go",
+		"/C/Go/LearnGoLang/src/syntax lecture/struct.go",
+		"/C/Go/LearnGoLang/src/syntax lecture/function.go",
+		"/C/Go/LearnGoLang/src/syntax lecture/map.go",
+		"/C/Go/LearnGoLang/src/syntax lecture/array.go",
+		"/C/Go/LearnGoLang/src/syntax lecture/slice.go",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"D:",
+			"ClassName",
+			"ctrl+shift+k",
+			"delete ",
+			"delete",
+			"save",
+			"activeCharacter",
+			"MAILBOX",
+			"AVATAR_INFOS_LIST",
+			"loginGateway",
+			"login",
+			"ListenAndServe",
+			"newStruct",
+			"curcloseFunction",
+			"ctrl+f",
+			"main",
+			"package",
+			"main",
+			"F"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"E:",
+			"test"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/KBEngine-LearnNote/Notes/day2.md",
+					"settings":
+					{
+						"buffer_size": 1092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								906
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://C:\\Go\\Development\\src\\LearnGoLang\\web application":
+	{
+		"height": 389.0
+	},
+	"output.9o://C:\\Go\\LearnGoLang\\src\\syntax lecture":
+	{
+		"height": 112.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 423.0
+	},
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"acc",
+				"scripts/base/Account.py"
+			],
+			[
+				"ad",
+				"scripts/entity_defs/Account.def"
+			],
+			[
+				"kbengine",
+				"scripts/base/kbengine.py"
+			],
+			[
+				"d_v",
+				"scripts/data/d_avatar_inittab.py"
+			],
+			[
+				"aco",
+				"scripts/base/Account.py"
+			],
+			[
+				"笔记",
+				"/C/Go/Development/src/LearnGoLang/tools/笔记.txt"
+			],
+			[
+				"pro",
+				"scripts/base/interfaces/GameObject.py"
+			],
+			[
+				"a",
+				"scripts/base/Avatar.py"
+			],
+			[
+				"ke",
+				"scripts/base/kbengine.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/kbengine/kbengine_demos_assets/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}

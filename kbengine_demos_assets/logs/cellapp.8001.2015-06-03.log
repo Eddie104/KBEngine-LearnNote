@@ -1,0 +1,1490 @@
+  INFO root [0x0000108c] [2015-06-03 10:53:00,149] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000108c] [2015-06-03 10:53:00,149] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x0000108c] [2015-06-03 10:53:00,149] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x0000108c] [2015-06-03 10:53:00,149] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:8083 )
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:8083, SOMAXCONN=5.
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - server-configs:
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	gameUpdateHertz : 10
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	defaultAoIRadius : 80
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	entryScriptFile : kbengine
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	internalAddr : 192.168.1.106:8083
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - 	componentID : 8001
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 10:37:58 Jun  3 2015. AppID: 8001. UID: 6319. PID: 7528 ----
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000108c] [2015-06-03 10:53:00,320] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,492] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,492] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,492] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,507] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,507] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,507] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000108c] [2015-06-03 10:53:00,788] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000108c] [2015-06-03 10:53:00,975] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:39:02) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x0000108c] [2015-06-03 10:53:00,975] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,319] - loaded script:Account(1).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,350] - loaded script:Avatar(2).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,365] - loaded script:Monster(3).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,365] - loaded script:NPC(4).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,381] - loaded script:Gate(5).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,381] - loaded script:Space(7).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,381] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x0000108c] [2015-06-03 10:53:01,381] - loaded script:SpawnPoint(9).
+  INFO root [0x0000108c] [2015-06-03 10:53:01,381] - TelnetServer server is running on port 50000
+  INFO root [0x0000108c] [2015-06-03 10:53:02,083] - ---- cellapp is running ----
+ DEBUG root [0x0000108c] [2015-06-03 10:53:02,083] - Components::process(): Request for the process of identity...
+  WARN root [0x0000108c] [2015-06-03 10:53:08,231] - EntityApp::checkTickPeriod: tick took 6147% (6.15 seconds)!
+  INFO root [0x0000108c] [2015-06-03 10:53:09,292] - Components::findInterfaces: find logger(1)...
+  INFO root [0x0000108c] [2015-06-03 10:53:09,463] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+  INFO root [0x0000108c] [2015-06-03 10:53:09,463] - Components::addComponent[logger], uid=6319, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000108c] [2015-06-03 10:53:09,479] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x0000108c] [2015-06-03 10:53:09,494] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+  WARN root [0x0000108c] [2015-06-03 10:53:10,622] - EntityApp::checkTickPeriod: tick took 1423% (1.42 seconds)!
+  WARN root [0x0000108c] [2015-06-03 10:53:10,622] - Forwarding logs to logger[192.168.1.106:8079/0/0/0]...
+ ERROR root [0x0000108c] [2015-06-03 10:56:17,788] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+ ERROR root [0x0000108c] [2015-06-03 10:56:17,788] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,788] - onDestroy(10)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - SpawnPoint::~SpawnPoint(): 10
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,788] - onDestroy(3)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - SpawnPoint::~SpawnPoint(): 3
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,788] - onDestroy(4)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - SpawnPoint::~SpawnPoint(): 4
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,788] - onDestroy(5)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - SpawnPoint::~SpawnPoint(): 5
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,788] - onDestroy(6)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,788] - SpawnPoint::~SpawnPoint(): 6
+  INFO root [0x0000108c] [2015-06-03 10:56:17,798] - Monster::~Monster(): 1043
+  INFO root [0x0000108c] [2015-06-03 10:56:17,800] - Monster::~Monster(): 1171
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,800] - onDestroy(7)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,801] - SpawnPoint::~SpawnPoint(): 7
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,801] - onDestroy(8)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,802] - SpawnPoint::~SpawnPoint(): 8
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,802] - onDestroy(11)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,803] - SpawnPoint::~SpawnPoint(): 11
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,803] - onDestroy(12)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,804] - SpawnPoint::~SpawnPoint(): 12
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,804] - onDestroy(13)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,805] - SpawnPoint::~SpawnPoint(): 13
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,805] - onDestroy(29)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,807] - SpawnPoint::~SpawnPoint(): 29
+  INFO root [0x0000108c] [2015-06-03 10:56:17,807] - NPC::~NPC(): 1025
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,807] - onDestroy(14)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,808] - SpawnPoint::~SpawnPoint(): 14
+  INFO root [0x0000108c] [2015-06-03 10:56:17,809] - Shutdowner::onShutdownEnd: shutting down
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,810] - onDestroy(68)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,810] - onDestroy(16)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,810] - onDestroy(18)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,810] - onDestroy(20)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,810] - onDestroy(22)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(24)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(27)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(70)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(31)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(33)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(35)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(38)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(41)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,820] - onDestroy(44)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(47)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(50)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(56)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(59)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(61)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(63)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,830] - onDestroy(65)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Spaces::destroySpace: 1.
+ DEBUG root [0x0000108c] [2015-06-03 10:56:17,830] - Space::removeEntity: lose creator(2).
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Spaces::destroySpace: 1.
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Space::~Space(): 2
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1086
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1083
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1082
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1080
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1078
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1074
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1088
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1072
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1067
+  INFO root [0x0000108c] [2015-06-03 10:56:17,830] - Monster::~Monster(): 1065
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1062
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 68
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1026
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 16
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1027
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 18
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1028
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 20
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1029
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 22
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1030
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 24
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1031
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1032
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 27
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 70
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1033
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 31
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1034
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 33
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1036
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 35
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1037
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 38
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1039
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 41
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1041
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 44
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1044
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 47
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - Monster::~Monster(): 1045
+  INFO root [0x0000108c] [2015-06-03 10:56:17,840] - SpawnPoint::~SpawnPoint(): 50
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - SpawnPoint::~SpawnPoint(): 56
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1047
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1049
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - SpawnPoint::~SpawnPoint(): 59
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1051
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - SpawnPoint::~SpawnPoint(): 61
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1053
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1056
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - SpawnPoint::~SpawnPoint(): 63
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - SpawnPoint::~SpawnPoint(): 65
+  INFO root [0x0000108c] [2015-06-03 10:56:17,850] - Monster::~Monster(): 1059
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(15)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(17)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(19)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(21)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(23)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(25)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(28)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(30)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(32)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,850] - onDestroy(34)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(36)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(39)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(42)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(45)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(48)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(51)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(54)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,860] - onDestroy(57)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Spaces::destroySpace: 2.
+ DEBUG root [0x0000108c] [2015-06-03 10:56:17,870] - Space::removeEntity: lose creator(9).
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Spaces::destroySpace: 2.
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Space::~Space(): 9
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 15
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 17
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 19
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 21
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 23
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 25
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 28
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 30
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 32
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 34
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - NPC::~NPC(): 1035
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 36
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - NPC::~NPC(): 1038
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 39
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Monster::~Monster(): 1040
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 42
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Monster::~Monster(): 1042
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 45
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Monster::~Monster(): 1077
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 48
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Monster::~Monster(): 1046
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 51
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 54
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - Monster::~Monster(): 1048
+  INFO root [0x0000108c] [2015-06-03 10:56:17,870] - SpawnPoint::~SpawnPoint(): 57
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1050
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1052
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1054
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1055
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1058
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1061
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1064
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1068
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1071
+  INFO root [0x0000108c] [2015-06-03 10:56:17,880] - Monster::~Monster(): 1073
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(37)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(40)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(43)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(46)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(49)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(52)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(55)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(58)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(60)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(62)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,880] - onDestroy(64)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(67)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(69)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(71)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(72)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(73)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(74)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(75)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(76)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,890] - onDestroy(77)
+  INFO root [0x0000108c] [2015-06-03 10:56:17,890] - Spaces::destroySpace: 3.
+ DEBUG root [0x0000108c] [2015-06-03 10:56:17,890] - Space::removeEntity: lose creator(26).
+  INFO root [0x0000108c] [2015-06-03 10:56:17,890] - Spaces::destroySpace: 3.
+  INFO root [0x0000108c] [2015-06-03 10:56:17,890] - Space::~Space(): 26
+  INFO root [0x0000108c] [2015-06-03 10:56:17,890] - SpawnPoint::~SpawnPoint(): 37
+  INFO root [0x0000108c] [2015-06-03 10:56:17,890] - SpawnPoint::~SpawnPoint(): 40
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 43
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 46
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 49
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 52
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 55
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 58
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 60
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 62
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - NPC::~NPC(): 1057
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 64
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - NPC::~NPC(): 1060
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 67
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1063
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 69
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1066
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 71
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1069
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 72
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1070
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 73
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1075
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 74
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1076
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 75
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1079
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 76
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1081
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - SpawnPoint::~SpawnPoint(): 77
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1084
+  INFO root [0x0000108c] [2015-06-03 10:56:17,900] - Monster::~Monster(): 1085
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1089
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1090
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1091
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1092
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1093
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Monster::~Monster(): 1094
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Gate::~Gate(): 1095
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Gate::~Gate(): 1096
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(66)
+ ERROR root [0x0000108c] [2015-06-03 10:56:17,910] - 192.168.1.106:8147: Exception occurred: REASON_CLIENT_DISCONNECTED
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Spaces::destroySpace: 4.
+ DEBUG root [0x0000108c] [2015-06-03 10:56:17,910] - Space::removeEntity: lose creator(53).
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Spaces::destroySpace: 4.
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Space::~Space(): 53
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - SpawnPoint::~SpawnPoint(): 66
+  INFO root [0x0000108c] [2015-06-03 10:56:17,910] - Gate::~Gate(): 1087
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(79)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(80)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(81)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(82)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,910] - onDestroy(83)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(84)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(85)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(86)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(87)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(88)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(89)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(90)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(91)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,920] - onDestroy(92)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(93)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(94)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(95)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(96)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(97)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(98)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,930] - onDestroy(99)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,940] - onDestroy(100)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,940] - onDestroy(101)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,940] - onDestroy(102)
+ S_DBG root [0x0000108c] [2015-06-03 10:56:17,940] - onDestroy(103)
+  INFO root [0x0000220c] [2015-06-03 15:22:39,583] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000220c] [2015-06-03 15:22:39,584] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x0000220c] [2015-06-03 15:22:39,585] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x0000220c] [2015-06-03 15:22:39,585] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x0000220c] [2015-06-03 15:22:39,670] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13578 )
+  INFO root [0x0000220c] [2015-06-03 15:22:39,671] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13578, SOMAXCONN=5.
+  INFO root [0x0000220c] [2015-06-03 15:22:39,671] - server-configs:
+  INFO root [0x0000220c] [2015-06-03 15:22:39,671] - 	gameUpdateHertz : 10
+  INFO root [0x0000220c] [2015-06-03 15:22:39,671] - 	defaultAoIRadius : 80
+  INFO root [0x0000220c] [2015-06-03 15:22:39,671] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x0000220c] [2015-06-03 15:22:39,672] - 	entryScriptFile : kbengine
+  INFO root [0x0000220c] [2015-06-03 15:22:39,672] - 	internalAddr : 192.168.1.106:13578
+  INFO root [0x0000220c] [2015-06-03 15:22:39,672] - 	componentID : 8001
+  INFO root [0x0000220c] [2015-06-03 15:22:39,732] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 10:37:58 Jun  3 2015. AppID: 8001. UID: 26385. PID: 1844 ----
+  INFO root [0x0000220c] [2015-06-03 15:22:39,732] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x0000220c] [2015-06-03 15:22:39,732] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000220c] [2015-06-03 15:22:39,733] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,947] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,948] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,948] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,992] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,992] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000220c] [2015-06-03 15:22:39,993] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,025] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000220c] [2015-06-03 15:22:40,135] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:39:02) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x0000220c] [2015-06-03 15:22:40,135] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,418] - loaded script:Account(1).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,431] - loaded script:Avatar(2).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,468] - loaded script:Monster(3).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,469] - loaded script:NPC(4).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,470] - loaded script:Gate(5).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,472] - loaded script:Space(7).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,474] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x0000220c] [2015-06-03 15:22:40,475] - loaded script:SpawnPoint(9).
+  INFO root [0x0000220c] [2015-06-03 15:22:40,476] - TelnetServer server is running on port 50000
+  INFO root [0x0000220c] [2015-06-03 15:22:41,186] - ---- cellapp is running ----
+ DEBUG root [0x0000220c] [2015-06-03 15:22:41,187] - Components::process(): Request for the process of identity...
+  WARN root [0x0000220c] [2015-06-03 15:22:47,199] - EntityApp::checkTickPeriod: tick took 6013% (6.01 seconds)!
+  INFO root [0x0000220c] [2015-06-03 15:22:48,287] - Components::findInterfaces: find logger(1)...
+  INFO root [0x0000220c] [2015-06-03 15:22:48,393] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+  INFO root [0x0000220c] [2015-06-03 15:22:48,393] - Components::addComponent[logger], uid=26385, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000220c] [2015-06-03 15:22:48,394] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x0000220c] [2015-06-03 15:22:48,410] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+  INFO root [0x0000220c] [2015-06-03 15:22:48,527] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+  INFO root [0x0000220c] [2015-06-03 15:22:48,527] - Components::addComponent[dbmgr], uid=26385, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x0000220c] [2015-06-03 15:22:48,543] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13575
+  WARN root [0x0000220c] [2015-06-03 15:22:49,544] - EntityApp::checkTickPeriod: tick took 1356% (1.36 seconds)!
+  WARN root [0x0000220c] [2015-06-03 15:22:49,545] - Forwarding logs to logger[192.168.1.106:13573/0/0/0]...
+ ERROR root [0x0000220c] [2015-06-03 15:35:05,994] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+ ERROR root [0x0000220c] [2015-06-03 15:35:05,997] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x0000220c] [2015-06-03 15:35:05,998] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000220c] [2015-06-03 15:35:05,998] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x0000220c] [2015-06-03 15:35:05,999] - onDestroy(1034)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,001] - SpawnPoint::~SpawnPoint(): 1034
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,002] - onDestroy(1027)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,002] - SpawnPoint::~SpawnPoint(): 1027
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,003] - onDestroy(1028)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,003] - SpawnPoint::~SpawnPoint(): 1028
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,004] - onDestroy(1029)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,005] - SpawnPoint::~SpawnPoint(): 1029
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,005] - onDestroy(1030)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,008] - SpawnPoint::~SpawnPoint(): 1030
+  INFO root [0x0000220c] [2015-06-03 15:35:06,010] - Monster::~Monster(): 19
+  INFO root [0x0000220c] [2015-06-03 15:35:06,012] - Monster::~Monster(): 147
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,012] - onDestroy(1031)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,013] - SpawnPoint::~SpawnPoint(): 1031
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,013] - onDestroy(1032)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,014] - SpawnPoint::~SpawnPoint(): 1032
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,014] - onDestroy(1035)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,015] - SpawnPoint::~SpawnPoint(): 1035
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,015] - onDestroy(1036)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,016] - SpawnPoint::~SpawnPoint(): 1036
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,016] - onDestroy(1037)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,017] - SpawnPoint::~SpawnPoint(): 1037
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,017] - onDestroy(1053)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,018] - SpawnPoint::~SpawnPoint(): 1053
+  INFO root [0x0000220c] [2015-06-03 15:35:06,019] - NPC::~NPC(): 1
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,019] - onDestroy(1054)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,020] - SpawnPoint::~SpawnPoint(): 1054
+  INFO root [0x0000220c] [2015-06-03 15:35:06,020] - Shutdowner::onShutdownEnd: shutting down
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,026] - onDestroy(1094)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,026] - onDestroy(1092)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,028] - onDestroy(1038)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,029] - onDestroy(1040)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,030] - onDestroy(1042)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,031] - onDestroy(1044)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,031] - onDestroy(1046)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,033] - onDestroy(1048)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,034] - onDestroy(1051)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,035] - onDestroy(1055)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,036] - onDestroy(1057)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,037] - onDestroy(1059)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,038] - onDestroy(1062)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,039] - onDestroy(1065)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,040] - onDestroy(1068)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,041] - onDestroy(1071)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,041] - onDestroy(1074)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,042] - onDestroy(1080)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,043] - onDestroy(1083)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,044] - onDestroy(1085)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,045] - onDestroy(1087)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,046] - onDestroy(1089)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,047] - Spaces::destroySpace: 1.
+ DEBUG root [0x0000220c] [2015-06-03 15:35:06,047] - Space::removeEntity: lose creator(1026).
+  INFO root [0x0000220c] [2015-06-03 15:35:06,047] - Spaces::destroySpace: 1.
+  INFO root [0x0000220c] [2015-06-03 15:35:06,048] - Space::~Space(): 1026
+  INFO root [0x0000220c] [2015-06-03 15:35:06,048] - Monster::~Monster(): 62
+  INFO root [0x0000220c] [2015-06-03 15:35:06,048] - Monster::~Monster(): 61
+  INFO root [0x0000220c] [2015-06-03 15:35:06,049] - Monster::~Monster(): 58
+  INFO root [0x0000220c] [2015-06-03 15:35:06,049] - Monster::~Monster(): 55
+  INFO root [0x0000220c] [2015-06-03 15:35:06,049] - Monster::~Monster(): 50
+  INFO root [0x0000220c] [2015-06-03 15:35:06,050] - Monster::~Monster(): 46
+  INFO root [0x0000220c] [2015-06-03 15:35:06,050] - Monster::~Monster(): 66
+  INFO root [0x0000220c] [2015-06-03 15:35:06,050] - Monster::~Monster(): 44
+  INFO root [0x0000220c] [2015-06-03 15:35:06,051] - Monster::~Monster(): 40
+  INFO root [0x0000220c] [2015-06-03 15:35:06,051] - SpawnPoint::~SpawnPoint(): 1094
+  INFO root [0x0000220c] [2015-06-03 15:35:06,051] - SpawnPoint::~SpawnPoint(): 1092
+  INFO root [0x0000220c] [2015-06-03 15:35:06,052] - Monster::~Monster(): 2
+  INFO root [0x0000220c] [2015-06-03 15:35:06,052] - SpawnPoint::~SpawnPoint(): 1038
+  INFO root [0x0000220c] [2015-06-03 15:35:06,052] - Monster::~Monster(): 3
+  INFO root [0x0000220c] [2015-06-03 15:35:06,052] - SpawnPoint::~SpawnPoint(): 1040
+  INFO root [0x0000220c] [2015-06-03 15:35:06,053] - SpawnPoint::~SpawnPoint(): 1042
+  INFO root [0x0000220c] [2015-06-03 15:35:06,053] - Monster::~Monster(): 4
+  INFO root [0x0000220c] [2015-06-03 15:35:06,053] - SpawnPoint::~SpawnPoint(): 1044
+  INFO root [0x0000220c] [2015-06-03 15:35:06,054] - SpawnPoint::~SpawnPoint(): 1046
+  INFO root [0x0000220c] [2015-06-03 15:35:06,054] - Monster::~Monster(): 5
+  INFO root [0x0000220c] [2015-06-03 15:35:06,054] - Monster::~Monster(): 6
+  INFO root [0x0000220c] [2015-06-03 15:35:06,056] - SpawnPoint::~SpawnPoint(): 1048
+  INFO root [0x0000220c] [2015-06-03 15:35:06,056] - Monster::~Monster(): 7
+  INFO root [0x0000220c] [2015-06-03 15:35:06,057] - SpawnPoint::~SpawnPoint(): 1051
+  INFO root [0x0000220c] [2015-06-03 15:35:06,057] - Monster::~Monster(): 8
+  INFO root [0x0000220c] [2015-06-03 15:35:06,057] - Monster::~Monster(): 38
+  INFO root [0x0000220c] [2015-06-03 15:35:06,058] - Monster::~Monster(): 9
+  INFO root [0x0000220c] [2015-06-03 15:35:06,058] - SpawnPoint::~SpawnPoint(): 1055
+  INFO root [0x0000220c] [2015-06-03 15:35:06,058] - Monster::~Monster(): 10
+  INFO root [0x0000220c] [2015-06-03 15:35:06,058] - SpawnPoint::~SpawnPoint(): 1057
+  INFO root [0x0000220c] [2015-06-03 15:35:06,059] - Monster::~Monster(): 12
+  INFO root [0x0000220c] [2015-06-03 15:35:06,059] - SpawnPoint::~SpawnPoint(): 1059
+  INFO root [0x0000220c] [2015-06-03 15:35:06,060] - Monster::~Monster(): 14
+  INFO root [0x0000220c] [2015-06-03 15:35:06,060] - SpawnPoint::~SpawnPoint(): 1062
+  INFO root [0x0000220c] [2015-06-03 15:35:06,060] - Monster::~Monster(): 15
+  INFO root [0x0000220c] [2015-06-03 15:35:06,060] - SpawnPoint::~SpawnPoint(): 1065
+  INFO root [0x0000220c] [2015-06-03 15:35:06,061] - Monster::~Monster(): 17
+  INFO root [0x0000220c] [2015-06-03 15:35:06,061] - Monster::~Monster(): 53
+  INFO root [0x0000220c] [2015-06-03 15:35:06,062] - SpawnPoint::~SpawnPoint(): 1068
+  INFO root [0x0000220c] [2015-06-03 15:35:06,062] - SpawnPoint::~SpawnPoint(): 1071
+  INFO root [0x0000220c] [2015-06-03 15:35:06,062] - SpawnPoint::~SpawnPoint(): 1074
+  INFO root [0x0000220c] [2015-06-03 15:35:06,063] - Monster::~Monster(): 22
+  INFO root [0x0000220c] [2015-06-03 15:35:06,063] - Monster::~Monster(): 24
+  INFO root [0x0000220c] [2015-06-03 15:35:06,063] - SpawnPoint::~SpawnPoint(): 1080
+  INFO root [0x0000220c] [2015-06-03 15:35:06,064] - Monster::~Monster(): 26
+  INFO root [0x0000220c] [2015-06-03 15:35:06,064] - SpawnPoint::~SpawnPoint(): 1083
+  INFO root [0x0000220c] [2015-06-03 15:35:06,064] - Monster::~Monster(): 27
+  INFO root [0x0000220c] [2015-06-03 15:35:06,064] - SpawnPoint::~SpawnPoint(): 1085
+  INFO root [0x0000220c] [2015-06-03 15:35:06,065] - Monster::~Monster(): 29
+  INFO root [0x0000220c] [2015-06-03 15:35:06,065] - SpawnPoint::~SpawnPoint(): 1087
+  INFO root [0x0000220c] [2015-06-03 15:35:06,065] - Monster::~Monster(): 31
+  INFO root [0x0000220c] [2015-06-03 15:35:06,066] - SpawnPoint::~SpawnPoint(): 1089
+  INFO root [0x0000220c] [2015-06-03 15:35:06,066] - Monster::~Monster(): 35
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,067] - onDestroy(1039)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,067] - onDestroy(1041)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,068] - onDestroy(1043)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,068] - onDestroy(1045)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,069] - onDestroy(1047)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,069] - onDestroy(1049)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,070] - onDestroy(1052)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,071] - onDestroy(1056)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,072] - onDestroy(1058)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,073] - onDestroy(1060)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,073] - onDestroy(1063)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,074] - onDestroy(1066)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,075] - onDestroy(1069)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,076] - onDestroy(1072)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,076] - onDestroy(1075)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,077] - onDestroy(1078)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,078] - onDestroy(1081)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,082] - Spaces::destroySpace: 2.
+ DEBUG root [0x0000220c] [2015-06-03 15:35:06,083] - Space::removeEntity: lose creator(1033).
+  INFO root [0x0000220c] [2015-06-03 15:35:06,083] - Spaces::destroySpace: 2.
+  INFO root [0x0000220c] [2015-06-03 15:35:06,083] - Space::~Space(): 1033
+  INFO root [0x0000220c] [2015-06-03 15:35:06,083] - SpawnPoint::~SpawnPoint(): 1039
+  INFO root [0x0000220c] [2015-06-03 15:35:06,084] - SpawnPoint::~SpawnPoint(): 1041
+  INFO root [0x0000220c] [2015-06-03 15:35:06,084] - SpawnPoint::~SpawnPoint(): 1043
+  INFO root [0x0000220c] [2015-06-03 15:35:06,084] - SpawnPoint::~SpawnPoint(): 1045
+  INFO root [0x0000220c] [2015-06-03 15:35:06,085] - SpawnPoint::~SpawnPoint(): 1047
+  INFO root [0x0000220c] [2015-06-03 15:35:06,085] - SpawnPoint::~SpawnPoint(): 1049
+  INFO root [0x0000220c] [2015-06-03 15:35:06,085] - SpawnPoint::~SpawnPoint(): 1052
+  INFO root [0x0000220c] [2015-06-03 15:35:06,086] - Monster::~Monster(): 54
+  INFO root [0x0000220c] [2015-06-03 15:35:06,086] - SpawnPoint::~SpawnPoint(): 1056
+  INFO root [0x0000220c] [2015-06-03 15:35:06,086] - SpawnPoint::~SpawnPoint(): 1058
+  INFO root [0x0000220c] [2015-06-03 15:35:06,086] - NPC::~NPC(): 11
+  INFO root [0x0000220c] [2015-06-03 15:35:06,087] - SpawnPoint::~SpawnPoint(): 1060
+  INFO root [0x0000220c] [2015-06-03 15:35:06,087] - NPC::~NPC(): 13
+  INFO root [0x0000220c] [2015-06-03 15:35:06,088] - SpawnPoint::~SpawnPoint(): 1063
+  INFO root [0x0000220c] [2015-06-03 15:35:06,088] - Monster::~Monster(): 16
+  INFO root [0x0000220c] [2015-06-03 15:35:06,088] - SpawnPoint::~SpawnPoint(): 1066
+  INFO root [0x0000220c] [2015-06-03 15:35:06,088] - Monster::~Monster(): 18
+  INFO root [0x0000220c] [2015-06-03 15:35:06,089] - SpawnPoint::~SpawnPoint(): 1069
+  INFO root [0x0000220c] [2015-06-03 15:35:06,089] - Monster::~Monster(): 20
+  INFO root [0x0000220c] [2015-06-03 15:35:06,090] - SpawnPoint::~SpawnPoint(): 1072
+  INFO root [0x0000220c] [2015-06-03 15:35:06,090] - Monster::~Monster(): 21
+  INFO root [0x0000220c] [2015-06-03 15:35:06,090] - SpawnPoint::~SpawnPoint(): 1075
+  INFO root [0x0000220c] [2015-06-03 15:35:06,091] - Monster::~Monster(): 23
+  INFO root [0x0000220c] [2015-06-03 15:35:06,091] - SpawnPoint::~SpawnPoint(): 1078
+  INFO root [0x0000220c] [2015-06-03 15:35:06,091] - Monster::~Monster(): 25
+  INFO root [0x0000220c] [2015-06-03 15:35:06,091] - SpawnPoint::~SpawnPoint(): 1081
+  INFO root [0x0000220c] [2015-06-03 15:35:06,092] - Monster::~Monster(): 28
+  INFO root [0x0000220c] [2015-06-03 15:35:06,092] - Monster::~Monster(): 30
+  INFO root [0x0000220c] [2015-06-03 15:35:06,093] - Monster::~Monster(): 32
+  INFO root [0x0000220c] [2015-06-03 15:35:06,093] - Monster::~Monster(): 34
+  INFO root [0x0000220c] [2015-06-03 15:35:06,093] - Monster::~Monster(): 37
+  INFO root [0x0000220c] [2015-06-03 15:35:06,093] - Monster::~Monster(): 42
+  INFO root [0x0000220c] [2015-06-03 15:35:06,094] - Monster::~Monster(): 43
+  INFO root [0x0000220c] [2015-06-03 15:35:06,094] - Monster::~Monster(): 48
+  INFO root [0x0000220c] [2015-06-03 15:35:06,094] - Monster::~Monster(): 49
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,095] - onDestroy(1061)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,095] - onDestroy(1064)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,096] - onDestroy(1067)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,097] - onDestroy(1070)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,099] - onDestroy(1073)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,100] - onDestroy(1076)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,101] - onDestroy(1079)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,102] - onDestroy(1082)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,104] - onDestroy(1084)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,104] - onDestroy(1086)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,105] - onDestroy(1088)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,106] - onDestroy(1091)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,107] - onDestroy(1093)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,107] - onDestroy(1095)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,108] - onDestroy(1096)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,109] - onDestroy(1097)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,110] - onDestroy(1098)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,110] - onDestroy(1099)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,111] - onDestroy(1100)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,112] - onDestroy(1101)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,114] - Spaces::destroySpace: 3.
+ DEBUG root [0x0000220c] [2015-06-03 15:35:06,115] - Space::removeEntity: lose creator(1050).
+  INFO root [0x0000220c] [2015-06-03 15:35:06,115] - Spaces::destroySpace: 3.
+  INFO root [0x0000220c] [2015-06-03 15:35:06,115] - Space::~Space(): 1050
+  INFO root [0x0000220c] [2015-06-03 15:35:06,116] - SpawnPoint::~SpawnPoint(): 1061
+  INFO root [0x0000220c] [2015-06-03 15:35:06,116] - SpawnPoint::~SpawnPoint(): 1064
+  INFO root [0x0000220c] [2015-06-03 15:35:06,116] - SpawnPoint::~SpawnPoint(): 1067
+  INFO root [0x0000220c] [2015-06-03 15:35:06,117] - SpawnPoint::~SpawnPoint(): 1070
+  INFO root [0x0000220c] [2015-06-03 15:35:06,117] - SpawnPoint::~SpawnPoint(): 1073
+  INFO root [0x0000220c] [2015-06-03 15:35:06,117] - SpawnPoint::~SpawnPoint(): 1076
+  INFO root [0x0000220c] [2015-06-03 15:35:06,117] - SpawnPoint::~SpawnPoint(): 1079
+  INFO root [0x0000220c] [2015-06-03 15:35:06,118] - SpawnPoint::~SpawnPoint(): 1082
+  INFO root [0x0000220c] [2015-06-03 15:35:06,118] - SpawnPoint::~SpawnPoint(): 1084
+  INFO root [0x0000220c] [2015-06-03 15:35:06,118] - SpawnPoint::~SpawnPoint(): 1086
+  INFO root [0x0000220c] [2015-06-03 15:35:06,119] - NPC::~NPC(): 33
+  INFO root [0x0000220c] [2015-06-03 15:35:06,119] - SpawnPoint::~SpawnPoint(): 1088
+  INFO root [0x0000220c] [2015-06-03 15:35:06,119] - NPC::~NPC(): 36
+  INFO root [0x0000220c] [2015-06-03 15:35:06,119] - SpawnPoint::~SpawnPoint(): 1091
+  INFO root [0x0000220c] [2015-06-03 15:35:06,120] - SpawnPoint::~SpawnPoint(): 1093
+  INFO root [0x0000220c] [2015-06-03 15:35:06,120] - Monster::~Monster(): 39
+  INFO root [0x0000220c] [2015-06-03 15:35:06,121] - SpawnPoint::~SpawnPoint(): 1095
+  INFO root [0x0000220c] [2015-06-03 15:35:06,121] - Monster::~Monster(): 41
+  INFO root [0x0000220c] [2015-06-03 15:35:06,121] - Monster::~Monster(): 45
+  INFO root [0x0000220c] [2015-06-03 15:35:06,122] - SpawnPoint::~SpawnPoint(): 1096
+  INFO root [0x0000220c] [2015-06-03 15:35:06,122] - Monster::~Monster(): 47
+  INFO root [0x0000220c] [2015-06-03 15:35:06,122] - SpawnPoint::~SpawnPoint(): 1097
+  INFO root [0x0000220c] [2015-06-03 15:35:06,123] - SpawnPoint::~SpawnPoint(): 1098
+  INFO root [0x0000220c] [2015-06-03 15:35:06,123] - Monster::~Monster(): 51
+  INFO root [0x0000220c] [2015-06-03 15:35:06,123] - SpawnPoint::~SpawnPoint(): 1099
+  INFO root [0x0000220c] [2015-06-03 15:35:06,123] - Monster::~Monster(): 52
+  INFO root [0x0000220c] [2015-06-03 15:35:06,124] - SpawnPoint::~SpawnPoint(): 1100
+  INFO root [0x0000220c] [2015-06-03 15:35:06,124] - Monster::~Monster(): 56
+  INFO root [0x0000220c] [2015-06-03 15:35:06,124] - SpawnPoint::~SpawnPoint(): 1101
+  INFO root [0x0000220c] [2015-06-03 15:35:06,125] - Monster::~Monster(): 57
+  INFO root [0x0000220c] [2015-06-03 15:35:06,125] - Monster::~Monster(): 59
+  INFO root [0x0000220c] [2015-06-03 15:35:06,125] - Monster::~Monster(): 63
+  INFO root [0x0000220c] [2015-06-03 15:35:06,126] - Monster::~Monster(): 64
+  INFO root [0x0000220c] [2015-06-03 15:35:06,126] - Monster::~Monster(): 65
+  INFO root [0x0000220c] [2015-06-03 15:35:06,126] - Monster::~Monster(): 67
+  INFO root [0x0000220c] [2015-06-03 15:35:06,127] - Monster::~Monster(): 68
+  INFO root [0x0000220c] [2015-06-03 15:35:06,127] - Monster::~Monster(): 69
+  INFO root [0x0000220c] [2015-06-03 15:35:06,127] - Monster::~Monster(): 70
+  INFO root [0x0000220c] [2015-06-03 15:35:06,128] - Gate::~Gate(): 71
+  INFO root [0x0000220c] [2015-06-03 15:35:06,128] - Gate::~Gate(): 72
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,128] - onDestroy(1090)
+  INFO root [0x0000220c] [2015-06-03 15:35:06,129] - Spaces::destroySpace: 4.
+ DEBUG root [0x0000220c] [2015-06-03 15:35:06,129] - Space::removeEntity: lose creator(1077).
+  INFO root [0x0000220c] [2015-06-03 15:35:06,130] - Spaces::destroySpace: 4.
+  INFO root [0x0000220c] [2015-06-03 15:35:06,130] - Space::~Space(): 1077
+  INFO root [0x0000220c] [2015-06-03 15:35:06,130] - SpawnPoint::~SpawnPoint(): 1090
+  INFO root [0x0000220c] [2015-06-03 15:35:06,130] - Gate::~Gate(): 60
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,131] - onDestroy(1103)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,132] - onDestroy(1104)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,133] - onDestroy(1105)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,134] - onDestroy(1106)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,134] - onDestroy(1107)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,135] - onDestroy(1108)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,136] - onDestroy(1109)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,137] - onDestroy(1110)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,139] - onDestroy(1111)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,139] - onDestroy(1112)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,140] - onDestroy(1113)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,142] - onDestroy(1114)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,144] - onDestroy(1115)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,147] - onDestroy(1116)
+ ERROR root [0x0000220c] [2015-06-03 15:35:06,148] - 192.168.1.106:13579: Exception occurred: REASON_CLIENT_DISCONNECTED
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,150] - onDestroy(1117)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,151] - onDestroy(1118)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,153] - onDestroy(1119)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,154] - onDestroy(1120)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,155] - onDestroy(1121)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,157] - onDestroy(1122)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,158] - onDestroy(1123)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,160] - onDestroy(1124)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,161] - onDestroy(1125)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,163] - onDestroy(1126)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,165] - onDestroy(1127)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,166] - onDestroy(1128)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,167] - onDestroy(1129)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,168] - onDestroy(1130)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,169] - onDestroy(1131)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,170] - onDestroy(1132)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,172] - onDestroy(1133)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,175] - onDestroy(1134)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,175] - onDestroy(1135)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,176] - onDestroy(1136)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,178] - onDestroy(1137)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,179] - onDestroy(1138)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,180] - onDestroy(1139)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,181] - onDestroy(1140)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,183] - onDestroy(1141)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,184] - onDestroy(1142)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,185] - onDestroy(1143)
+ S_DBG root [0x0000220c] [2015-06-03 15:35:06,186] - onDestroy(1144)
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,376] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,377] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,378] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,378] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,429] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13928 )
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,429] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13928, SOMAXCONN=5.
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,429] - server-configs:
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	gameUpdateHertz : 10
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	defaultAoIRadius : 80
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	entryScriptFile : kbengine
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	internalAddr : 192.168.1.106:13928
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,430] - 	componentID : 8001
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,438] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 10:37:58 Jun  3 2015. AppID: 8001. UID: 30731. PID: 8952 ----
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,439] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,439] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,440] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,593] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,594] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,594] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,598] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,599] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,599] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,629] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,676] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:39:02) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,676] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,966] - loaded script:Account(1).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,979] - loaded script:Avatar(2).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,982] - loaded script:Monster(3).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,983] - loaded script:NPC(4).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,984] - loaded script:Gate(5).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,986] - loaded script:Space(7).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,987] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:50,988] - loaded script:SpawnPoint(9).
+  INFO root [0x00001dd4] [2015-06-03 15:44:50,989] - TelnetServer server is running on port 50000
+  INFO root [0x00001dd4] [2015-06-03 15:44:51,771] - ---- cellapp is running ----
+ DEBUG root [0x00001dd4] [2015-06-03 15:44:51,771] - Components::process(): Request for the process of identity...
+  WARN root [0x00001dd4] [2015-06-03 15:44:57,807] - EntityApp::checkTickPeriod: tick took 6035% (6.03 seconds)!
+  INFO root [0x00001dd4] [2015-06-03 15:44:58,872] - Components::findInterfaces: find logger(1)...
+  INFO root [0x00001dd4] [2015-06-03 15:44:58,893] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+  INFO root [0x00001dd4] [2015-06-03 15:44:58,894] - Components::addComponent[logger], uid=30731, componentID=2000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x00001dd4] [2015-06-03 15:44:58,895] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x00001dd4] [2015-06-03 15:44:58,914] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+  INFO root [0x00001dd4] [2015-06-03 15:44:59,051] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+  INFO root [0x00001dd4] [2015-06-03 15:44:59,052] - Components::addComponent[dbmgr], uid=30731, componentID=4000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [0x00001dd4] [2015-06-03 15:44:59,073] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:13924
+  WARN root [0x00001dd4] [2015-06-03 15:45:00,073] - EntityApp::checkTickPeriod: tick took 1301% (1.30 seconds)!
+  WARN root [0x00001dd4] [2015-06-03 15:45:00,074] - Forwarding logs to logger[192.168.1.106:13938/0/0/0]...
+ ERROR root [0x00001dd4] [2015-06-03 15:46:01,077] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x00001dd4] [2015-06-03 15:46:01,093] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00001dd4] [2015-06-03 15:46:01,156] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001dd4] [2015-06-03 15:46:01,172] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,173] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,173] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,174] - onDestroy(1027)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,174] - SpawnPoint::~SpawnPoint(): 1027
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,175] - onDestroy(1028)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,175] - SpawnPoint::~SpawnPoint(): 1028
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,176] - onDestroy(1029)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,177] - SpawnPoint::~SpawnPoint(): 1029
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,177] - onDestroy(1030)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,177] - SpawnPoint::~SpawnPoint(): 1030
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,178] - Monster::~Monster(): 19
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,180] - Monster::~Monster(): 147
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,180] - onDestroy(1031)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,181] - SpawnPoint::~SpawnPoint(): 1031
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,182] - onDestroy(1032)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,182] - SpawnPoint::~SpawnPoint(): 1032
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,183] - onDestroy(1033)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,183] - SpawnPoint::~SpawnPoint(): 1033
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,184] - onDestroy(1035)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,185] - SpawnPoint::~SpawnPoint(): 1035
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,185] - onDestroy(1036)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,186] - SpawnPoint::~SpawnPoint(): 1036
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,186] - onDestroy(1037)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,187] - SpawnPoint::~SpawnPoint(): 1037
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,187] - onDestroy(1053)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,188] - SpawnPoint::~SpawnPoint(): 1053
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,188] - NPC::~NPC(): 1
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,189] - onDestroy(1038)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,190] - SpawnPoint::~SpawnPoint(): 1038
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,190] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,190] - Components::removeComponentFromChannel: baseappmgr : 5000, Normal exit!
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,196] - onDestroy(1092)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,198] - onDestroy(1040)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,200] - onDestroy(1042)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,200] - onDestroy(1044)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,202] - onDestroy(1046)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,207] - onDestroy(1048)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,208] - onDestroy(1050)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,209] - onDestroy(1094)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,213] - onDestroy(1055)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,215] - onDestroy(1057)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,217] - onDestroy(1059)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,223] - onDestroy(1062)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,224] - onDestroy(1065)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,225] - onDestroy(1068)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,226] - onDestroy(1071)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,227] - onDestroy(1074)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,229] - onDestroy(1077)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,231] - onDestroy(1083)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,232] - onDestroy(1085)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,233] - onDestroy(1087)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,233] - onDestroy(1089)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,234] - Spaces::destroySpace: 1.
+ DEBUG root [0x00001dd4] [2015-06-03 15:46:01,235] - Space::removeEntity: lose creator(1026).
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,235] - Spaces::destroySpace: 1.
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,235] - Space::~Space(): 1026
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,235] - Monster::~Monster(): 64
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,236] - Monster::~Monster(): 62
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,236] - Monster::~Monster(): 60
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,236] - Monster::~Monster(): 58
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,237] - Monster::~Monster(): 56
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,237] - Monster::~Monster(): 52
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,237] - Monster::~Monster(): 51
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,238] - Monster::~Monster(): 47
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,238] - Monster::~Monster(): 45
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,238] - Monster::~Monster(): 41
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,239] - Monster::~Monster(): 39
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,239] - SpawnPoint::~SpawnPoint(): 1092
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,239] - Monster::~Monster(): 2
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,240] - SpawnPoint::~SpawnPoint(): 1040
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,240] - Monster::~Monster(): 3
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,240] - SpawnPoint::~SpawnPoint(): 1042
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,241] - Monster::~Monster(): 4
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,241] - SpawnPoint::~SpawnPoint(): 1044
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,241] - Monster::~Monster(): 5
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,241] - SpawnPoint::~SpawnPoint(): 1046
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,242] - Monster::~Monster(): 6
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,242] - SpawnPoint::~SpawnPoint(): 1048
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,243] - Monster::~Monster(): 7
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,243] - SpawnPoint::~SpawnPoint(): 1050
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,243] - Monster::~Monster(): 8
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,243] - SpawnPoint::~SpawnPoint(): 1094
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,244] - Monster::~Monster(): 9
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,244] - SpawnPoint::~SpawnPoint(): 1055
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,244] - Monster::~Monster(): 10
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,245] - SpawnPoint::~SpawnPoint(): 1057
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,245] - Monster::~Monster(): 12
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,245] - SpawnPoint::~SpawnPoint(): 1059
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,246] - Monster::~Monster(): 13
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,246] - SpawnPoint::~SpawnPoint(): 1062
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,246] - Monster::~Monster(): 15
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,246] - SpawnPoint::~SpawnPoint(): 1065
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,247] - Monster::~Monster(): 17
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,247] - SpawnPoint::~SpawnPoint(): 1068
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,248] - Monster::~Monster(): 20
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,248] - SpawnPoint::~SpawnPoint(): 1071
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,249] - Monster::~Monster(): 21
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,249] - SpawnPoint::~SpawnPoint(): 1074
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,249] - Monster::~Monster(): 23
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,250] - SpawnPoint::~SpawnPoint(): 1077
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,250] - Monster::~Monster(): 26
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,250] - SpawnPoint::~SpawnPoint(): 1083
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,251] - Monster::~Monster(): 28
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,251] - SpawnPoint::~SpawnPoint(): 1085
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,251] - Monster::~Monster(): 29
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,252] - SpawnPoint::~SpawnPoint(): 1087
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,252] - Monster::~Monster(): 32
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,252] - SpawnPoint::~SpawnPoint(): 1089
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,253] - Monster::~Monster(): 36
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,253] - onDestroy(1039)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,254] - onDestroy(1041)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,255] - onDestroy(1043)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,256] - onDestroy(1045)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,257] - onDestroy(1047)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,257] - onDestroy(1049)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,258] - onDestroy(1051)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,259] - onDestroy(1054)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,259] - onDestroy(1056)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,260] - onDestroy(1058)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,261] - onDestroy(1060)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,262] - onDestroy(1063)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,263] - onDestroy(1066)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,264] - onDestroy(1069)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,265] - onDestroy(1072)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,265] - onDestroy(1075)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,266] - onDestroy(1078)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,267] - onDestroy(1081)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,271] - Spaces::destroySpace: 2.
+ ERROR root [0x00001dd4] [2015-06-03 15:46:01,273] - 192.168.1.106:13927: Exception occurred: REASON_CLIENT_DISCONNECTED
+ DEBUG root [0x00001dd4] [2015-06-03 15:46:01,274] - Space::removeEntity: lose creator(1034).
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,274] - Spaces::destroySpace: 2.
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,274] - Space::~Space(): 1034
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,274] - SpawnPoint::~SpawnPoint(): 1039
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,275] - SpawnPoint::~SpawnPoint(): 1041
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,275] - SpawnPoint::~SpawnPoint(): 1043
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,275] - SpawnPoint::~SpawnPoint(): 1045
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,276] - SpawnPoint::~SpawnPoint(): 1047
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,276] - SpawnPoint::~SpawnPoint(): 1049
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,276] - SpawnPoint::~SpawnPoint(): 1051
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,277] - SpawnPoint::~SpawnPoint(): 1054
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,277] - SpawnPoint::~SpawnPoint(): 1056
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,277] - SpawnPoint::~SpawnPoint(): 1058
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,278] - NPC::~NPC(): 11
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,278] - SpawnPoint::~SpawnPoint(): 1060
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,278] - NPC::~NPC(): 14
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,279] - SpawnPoint::~SpawnPoint(): 1063
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,279] - Monster::~Monster(): 16
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,279] - SpawnPoint::~SpawnPoint(): 1066
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,280] - Monster::~Monster(): 18
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,280] - SpawnPoint::~SpawnPoint(): 1069
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,280] - Monster::~Monster(): 54
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,280] - SpawnPoint::~SpawnPoint(): 1072
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,281] - Monster::~Monster(): 22
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,281] - SpawnPoint::~SpawnPoint(): 1075
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,281] - Monster::~Monster(): 24
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,282] - SpawnPoint::~SpawnPoint(): 1078
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,282] - Monster::~Monster(): 25
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,283] - SpawnPoint::~SpawnPoint(): 1081
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,283] - Monster::~Monster(): 27
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,283] - Monster::~Monster(): 30
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,283] - Monster::~Monster(): 31
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,284] - Monster::~Monster(): 35
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,284] - Monster::~Monster(): 38
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,284] - Monster::~Monster(): 40
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,285] - Monster::~Monster(): 43
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,285] - Monster::~Monster(): 46
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,285] - Monster::~Monster(): 49
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,286] - onDestroy(1061)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,286] - onDestroy(1064)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,287] - onDestroy(1067)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,288] - onDestroy(1070)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,289] - onDestroy(1073)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,289] - onDestroy(1076)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,290] - onDestroy(1079)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,290] - onDestroy(1082)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,291] - onDestroy(1084)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,291] - onDestroy(1086)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,292] - onDestroy(1088)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,293] - onDestroy(1091)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,294] - onDestroy(1093)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,294] - onDestroy(1095)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,295] - onDestroy(1096)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,295] - onDestroy(1097)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,296] - onDestroy(1098)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,297] - onDestroy(1099)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,297] - onDestroy(1100)
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,298] - onDestroy(1101)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,300] - Spaces::destroySpace: 3.
+ DEBUG root [0x00001dd4] [2015-06-03 15:46:01,301] - Space::removeEntity: lose creator(1052).
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,301] - Spaces::destroySpace: 3.
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,301] - Space::~Space(): 1052
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,301] - SpawnPoint::~SpawnPoint(): 1061
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,302] - SpawnPoint::~SpawnPoint(): 1064
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,302] - SpawnPoint::~SpawnPoint(): 1067
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,302] - SpawnPoint::~SpawnPoint(): 1070
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,303] - SpawnPoint::~SpawnPoint(): 1073
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,303] - SpawnPoint::~SpawnPoint(): 1076
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,303] - SpawnPoint::~SpawnPoint(): 1079
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,304] - SpawnPoint::~SpawnPoint(): 1082
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,304] - SpawnPoint::~SpawnPoint(): 1084
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,304] - SpawnPoint::~SpawnPoint(): 1086
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,305] - NPC::~NPC(): 33
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,305] - SpawnPoint::~SpawnPoint(): 1088
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,305] - NPC::~NPC(): 34
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,306] - SpawnPoint::~SpawnPoint(): 1091
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,306] - Monster::~Monster(): 37
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,306] - SpawnPoint::~SpawnPoint(): 1093
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,307] - Monster::~Monster(): 42
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,307] - SpawnPoint::~SpawnPoint(): 1095
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,307] - Monster::~Monster(): 44
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,308] - SpawnPoint::~SpawnPoint(): 1096
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,308] - Monster::~Monster(): 48
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,308] - SpawnPoint::~SpawnPoint(): 1097
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,309] - Monster::~Monster(): 50
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,309] - SpawnPoint::~SpawnPoint(): 1098
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,309] - Monster::~Monster(): 53
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,310] - SpawnPoint::~SpawnPoint(): 1099
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,310] - Monster::~Monster(): 55
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,310] - SpawnPoint::~SpawnPoint(): 1100
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,311] - Monster::~Monster(): 57
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,311] - SpawnPoint::~SpawnPoint(): 1101
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,311] - Monster::~Monster(): 61
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,312] - Monster::~Monster(): 63
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,312] - Monster::~Monster(): 65
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,312] - Monster::~Monster(): 66
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,313] - Monster::~Monster(): 67
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,313] - Monster::~Monster(): 68
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,313] - Monster::~Monster(): 69
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,313] - Monster::~Monster(): 70
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,314] - Gate::~Gate(): 71
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,314] - Gate::~Gate(): 72
+ S_DBG root [0x00001dd4] [2015-06-03 15:46:01,314] - onDestroy(1090)
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,315] - Spaces::destroySpace: 4.
+ DEBUG root [0x00001dd4] [2015-06-03 15:46:01,316] - Space::removeEntity: lose creator(1080).
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,316] - Spaces::destroySpace: 4.
+  INFO root [0x00001dd4] [2015-06-03 15:46:01,316] - Space::~Space(): 1080
+  INFO root [0x0000195c] [2015-06-03 15:56:56,099] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000195c] [2015-06-03 15:56:56,100] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x0000195c] [2015-06-03 15:56:56,101] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x0000195c] [2015-06-03 15:56:56,101] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x0000195c] [2015-06-03 15:56:56,184] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14067 )
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14067, SOMAXCONN=5.
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - server-configs:
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - 	gameUpdateHertz : 10
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - 	defaultAoIRadius : 80
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x0000195c] [2015-06-03 15:56:56,185] - 	entryScriptFile : kbengine
+  INFO root [0x0000195c] [2015-06-03 15:56:56,186] - 	internalAddr : 192.168.1.106:14067
+  INFO root [0x0000195c] [2015-06-03 15:56:56,186] - 	componentID : 8001
+  INFO root [0x0000195c] [2015-06-03 15:56:56,194] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 10:37:58 Jun  3 2015. AppID: 8001. UID: 331. PID: 5512 ----
+  INFO root [0x0000195c] [2015-06-03 15:56:56,194] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x0000195c] [2015-06-03 15:56:56,195] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000195c] [2015-06-03 15:56:56,195] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,353] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,354] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,354] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,359] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,359] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,360] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,406] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000195c] [2015-06-03 15:56:56,441] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:39:02) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x0000195c] [2015-06-03 15:56:56,441] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,736] - loaded script:Account(1).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,756] - loaded script:Avatar(2).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,761] - loaded script:Monster(3).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,763] - loaded script:NPC(4).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,765] - loaded script:Gate(5).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,766] - loaded script:Space(7).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,768] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x0000195c] [2015-06-03 15:56:56,769] - loaded script:SpawnPoint(9).
+  INFO root [0x0000195c] [2015-06-03 15:56:56,769] - TelnetServer server is running on port 50000
+  INFO root [0x0000195c] [2015-06-03 15:56:57,562] - ---- cellapp is running ----
+ DEBUG root [0x0000195c] [2015-06-03 15:56:57,563] - Components::process(): Request for the process of identity...
+  WARN root [0x0000195c] [2015-06-03 15:57:03,585] - EntityApp::checkTickPeriod: tick took 6023% (6.02 seconds)!
+  INFO root [0x0000195c] [2015-06-03 15:57:04,602] - Components::findInterfaces: find logger(1)...
+  INFO root [0x0000195c] [2015-06-03 15:57:04,682] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+  INFO root [0x0000195c] [2015-06-03 15:57:04,682] - Components::addComponent[logger], uid=331, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000195c] [2015-06-03 15:57:04,683] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x0000195c] [2015-06-03 15:57:04,700] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+  INFO root [0x0000195c] [2015-06-03 15:57:04,816] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+  INFO root [0x0000195c] [2015-06-03 15:57:04,816] - Components::addComponent[dbmgr], uid=331, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x0000195c] [2015-06-03 15:57:04,833] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14064
+  WARN root [0x0000195c] [2015-06-03 15:57:05,833] - Forwarding logs to logger[192.168.1.106:14062/0/0/0]...
+ ERROR root [0x0000195c] [2015-06-03 16:06:38,868] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x0000195c] [2015-06-03 16:06:38,877] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x0000195c] [2015-06-03 16:06:38,942] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000195c] [2015-06-03 16:06:38,968] - Components::removeComponentFromChannel: baseappmgr : 5000, Abnormal exit.
+ ERROR root [0x0000195c] [2015-06-03 16:06:38,969] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x0000195c] [2015-06-03 16:06:38,972] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,973] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,974] - onDestroy(1027)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,975] - SpawnPoint::~SpawnPoint(): 1027
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,976] - onDestroy(1028)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,976] - SpawnPoint::~SpawnPoint(): 1028
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,977] - onDestroy(1029)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,978] - SpawnPoint::~SpawnPoint(): 1029
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,978] - onDestroy(1030)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,979] - SpawnPoint::~SpawnPoint(): 1030
+  INFO root [0x0000195c] [2015-06-03 16:06:38,980] - Monster::~Monster(): 19
+  INFO root [0x0000195c] [2015-06-03 16:06:38,982] - Monster::~Monster(): 147
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,983] - onDestroy(1031)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,983] - SpawnPoint::~SpawnPoint(): 1031
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,984] - onDestroy(1032)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,985] - SpawnPoint::~SpawnPoint(): 1032
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,985] - onDestroy(1033)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,986] - SpawnPoint::~SpawnPoint(): 1033
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,986] - onDestroy(1035)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,988] - SpawnPoint::~SpawnPoint(): 1035
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,988] - onDestroy(1036)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,990] - SpawnPoint::~SpawnPoint(): 1036
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,991] - onDestroy(1037)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,992] - SpawnPoint::~SpawnPoint(): 1037
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,992] - onDestroy(1053)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,994] - SpawnPoint::~SpawnPoint(): 1053
+  INFO root [0x0000195c] [2015-06-03 16:06:38,994] - NPC::~NPC(): 1
+ S_DBG root [0x0000195c] [2015-06-03 16:06:38,995] - onDestroy(1038)
+  INFO root [0x0000195c] [2015-06-03 16:06:38,996] - SpawnPoint::~SpawnPoint(): 1038
+  INFO root [0x0000195c] [2015-06-03 16:06:38,996] - Shutdowner::onShutdownEnd: shutting down
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,002] - onDestroy(1094)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,005] - onDestroy(1092)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,008] - onDestroy(1040)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,009] - onDestroy(1042)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,010] - onDestroy(1044)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,011] - onDestroy(1046)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,012] - onDestroy(1048)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,014] - onDestroy(1050)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,015] - onDestroy(1055)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,016] - onDestroy(1057)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,017] - onDestroy(1059)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,018] - onDestroy(1062)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,019] - onDestroy(1065)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,020] - onDestroy(1068)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,021] - onDestroy(1071)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,022] - onDestroy(1074)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,023] - onDestroy(1077)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,024] - onDestroy(1083)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,025] - onDestroy(1085)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,025] - onDestroy(1087)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,026] - onDestroy(1089)
+  INFO root [0x0000195c] [2015-06-03 16:06:39,027] - Spaces::destroySpace: 1.
+ DEBUG root [0x0000195c] [2015-06-03 16:06:39,027] - Space::removeEntity: lose creator(1026).
+  INFO root [0x0000195c] [2015-06-03 16:06:39,027] - Spaces::destroySpace: 1.
+  INFO root [0x0000195c] [2015-06-03 16:06:39,028] - Space::~Space(): 1026
+  INFO root [0x0000195c] [2015-06-03 16:06:39,028] - Monster::~Monster(): 65
+  INFO root [0x0000195c] [2015-06-03 16:06:39,028] - Monster::~Monster(): 63
+  INFO root [0x0000195c] [2015-06-03 16:06:39,029] - Monster::~Monster(): 59
+  INFO root [0x0000195c] [2015-06-03 16:06:39,029] - Monster::~Monster(): 57
+  INFO root [0x0000195c] [2015-06-03 16:06:39,030] - Monster::~Monster(): 54
+  INFO root [0x0000195c] [2015-06-03 16:06:39,030] - Monster::~Monster(): 49
+  INFO root [0x0000195c] [2015-06-03 16:06:39,030] - Monster::~Monster(): 47
+  INFO root [0x0000195c] [2015-06-03 16:06:39,031] - Monster::~Monster(): 45
+  INFO root [0x0000195c] [2015-06-03 16:06:39,031] - Monster::~Monster(): 40
+  INFO root [0x0000195c] [2015-06-03 16:06:39,031] - SpawnPoint::~SpawnPoint(): 1094
+  INFO root [0x0000195c] [2015-06-03 16:06:39,032] - SpawnPoint::~SpawnPoint(): 1092
+  INFO root [0x0000195c] [2015-06-03 16:06:39,032] - Monster::~Monster(): 35
+  INFO root [0x0000195c] [2015-06-03 16:06:39,032] - Monster::~Monster(): 2
+  INFO root [0x0000195c] [2015-06-03 16:06:39,033] - SpawnPoint::~SpawnPoint(): 1040
+  INFO root [0x0000195c] [2015-06-03 16:06:39,033] - Monster::~Monster(): 3
+  INFO root [0x0000195c] [2015-06-03 16:06:39,033] - SpawnPoint::~SpawnPoint(): 1042
+  INFO root [0x0000195c] [2015-06-03 16:06:39,034] - Monster::~Monster(): 4
+  INFO root [0x0000195c] [2015-06-03 16:06:39,034] - SpawnPoint::~SpawnPoint(): 1044
+  INFO root [0x0000195c] [2015-06-03 16:06:39,034] - Monster::~Monster(): 5
+  INFO root [0x0000195c] [2015-06-03 16:06:39,035] - SpawnPoint::~SpawnPoint(): 1046
+  INFO root [0x0000195c] [2015-06-03 16:06:39,035] - Monster::~Monster(): 6
+  INFO root [0x0000195c] [2015-06-03 16:06:39,036] - SpawnPoint::~SpawnPoint(): 1048
+  INFO root [0x0000195c] [2015-06-03 16:06:39,036] - Monster::~Monster(): 7
+  INFO root [0x0000195c] [2015-06-03 16:06:39,036] - SpawnPoint::~SpawnPoint(): 1050
+  INFO root [0x0000195c] [2015-06-03 16:06:39,036] - Monster::~Monster(): 8
+  INFO root [0x0000195c] [2015-06-03 16:06:39,037] - Monster::~Monster(): 38
+  INFO root [0x0000195c] [2015-06-03 16:06:39,037] - Monster::~Monster(): 9
+  INFO root [0x0000195c] [2015-06-03 16:06:39,037] - SpawnPoint::~SpawnPoint(): 1055
+  INFO root [0x0000195c] [2015-06-03 16:06:39,038] - Monster::~Monster(): 10
+  INFO root [0x0000195c] [2015-06-03 16:06:39,038] - SpawnPoint::~SpawnPoint(): 1057
+  INFO root [0x0000195c] [2015-06-03 16:06:39,038] - Monster::~Monster(): 12
+  INFO root [0x0000195c] [2015-06-03 16:06:39,039] - SpawnPoint::~SpawnPoint(): 1059
+  INFO root [0x0000195c] [2015-06-03 16:06:39,039] - Monster::~Monster(): 13
+  INFO root [0x0000195c] [2015-06-03 16:06:39,040] - SpawnPoint::~SpawnPoint(): 1062
+  INFO root [0x0000195c] [2015-06-03 16:06:39,040] - Monster::~Monster(): 15
+  INFO root [0x0000195c] [2015-06-03 16:06:39,040] - SpawnPoint::~SpawnPoint(): 1065
+  INFO root [0x0000195c] [2015-06-03 16:06:39,041] - Monster::~Monster(): 18
+  INFO root [0x0000195c] [2015-06-03 16:06:39,041] - SpawnPoint::~SpawnPoint(): 1068
+  INFO root [0x0000195c] [2015-06-03 16:06:39,042] - Monster::~Monster(): 56
+  INFO root [0x0000195c] [2015-06-03 16:06:39,042] - SpawnPoint::~SpawnPoint(): 1071
+  INFO root [0x0000195c] [2015-06-03 16:06:39,043] - Monster::~Monster(): 21
+  INFO root [0x0000195c] [2015-06-03 16:06:39,043] - SpawnPoint::~SpawnPoint(): 1074
+  INFO root [0x0000195c] [2015-06-03 16:06:39,043] - Monster::~Monster(): 23
+  INFO root [0x0000195c] [2015-06-03 16:06:39,044] - SpawnPoint::~SpawnPoint(): 1077
+  INFO root [0x0000195c] [2015-06-03 16:06:39,044] - Monster::~Monster(): 25
+  INFO root [0x0000195c] [2015-06-03 16:06:39,044] - SpawnPoint::~SpawnPoint(): 1083
+  INFO root [0x0000195c] [2015-06-03 16:06:39,045] - Monster::~Monster(): 28
+  INFO root [0x0000195c] [2015-06-03 16:06:39,045] - SpawnPoint::~SpawnPoint(): 1085
+  INFO root [0x0000195c] [2015-06-03 16:06:39,046] - Monster::~Monster(): 29
+  INFO root [0x0000195c] [2015-06-03 16:06:39,046] - SpawnPoint::~SpawnPoint(): 1087
+  INFO root [0x0000195c] [2015-06-03 16:06:39,046] - Monster::~Monster(): 31
+  INFO root [0x0000195c] [2015-06-03 16:06:39,047] - SpawnPoint::~SpawnPoint(): 1089
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,048] - onDestroy(1039)
+ ERROR root [0x0000195c] [2015-06-03 16:06:39,048] - 192.168.1.106:14068: Exception occurred: REASON_CLIENT_DISCONNECTED
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,049] - onDestroy(1041)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,050] - onDestroy(1043)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,050] - onDestroy(1045)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,051] - onDestroy(1047)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,051] - onDestroy(1049)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,052] - onDestroy(1051)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,052] - onDestroy(1054)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,053] - onDestroy(1056)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,054] - onDestroy(1058)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,054] - onDestroy(1060)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,055] - onDestroy(1063)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,056] - onDestroy(1066)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,056] - onDestroy(1069)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,058] - onDestroy(1072)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,059] - onDestroy(1075)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,059] - onDestroy(1078)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,060] - onDestroy(1081)
+  INFO root [0x0000195c] [2015-06-03 16:06:39,064] - Spaces::destroySpace: 2.
+ DEBUG root [0x0000195c] [2015-06-03 16:06:39,065] - Space::removeEntity: lose creator(1034).
+  INFO root [0x0000195c] [2015-06-03 16:06:39,065] - Spaces::destroySpace: 2.
+  INFO root [0x0000195c] [2015-06-03 16:06:39,065] - Space::~Space(): 1034
+  INFO root [0x0000195c] [2015-06-03 16:06:39,066] - SpawnPoint::~SpawnPoint(): 1039
+  INFO root [0x0000195c] [2015-06-03 16:06:39,066] - SpawnPoint::~SpawnPoint(): 1041
+  INFO root [0x0000195c] [2015-06-03 16:06:39,066] - SpawnPoint::~SpawnPoint(): 1043
+  INFO root [0x0000195c] [2015-06-03 16:06:39,067] - SpawnPoint::~SpawnPoint(): 1045
+  INFO root [0x0000195c] [2015-06-03 16:06:39,067] - SpawnPoint::~SpawnPoint(): 1047
+  INFO root [0x0000195c] [2015-06-03 16:06:39,067] - SpawnPoint::~SpawnPoint(): 1049
+  INFO root [0x0000195c] [2015-06-03 16:06:39,068] - SpawnPoint::~SpawnPoint(): 1051
+  INFO root [0x0000195c] [2015-06-03 16:06:39,068] - SpawnPoint::~SpawnPoint(): 1054
+  INFO root [0x0000195c] [2015-06-03 16:06:39,068] - SpawnPoint::~SpawnPoint(): 1056
+  INFO root [0x0000195c] [2015-06-03 16:06:39,069] - SpawnPoint::~SpawnPoint(): 1058
+  INFO root [0x0000195c] [2015-06-03 16:06:39,069] - NPC::~NPC(): 11
+  INFO root [0x0000195c] [2015-06-03 16:06:39,070] - SpawnPoint::~SpawnPoint(): 1060
+  INFO root [0x0000195c] [2015-06-03 16:06:39,070] - NPC::~NPC(): 14
+  INFO root [0x0000195c] [2015-06-03 16:06:39,070] - SpawnPoint::~SpawnPoint(): 1063
+  INFO root [0x0000195c] [2015-06-03 16:06:39,071] - Monster::~Monster(): 16
+  INFO root [0x0000195c] [2015-06-03 16:06:39,071] - SpawnPoint::~SpawnPoint(): 1066
+  INFO root [0x0000195c] [2015-06-03 16:06:39,071] - Monster::~Monster(): 17
+  INFO root [0x0000195c] [2015-06-03 16:06:39,072] - SpawnPoint::~SpawnPoint(): 1069
+  INFO root [0x0000195c] [2015-06-03 16:06:39,072] - Monster::~Monster(): 20
+  INFO root [0x0000195c] [2015-06-03 16:06:39,072] - SpawnPoint::~SpawnPoint(): 1072
+  INFO root [0x0000195c] [2015-06-03 16:06:39,073] - Monster::~Monster(): 22
+  INFO root [0x0000195c] [2015-06-03 16:06:39,073] - SpawnPoint::~SpawnPoint(): 1075
+  INFO root [0x0000195c] [2015-06-03 16:06:39,073] - Monster::~Monster(): 24
+  INFO root [0x0000195c] [2015-06-03 16:06:39,073] - SpawnPoint::~SpawnPoint(): 1078
+  INFO root [0x0000195c] [2015-06-03 16:06:39,074] - Monster::~Monster(): 26
+  INFO root [0x0000195c] [2015-06-03 16:06:39,074] - SpawnPoint::~SpawnPoint(): 1081
+  INFO root [0x0000195c] [2015-06-03 16:06:39,075] - Monster::~Monster(): 27
+  INFO root [0x0000195c] [2015-06-03 16:06:39,075] - Monster::~Monster(): 30
+  INFO root [0x0000195c] [2015-06-03 16:06:39,075] - Monster::~Monster(): 32
+  INFO root [0x0000195c] [2015-06-03 16:06:39,076] - Monster::~Monster(): 34
+  INFO root [0x0000195c] [2015-06-03 16:06:39,076] - Monster::~Monster(): 37
+  INFO root [0x0000195c] [2015-06-03 16:06:39,076] - Monster::~Monster(): 42
+  INFO root [0x0000195c] [2015-06-03 16:06:39,077] - Monster::~Monster(): 43
+  INFO root [0x0000195c] [2015-06-03 16:06:39,077] - Monster::~Monster(): 46
+  INFO root [0x0000195c] [2015-06-03 16:06:39,077] - Monster::~Monster(): 50
+  INFO root [0x0000195c] [2015-06-03 16:06:39,078] - Monster::~Monster(): 53
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,078] - onDestroy(1061)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,079] - onDestroy(1064)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,079] - onDestroy(1067)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,080] - onDestroy(1070)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,081] - onDestroy(1073)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,081] - onDestroy(1076)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,082] - onDestroy(1079)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,082] - onDestroy(1082)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,083] - onDestroy(1084)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,084] - onDestroy(1086)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,084] - onDestroy(1088)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,085] - onDestroy(1091)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,086] - onDestroy(1093)
+ S_DBG root [0x0000195c] [2015-06-03 16:06:39,087] - onDestroy(1095)
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14410 )
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14410, SOMAXCONN=5.
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - server-configs:
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	gameUpdateHertz : 10
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	defaultAoIRadius : 80
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	entryScriptFile : kbengine
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	internalAddr : 192.168.1.106:14410
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - 	componentID : 8001
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 10:37:58 Jun  3 2015. AppID: 8001. UID: 4318. PID: 2688 ----
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000104c] [2015-06-03 16:17:16,654] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x0000104c] [2015-06-03 16:17:16,654] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x0000104c] [2015-06-03 16:17:17,027] - Script::install(): is successfully, Python=(3.4.2 (default, Jun  3 2015, 10:39:02) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x0000104c] [2015-06-03 16:17:17,027] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:Account(1).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:Avatar(2).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:Monster(3).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:NPC(4).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:Gate(5).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:Space(7).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:SpaceDuplicate(8).
+ DEBUG root [0x0000104c] [2015-06-03 16:17:17,027] - loaded script:SpawnPoint(9).
+  INFO root [0x0000104c] [2015-06-03 16:17:17,027] - TelnetServer server is running on port 50000
+  INFO root [0x0000104c] [2015-06-03 16:17:18,276] - ---- cellapp is running ----
+ DEBUG root [0x0000104c] [2015-06-03 16:17:18,276] - Components::process(): Request for the process of identity...
+  WARN root [0x0000104c] [2015-06-03 16:17:24,378] - EntityApp::checkTickPeriod: tick took 6102% (6.10 seconds)!
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: find logger(1)...
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::addComponent[logger], uid=4318, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::addComponent[dbmgr], uid=4318, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+  INFO root [0x0000104c] [2015-06-03 16:17:25,458] - Components::findInterfaces: found dbmgr, addr:192.168.1.106:14407
+  WARN root [0x0000104c] [2015-06-03 16:17:26,775] - Forwarding logs to logger[192.168.1.106:14406/0/0/0]...
+ ERROR root [0x0000104c] [2015-06-03 16:22:18,480] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+ ERROR root [0x0000104c] [2015-06-03 16:22:18,480] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1027)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1027
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1028)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1028
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1029)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1029
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1030)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1030
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 19
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 147
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1031)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1031
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1032)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1032
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1033)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1033
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1035)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1035
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1036)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1036
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1037)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1037
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1053)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1053
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - NPC::~NPC(): 1
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1038)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1038
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Shutdowner::onShutdownEnd: shutting down
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1092)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1040)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1042)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1044)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1046)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1048)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1050)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1094)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1055)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1057)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1059)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1062)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1065)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1068)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1071)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1074)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1077)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1083)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1085)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1087)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1089)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 1.
+ DEBUG root [0x0000104c] [2015-06-03 16:22:18,480] - Space::removeEntity: lose creator(1026).
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 1.
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Space::~Space(): 1026
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 64
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 62
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 60
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 57
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 55
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 52
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 49
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 46
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 43
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 40
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 38
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1092
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 2
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1040
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 3
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1042
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 4
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1044
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 5
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1046
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 6
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1048
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 7
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1050
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 8
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1094
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 9
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1055
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 10
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1057
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 12
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1059
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 13
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1062
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 15
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1065
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 17
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1068
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 20
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1071
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 21
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1074
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 23
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1077
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 26
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1083
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 28
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1085
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 29
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1087
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 32
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1089
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 35
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1039)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1041)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1043)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1045)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1047)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1049)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1051)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1054)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1056)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1058)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1060)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1063)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1066)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1069)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1072)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1075)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1078)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1081)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 2.
+ DEBUG root [0x0000104c] [2015-06-03 16:22:18,480] - Space::removeEntity: lose creator(1034).
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 2.
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Space::~Space(): 1034
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1039
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1041
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1043
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1045
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1047
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1049
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1051
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1054
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1056
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1058
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - NPC::~NPC(): 11
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1060
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - NPC::~NPC(): 14
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1063
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 16
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1066
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 18
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1069
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 54
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1072
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 22
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1075
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 24
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1078
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 25
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1081
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 27
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 30
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 31
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 36
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 39
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 42
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 45
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 47
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 50
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1061)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1064)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1067)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1070)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1073)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1076)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1079)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1082)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1084)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1086)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1088)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1091)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1093)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1095)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1096)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1097)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1098)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1099)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1100)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1101)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 3.
+ DEBUG root [0x0000104c] [2015-06-03 16:22:18,480] - Space::removeEntity: lose creator(1052).
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 3.
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Space::~Space(): 1052
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1061
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1064
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1067
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1070
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1073
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1076
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1079
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1082
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1084
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1086
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - NPC::~NPC(): 33
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1088
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - NPC::~NPC(): 34
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1091
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 37
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1093
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 41
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1095
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 44
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1096
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 48
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1097
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 51
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1098
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 53
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1099
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 56
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1100
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 58
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1101
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 61
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 63
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 65
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 66
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 67
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 68
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 69
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Monster::~Monster(): 70
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Gate::~Gate(): 71
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Gate::~Gate(): 72
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1090)
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 4.
+ DEBUG root [0x0000104c] [2015-06-03 16:22:18,480] - Space::removeEntity: lose creator(1080).
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Spaces::destroySpace: 4.
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Space::~Space(): 1080
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - SpawnPoint::~SpawnPoint(): 1090
+  INFO root [0x0000104c] [2015-06-03 16:22:18,480] - Gate::~Gate(): 59
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1103)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1104)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1105)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1106)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1107)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1108)
+ ERROR root [0x0000104c] [2015-06-03 16:22:18,480] - 192.168.1.106:14411: Exception occurred: REASON_CLIENT_DISCONNECTED
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1109)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1110)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1111)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1112)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1113)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1114)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1115)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1116)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1117)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1118)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1119)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1120)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1121)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1122)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1123)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1124)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1125)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1126)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1127)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1128)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1129)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1130)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1131)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1132)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1133)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1134)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1135)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1136)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1137)
+ S_DBG root [0x0000104c] [2015-06-03 16:22:18,480] - onDestroy(1138)

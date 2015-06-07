@@ -1,0 +1,475 @@
+  INFO root [2015-06-03 10:53:00,554] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-03 10:53:00,554] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-03 10:53:00,554] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-03 10:53:00,554] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-03 10:53:00,819] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:8084 )
+  INFO root [2015-06-03 10:53:00,819] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:8084, SOMAXCONN=5.
+  INFO root [2015-06-03 10:53:00,819] - server-configs:
+  INFO root [2015-06-03 10:53:00,819] - 	internalAddr : 192.168.1.106:8084
+  INFO root [2015-06-03 10:53:00,819] - 	componentID : 4000
+  INFO root [2015-06-03 10:53:01,069] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 10:37:07 Jun  3 2015. AppID: 4000. UID: 6319. PID: 2080 ----
+  INFO root [2015-06-03 10:53:01,069] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-03 10:53:01,069] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 10:53:01,069] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-03 10:53:01,475] - Dbmgr::initializeEnd: digest(FD1450B1B53F34DA05757F2BAAD15DCC)
+  INFO root [2015-06-03 10:53:01,475] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-03 10:53:01,755] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+A603BDA3605674204D96005D5EDD0863338749A735FDFA4044FF733535906A78BB2EF6E85E984059D7197FD16D595FFEC0CB35EAE93ACADEC4058201E35DF3E994BEB274103D703A1F4FA051C3EE50AF33F73A48631B960333E966BCE0DAC799C736256B012D9037AC04BB94A724A88ACADA791581C998FCCC76FAC7D7D1E030
+ DEBUG root [2015-06-03 10:53:01,802] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-03 10:53:01,865] - DBUtil::createInterface[0x3cecb0]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-03 10:53:01,865] - ThreadPool::createThreadPool: creating  threadpool...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+  INFO root [2015-06-03 10:53:01,865] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 10:53:01,865] - DBThread::onStart(): 0x4ab450!
+ DEBUG root [2015-06-03 10:53:01,865] - DBThread::onStart(): 0x4ab4b8!
+ DEBUG root [2015-06-03 10:53:01,865] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 10:53:01,880] - DBThread::onStart(): 0x4ab588!
+ DEBUG root [2015-06-03 10:53:01,880] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 10:53:01,880] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 10:53:01,880] - DBThread::onStart(): 0x4ab5f0!
+ DEBUG root [2015-06-03 10:53:01,880] - DBThread::onStart(): 0x4ab520!
+  INFO root [2015-06-03 10:53:01,974] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:01,989] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:02,787] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:02,787] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:02,787] - syncToDB(): Avatar->sm_autoLoad(tinyint not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:02,787] - DBTask::process(): took 0.80 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_accountinfos (`accountName` varchar(255) not null, PRIMARY KEY idKey (`accountName`),`password` varchar(255),`bindata` blob,`email` varchar(255),`entityDBID` bigint(20) unsigned not null DEFAULT 0, UNIQUE KEY `entityDBID` (`entityDBID`),`flags` int unsigned not null DEFAULT 0,`deadline` bigint(20) not null DEFAULT 0,`regtime` bigint(20) not null DEFAULT 0,`lasttime` bigint(20) not null DEFAULT 0,`numlogin` int unsigned not null DEFAULT 0)ENGINE=InnoDB)
+  INFO root [2015-06-03 10:53:02,867] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-03 10:53:02,867] - DBTask::process(): took 0.88 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-03 10:53:03,444] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:03,444] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:03,444] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-03 10:53:03,444] - DBTask::process(): took 1.46 seconds
+sql:(delete from kbe_email_verification where logtime<1433296383 and type=3)
+ DEBUG root [2015-06-03 10:53:03,865] - syncToDB(): Account->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:04,302] - syncToDB(): Account_characters_values->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:04,302] - syncToDB(): Avatar_skills->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:04,723] - syncToDB(): Monster->sm_autoLoad(tinyint not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:06,318] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:06,319] - syncToDB(): Avatar->sm_roleType(tinyint unsigned not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:06,808] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:06,808] - syncToDB(): Avatar_skills->sm_value(int not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:07,183] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:07,198] - syncToDB(): Account_characters_values->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:07,888] - syncToDB(): Avatar->sm_dbid(bigint unsigned not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:07,966] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 10:53:08,090] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:08,106] - syncToDB(): Account_characters_values->sm_name(text).
+ DEBUG root [2015-06-03 10:53:08,106] - syncToDB(): Monster->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:08,106] - syncToDB(): Account_characters_values->sm_name(text).
+  WARN root [2015-06-03 10:53:08,777] - DBTask::process(): took 5.91 seconds
+sql:(ALTER TABLE `tbl_Avatar_skills` ADD `sm_value` int not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:09,354] - syncToDB(): Avatar->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:09,354] - syncToDB(): Monster->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:09,557] - syncToDB(): Account_characters_values->sm_roleType(tinyint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:09,557] - syncToDB(): NPC->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:10,134] - syncToDB(): Monster->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:10,134] - syncToDB(): Account_characters_values->sm_roleType(tinyint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:11,480] - syncToDB(): Avatar->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:11,823] - syncToDB(): Monster->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:11,823] - syncToDB(): Account_characters_values->sm_level(smallint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:12,104] - syncToDB(): Account_characters_values->sm_level(smallint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:12,104] - syncToDB(): Avatar->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:13,135] - syncToDB(): Avatar->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:13,135] - syncToDB(): Account_characters_values->sm_param1(tinyint not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:13,135] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:13,135] - syncToDB(): Monster->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:13,135] - syncToDB(): NPC->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:13,933] - syncToDB(): Account_characters_values->sm_param1(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:14,604] - syncToDB(): Avatar->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:14,853] - syncToDB(): Monster->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:15,472] - syncToDB(): Avatar->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:15,472] - syncToDB(): NPC->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:15,472] - syncToDB(): Account_characters_values->sm_param2(blob).
+ DEBUG root [2015-06-03 10:53:15,872] - syncToDB(): Monster->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:15,872] - syncToDB(): Account_characters_values->sm_param2(blob).
+ DEBUG root [2015-06-03 10:53:17,119] - syncToDB(): NPC->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:17,219] - syncToDB(): Monster->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:17,379] - syncToDB(): Avatar->sm_2_direction(float not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:17,379] - DBTask::process(): took 14.58 seconds
+sql:(ALTER TABLE `tbl_Account_characters_values` ADD `sm_param2` blob;)
+ DEBUG root [2015-06-03 10:53:18,040] - syncToDB(): Account->sm_lastSelCharacter(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:18,330] - syncToDB(): NPC->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:18,330] - syncToDB(): Spaces->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:19,206] - syncToDB(): Monster->sm_name(text).
+ DEBUG root [2015-06-03 10:53:19,436] - syncToDB(): Avatar->sm_spaceUType(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:20,606] - syncToDB(): Account->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:20,806] - syncToDB(): NPC->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:20,806] - syncToDB(): Monster->sm_uid(int unsigned not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:21,306] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:21,306] - syncToDB(): Spaces->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:21,816] - syncToDB(): Avatar->sm_level(smallint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:22,046] - syncToDB(): NPC->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:22,046] - syncToDB(): Account->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:22,576] - syncToDB(): Monster->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:22,746] - syncToDB(): Spaces->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:23,216] - syncToDB(): Avatar->sm_name(text).
+ DEBUG root [2015-06-03 10:53:24,118] - syncToDB(): NPC->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:24,558] - syncToDB(): Avatar->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:24,558] - syncToDB(): Monster->sm_HP(int not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:24,558] - syncToDB(): Account->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:24,568] - syncToDB(): NPC->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:24,568] - syncToDB(): Spaces->sm_name(text).
+ DEBUG root [2015-06-03 10:53:26,098] - syncToDB(): Monster->sm_MP(int not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:26,098] - syncToDB(): Spaces->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:26,688] - syncToDB(): NPC->sm_name(text).
+ DEBUG root [2015-06-03 10:53:26,688] - syncToDB(): Avatar->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:26,688] - syncToDB(): Account->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:26,908] - syncToDB(): Monster->sm_state(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:27,358] - syncToDB(): Spaces->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:28,168] - syncToDB(): NPC->sm_uid(int unsigned not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:28,248] - DBTask::process(): delay 1.47 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_Monster` ADD `sm_state` tinyint not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:28,248] - DBTask::process(): took 24.80 seconds
+sql:(ALTER TABLE `tbl_Monster` ADD `sm_state` tinyint not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:28,728] - syncToDB(): Account->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:28,728] - syncToDB(): Gate->sm_autoLoad(tinyint not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:28,728] - DBTask::process(): delay 15.39 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_Spaces` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:28,728] - syncToDB(): Avatar->sm_HP(int not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:28,728] - syncToDB(): NPC->sm_utype(int unsigned not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:28,728] - DBTask::process(): took 11.35 seconds
+sql:(ALTER TABLE `tbl_Spaces` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:29,928] - syncToDB(): Space->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:30,148] - syncToDB(): Account->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:30,148] - syncToDB(): Avatar->sm_MP(int not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:31,828] - DBTask::process(): delay 6.79 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_NPC` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:31,828] - DBTask::process(): took 23.05 seconds
+sql:(ALTER TABLE `tbl_NPC` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:31,958] - syncToDB(): Avatar->sm_state(tinyint not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:31,958] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:31,958] - syncToDB(): Gate->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:32,398] - syncToDB(): SpaceDuplicate->sm_autoLoad(tinyint not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:32,398] - DBTask::process(): took 30.41 seconds
+sql:(ALTER TABLE `tbl_Account` ADD `sm_2_direction` float not null DEFAULT 0;)
+  INFO root [2015-06-03 10:53:33,678] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:33,678] - syncToDB(): Gate->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:33,678] - syncToDB(): SpawnPoint->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:33,688] - syncToDB(): Space->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:33,898] - DBTask::process(): took 31.91 seconds
+sql:(ALTER TABLE `tbl_Avatar` ADD `sm_state` tinyint not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:34,798] - syncToDB(): Space->sm_context(blob).
+ DEBUG root [2015-06-03 10:53:34,918] - syncToDB(): Gate->sm_0_position(float not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:34,988] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:34,988] - syncToDB(): SpaceDuplicate->sm_spaceKey(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:35,958] - syncToDB(): Space->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:36,008] - syncToDB(): SpaceDuplicate->sm_context(blob).
+ DEBUG root [2015-06-03 10:53:36,008] - syncToDB(): Gate->sm_1_position(float not null DEFAULT 0).
+  INFO root [2015-06-03 10:53:36,008] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 10:53:36,008] - syncToDB(): SpawnPoint->sm_spawnEntityNO(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:37,358] - syncToDB(): Space->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:37,358] - syncToDB(): SpawnPoint->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:37,358] - syncToDB(): SpaceDuplicate->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:37,368] - syncToDB(): Gate->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:38,734] - syncToDB(): SpaceDuplicate->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:38,734] - syncToDB(): SpawnPoint->sm_persistentMapping(blob).
+ DEBUG root [2015-06-03 10:53:38,734] - syncToDB(): Gate->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:38,734] - syncToDB(): Space->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:39,794] - syncToDB(): Space->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:39,864] - syncToDB(): Gate->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:40,646] - syncToDB(): SpawnPoint->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:40,646] - syncToDB(): SpaceDuplicate->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:40,646] - syncToDB(): Gate->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:40,646] - syncToDB(): Space->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:42,276] - syncToDB(): Space->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:42,526] - syncToDB(): Gate->sm_name(text).
+ DEBUG root [2015-06-03 10:53:42,526] - syncToDB(): SpawnPoint->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:42,526] - syncToDB(): SpaceDuplicate->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:44,028] - syncToDB(): SpaceDuplicate->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:44,028] - syncToDB(): Gate->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:44,028] - syncToDB(): Space->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:44,028] - syncToDB(): SpawnPoint->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:45,388] - syncToDB(): SpaceDuplicate->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:45,558] - syncToDB(): Space->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:45,558] - syncToDB(): SpawnPoint->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:45,558] - syncToDB(): Gate->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:46,675] - syncToDB(): Space->sm_name(text).
+ DEBUG root [2015-06-03 10:53:46,675] - syncToDB(): SpaceDuplicate->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:46,675] - syncToDB(): SpawnPoint->sm_1_direction(float not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:46,685] - DBTask::process(): delay 26.27 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_Gate` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:46,685] - DBTask::process(): took 18.43 seconds
+sql:(ALTER TABLE `tbl_Gate` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:47,645] - syncToDB(): SpawnPoint->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:47,645] - syncToDB(): SpaceDuplicate->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:47,645] - syncToDB(): Space->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:48,485] - syncToDB(): SpawnPoint->sm_name(text).
+ DEBUG root [2015-06-03 10:53:48,685] - syncToDB(): Space->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:48,685] - syncToDB(): SpaceDuplicate->sm_name(text).
+ DEBUG root [2015-06-03 10:53:49,286] - syncToDB(): SpawnPoint->sm_uid(int unsigned not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:49,286] - DBTask::process(): delay 26.74 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_Space` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:49,296] - DBTask::process(): took 20.56 seconds
+sql:(ALTER TABLE `tbl_Space` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+ DEBUG root [2015-06-03 10:53:49,816] - syncToDB(): SpaceDuplicate->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:49,826] - syncToDB(): SpawnPoint->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2015-06-03 10:53:50,736] - syncToDB(): SpaceDuplicate->sm_utype(int unsigned not null DEFAULT 0).
+  WARN root [2015-06-03 10:53:50,736] - DBTask::process(): delay 30.41 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_SpawnPoint` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:50,746] - DBTask::process(): took 18.34 seconds
+sql:(ALTER TABLE `tbl_SpawnPoint` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:51,176] - DBTask::process(): delay 29.84 seconds, try adjusting the kbengine_defs.xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(ALTER TABLE `tbl_SpaceDuplicate` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  WARN root [2015-06-03 10:53:51,176] - DBTask::process(): took 19.35 seconds
+sql:(ALTER TABLE `tbl_SpaceDuplicate` ADD `sm_utype` int unsigned not null DEFAULT 0;)
+  INFO root [2015-06-03 10:53:51,876] - ---- dbmgr is running ----
+ DEBUG root [2015-06-03 10:53:51,876] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-03 10:53:57,996] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8081, extaddr:192.168.1.106, extport:20013,  from 192.168.1.106:8131/0/0/0.
+  INFO root [2015-06-03 10:53:57,996] - Components::addComponent[loginapp], uid=6319, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 10:53:57,996] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8080, extaddr:nonsupport, extport:0,  from 192.168.1.106:8134/0/0/0.
+  INFO root [2015-06-03 10:53:57,996] - Components::addComponent[baseappmgr], uid=6319, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 10:53:58,276] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8077, extaddr:nonsupport, extport:0,  from 192.168.1.106:8137/0/0/0.
+  INFO root [2015-06-03 10:53:58,276] - Components::addComponent[cellappmgr], uid=6319, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 10:53:58,576] - ServerApp::onRegisterNewApp: uid:6319, username:Administrator, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.106, intport:8082, extaddr:192.168.1.106, extport:20015,  from 192.168.1.106:8139/0/0/0.
+  INFO root [2015-06-03 10:53:58,576] - Components::addComponent[baseapp], uid=6319, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 10:53:58,996] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-03 10:53:59,036] - Components::findInterfaces: found logger, addr:192.168.1.106:8079
+  INFO root [2015-06-03 10:53:59,036] - Components::addComponent[logger], uid=6319, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 10:53:59,066] - Components::process(): Found all the components!
+  WARN root [2015-06-03 10:53:59,066] - Forwarding logs to logger[192.168.1.106:8079/0/0/0]...
+ ERROR root [2015-06-03 10:56:17,708] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  INFO root [2015-06-03 15:22:39,411] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-03 15:22:39,412] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-03 15:22:39,413] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-03 15:22:39,413] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-03 15:22:39,416] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13575 )
+  INFO root [2015-06-03 15:22:39,416] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13575, SOMAXCONN=5.
+  INFO root [2015-06-03 15:22:39,416] - server-configs:
+  INFO root [2015-06-03 15:22:39,417] - 	internalAddr : 192.168.1.106:13575
+  INFO root [2015-06-03 15:22:39,417] - 	componentID : 4000
+  INFO root [2015-06-03 15:22:39,425] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 10:37:07 Jun  3 2015. AppID: 4000. UID: 26385. PID: 1620 ----
+  INFO root [2015-06-03 15:22:39,426] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-03 15:22:39,427] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:22:39,427] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-03 15:22:40,048] - Dbmgr::initializeEnd: digest(FD1450B1B53F34DA05757F2BAAD15DCC)
+  INFO root [2015-06-03 15:22:40,049] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-03 15:22:40,503] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+E519994E2316A37F3139339A7A564EAD8DB80F723D055928AED219C264A15A8CF205376B206D8CE71AD694FA4D09E887D084BC489AF422125DA379D61EFD8820A9FE407F55FB7F0F822459794592E8349AC9A2C651E4BA37DC781305B7A513B6100A25002170629B601250D6EABAE0B65B1436506C4E0EED5286194C0D355AAD
+ DEBUG root [2015-06-03 15:22:40,505] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,518] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-03 15:22:40,519] - DBUtil::createInterface[0x1cf110]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-03 15:22:40,519] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:22:40,520] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-03 15:22:40,531] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,542] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,550] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,551] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:22:40,552] - DBThread::onStart(): 0x681e80!
+ DEBUG root [2015-06-03 15:22:40,556] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,576] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:22:40,625] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:22:40,625] - DBThread::onStart(): 0x681e18!
+  INFO root [2015-06-03 15:22:40,626] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:22:40,629] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 15:22:40,647] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:22:40,648] - DBThread::onStart(): 0x681d48!
+ DEBUG root [2015-06-03 15:22:40,648] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:22:40,648] - DBThread::onStart(): 0x681db0!
+  INFO root [2015-06-03 15:22:40,649] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:22:40,650] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:22:40,650] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:22:40,650] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 15:22:40,740] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:22:40,740] - DBThread::onStart(): 0x681ce0!
+  INFO root [2015-06-03 15:22:40,741] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:22:40,999] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-03 15:22:41,000] - DBTask::process(): took 0.35 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-03 15:22:41,688] - ---- dbmgr is running ----
+ DEBUG root [2015-06-03 15:22:41,689] - Components::process(): Request for the process of identity...
+  WARN root [2015-06-03 15:22:42,011] - BundleBroadcast::BundleBroadcast: Couldn't bind listener socket to port 20503, errorno=10048
+  INFO root [2015-06-03 15:22:46,029] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-03 15:22:46,054] - Components::findInterfaces: found logger, addr:192.168.1.106:13573
+  INFO root [2015-06-03 15:22:46,055] - Components::addComponent[logger], uid=26385, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 15:22:46,069] - Components::process(): Found all the components!
+  WARN root [2015-06-03 15:22:46,114] - Forwarding logs to logger[192.168.1.106:13573/0/0/0]...
+ ERROR root [2015-06-03 15:35:05,931] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  INFO root [2015-06-03 15:44:50,205] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-03 15:44:50,206] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-03 15:44:50,207] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-03 15:44:50,207] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-03 15:44:50,210] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:13924 )
+  INFO root [2015-06-03 15:44:50,210] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:13924, SOMAXCONN=5.
+  INFO root [2015-06-03 15:44:50,211] - server-configs:
+  INFO root [2015-06-03 15:44:50,211] - 	internalAddr : 192.168.1.106:13924
+  INFO root [2015-06-03 15:44:50,211] - 	componentID : 4000
+  INFO root [2015-06-03 15:44:50,220] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 10:37:07 Jun  3 2015. AppID: 4000. UID: 30731. PID: 5268 ----
+  INFO root [2015-06-03 15:44:50,221] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-03 15:44:50,221] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:44:50,222] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-03 15:44:50,590] - Dbmgr::initializeEnd: digest(FD1450B1B53F34DA05757F2BAAD15DCC)
+  INFO root [2015-06-03 15:44:50,590] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-03 15:44:51,043] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+95AEAE112787271DD78F42824F1890158968158E1C3EA3C827962F527D752CEB615744630B1EE3C1BD0C2408D1A6FB5D8AEF1F93185B0073B9899C9EA2741B5A82B9355AD272A40BB6A4BED4DEE101C137EED038D36659BEE00F70BA8EA80D6281743F8ED23619F0CDDCA371F8ECB6D8EC755CC54C0039BD8740B5B6E2F413D3
+ DEBUG root [2015-06-03 15:44:51,048] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,122] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-03 15:44:51,123] - DBUtil::createInterface[0x158edec]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-03 15:44:51,123] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:44:51,124] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-03 15:44:51,135] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,140] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,153] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,153] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,155] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:44:51,155] - DBThread::onStart(): 0x1a39e48!
+ DEBUG root [2015-06-03 15:44:51,186] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:44:51,188] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:44:51,188] - DBThread::onStart(): 0x1a39de0!
+ DEBUG root [2015-06-03 15:44:51,221] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:44:51,221] - DBThread::onStart(): 0x1a39d10!
+  INFO root [2015-06-03 15:44:51,229] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,233] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,234] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,234] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,235] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,235] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:44:51,236] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 15:44:51,275] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:44:51,275] - DBThread::onStart(): 0x1a39eb0!
+ DEBUG root [2015-06-03 15:44:51,343] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:44:51,343] - DBThread::onStart(): 0x1a39d78!
+  INFO root [2015-06-03 15:44:51,633] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-03 15:44:51,634] - DBTask::process(): took 0.29 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-03 15:44:52,386] - ---- dbmgr is running ----
+ DEBUG root [2015-06-03 15:44:52,387] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-03 15:44:59,431] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-03 15:44:59,609] - Components::findInterfaces: found logger, addr:192.168.1.106:13938
+  INFO root [2015-06-03 15:44:59,610] - Components::addComponent[logger], uid=30731, componentID=2000, globalorderid=8, grouporderid=1, totalcount=1
+  WARN root [2015-06-03 15:44:59,611] - Forwarding logs to logger[192.168.1.106:13938/0/0/0]...
+ ERROR root [2015-06-03 15:46:01,050] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  INFO root [2015-06-03 15:56:55,394] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-03 15:56:55,395] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-03 15:56:55,396] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-03 15:56:55,396] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-03 15:56:55,492] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14064 )
+  INFO root [2015-06-03 15:56:55,492] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14064, SOMAXCONN=5.
+  INFO root [2015-06-03 15:56:55,492] - server-configs:
+  INFO root [2015-06-03 15:56:55,493] - 	internalAddr : 192.168.1.106:14064
+  INFO root [2015-06-03 15:56:55,493] - 	componentID : 4000
+  INFO root [2015-06-03 15:56:55,500] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 10:37:07 Jun  3 2015. AppID: 4000. UID: 331. PID: 8052 ----
+  INFO root [2015-06-03 15:56:55,501] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-03 15:56:55,501] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:56:55,502] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-03 15:56:55,896] - Dbmgr::initializeEnd: digest(FD1450B1B53F34DA05757F2BAAD15DCC)
+  INFO root [2015-06-03 15:56:55,896] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-03 15:56:56,559] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+1825B5F06DB114A24C47CB0A24D7F43CB4E63D14610DAF23B96539FED2091A074330B6FEC22DC0C62FEA12BAE544460D2851B27DA97C898258908FF2B425EF0B8234EE6602A08053C8762B3FFDACC58272E86725A8C71FCA669B534ADBA307E5AFDC5C80667DC0DF4B97C1417B9BC282CAC0AAC68BD4DDC747A6970091BDB655
+ DEBUG root [2015-06-03 15:56:56,561] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,563] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-03 15:56:56,564] - DBUtil::createInterface[0x162eb60]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-03 15:56:56,564] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 15:56:56,565] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-03 15:56:56,565] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,567] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,568] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:56:56,568] - DBThread::onStart(): 0x1aab588!
+ DEBUG root [2015-06-03 15:56:56,568] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,568] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,570] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:56:56,570] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:56:56,570] - DBThread::onStart(): 0x1aab450!
+ DEBUG root [2015-06-03 15:56:56,571] - DBThread::onStart(): 0x1aab4b8!
+ DEBUG root [2015-06-03 15:56:56,577] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:56:56,578] - DBThread::onStart(): 0x1aab5f0!
+ DEBUG root [2015-06-03 15:56:56,591] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 15:56:56,601] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 15:56:56,601] - DBThread::onStart(): 0x1aab520!
+  INFO root [2015-06-03 15:56:56,671] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,675] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,676] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,676] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,676] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,677] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,677] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 15:56:56,949] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-03 15:56:56,950] - DBTask::process(): took 0.27 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-03 15:56:57,810] - ---- dbmgr is running ----
+ DEBUG root [2015-06-03 15:56:57,811] - Components::process(): Request for the process of identity...
+  WARN root [2015-06-03 15:57:01,124] - BundleBroadcast::BundleBroadcast: Couldn't bind listener socket to port 20280, errorno=10048
+  INFO root [2015-06-03 15:57:02,136] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-03 15:57:02,235] - Components::findInterfaces: found logger, addr:192.168.1.106:14062
+  INFO root [2015-06-03 15:57:02,235] - Components::addComponent[logger], uid=331, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2015-06-03 15:57:02,241] - Forwarding logs to logger[192.168.1.106:14062/0/0/0]...
+ ERROR root [2015-06-03 16:06:38,818] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  INFO root [2015-06-03 16:17:16,455] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-03 16:17:16,456] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [2015-06-03 16:17:16,456] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_demos_assets/;E:/kbengine/kbengine_demos_assets/scripts/;E:/kbengine/kbengine_demos_assets/res/
+  INFO root [2015-06-03 16:17:16,457] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [2015-06-03 16:17:16,462] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.106 ( 192.168.1.106:14407 )
+  INFO root [2015-06-03 16:17:16,463] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.106:14407, SOMAXCONN=5.
+  INFO root [2015-06-03 16:17:16,463] - server-configs:
+  INFO root [2015-06-03 16:17:16,463] - 	internalAddr : 192.168.1.106:14407
+  INFO root [2015-06-03 16:17:16,463] - 	componentID : 4000
+  INFO root [2015-06-03 16:17:16,471] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 10:37:07 Jun  3 2015. AppID: 4000. UID: 4318. PID: 4744 ----
+  INFO root [2015-06-03 16:17:16,472] - Server Administrator: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz with 4194303kB RAM
+  INFO root [2015-06-03 16:17:16,473] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 16:17:16,474] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-03 16:17:16,812] - Dbmgr::initializeEnd: digest(FD1450B1B53F34DA05757F2BAAD15DCC)
+  INFO root [2015-06-03 16:17:16,812] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-03 16:17:17,271] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+DF28634B11294F48A65493114B0DCB0EE920BBB4C538D3A7EED10343BDB221AB6A6B8F367F5088E0CC6250A0A11A2B89EB69F68112798A398EB9781F7AECFCBE6B074D4A8D25C8A840DF683028B9C41D3934DB082E40F2D307304D4CEFF35A851245B583F1B182A038D0B96D80230899285F4338EFB1FE9A8F5E12CCD6C8ACC6
+ DEBUG root [2015-06-03 16:17:17,273] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 16:17:17,355] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-03 16:17:17,355] - DBUtil::createInterface[0x39f080]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-03 16:17:17,356] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-03 16:17:17,356] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-03 16:17:17,376] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 16:17:17,390] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 16:17:17,393] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+  INFO root [2015-06-03 16:17:17,461] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 16:17:17,465] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 16:17:17,486] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 16:17:17,487] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-03 16:17:17,488] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 16:17:17,488] - DBThread::onStart(): 0x49b588!
+ DEBUG root [2015-06-03 16:17:17,621] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 16:17:17,621] - DBThread::onStart(): 0x49b520!
+  INFO root [2015-06-03 16:17:17,621] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 16:17:17,623] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 16:17:17,623] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 16:17:17,623] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 16:17:17,751] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 16:17:17,751] - DBThread::onStart(): 0x49b4b8!
+ DEBUG root [2015-06-03 16:17:17,887] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 16:17:17,887] - DBThread::onStart(): 0x49b450!
+  INFO root [2015-06-03 16:17:17,888] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-03 16:17:18,109] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2015-06-03 16:17:18,109] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-03 16:17:18,110] - DBThread::onStart(): 0x49b5f0!
+  WARN root [2015-06-03 16:17:18,111] - DBTask::process(): took 0.36 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-03 16:17:18,844] - ---- dbmgr is running ----
+ DEBUG root [2015-06-03 16:17:18,845] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-03 16:17:25,873] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-03 16:17:25,928] - Components::findInterfaces: found logger, addr:192.168.1.106:14406
+  INFO root [2015-06-03 16:17:25,929] - Components::addComponent[logger], uid=4318, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2015-06-03 16:17:25,953] - Components::process(): Found all the components!
+  WARN root [2015-06-03 16:17:25,959] - Forwarding logs to logger[192.168.1.106:14406/0/0/0]...
+ ERROR root [2015-06-03 16:22:18,413] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
