@@ -138,6 +138,14 @@
 				"buffer_size": 286,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "/E/KBEngine-LearnNote/Notes/tmp.md",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -431,7 +439,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1344.0,
+						"translation.y": 1218.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -466,7 +474,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -491,6 +499,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/KBEngine-LearnNote/Notes/tmp.md",
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -526,7 +560,7 @@
 		"cols":
 		[
 			0.0,
-			0.890492381882,
+			0.295438286055,
 			1.0
 		],
 		"rows":
