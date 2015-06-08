@@ -100,42 +100,26 @@
 	"buffers":
 	[
 		{
-			"file": "scripts/entity_defs/Account.def",
+			"file": "test.py",
 			"settings":
 			{
-				"buffer_size": 1744,
+				"buffer_size": 827,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/cell/Account.py",
+			"file": "test2.py",
 			"settings":
 			{
-				"buffer_size": 150,
+				"buffer_size": 85,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/base/Account.py",
+			"file": "list.py",
 			"settings":
 			{
-				"buffer_size": 6575,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/entity_defs/Avatar.def",
-			"settings":
-			{
-				"buffer_size": 1189,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/common/GlobalConst.py",
-			"settings":
-			{
-				"buffer_size": 286,
+				"buffer_size": 1351,
 				"line_ending": "Windows"
 			}
 		}
@@ -188,17 +172,9 @@
 	},
 	"file_history":
 	[
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/base/Avatar.py",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/Avatar.def",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/GameObject.def",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/base/Account.py",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/user_type/AVATAR_DATA.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/user_type/AVATAR_INFOS.py",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/common/GlobalDefine.py",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/alias.xml",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/cell/Avatar.py",
-		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/cell/Account.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/data/d_spaces.py",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/alias.xml",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/Account.def",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/data/d_avatar_inittab.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/data/d_entities.py",
@@ -206,14 +182,20 @@
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/data/d_spaces_spawns.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entities.xml.dump",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entities.xml",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/Avatar.def",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/GameObject.def",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/base/Account.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/Combat.def",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/Dialog.def",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/Motion.def",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/entity_defs/interfaces/NPCObject.def",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/common/Functor.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/base/interfaces/GameObject.py",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/base/Avatar.py",
 		"/E/KBEngine-LearnNote/Notes/day2.md",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/user_type/AVATAR_DATA.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/server_common/SCDefine.py",
+		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/common/GlobalDefine.py",
 		"/E/KBEngine-LearnNote/kbengine_demos_assets/scripts/common/KBEDebug.py",
 		"/E/KBEngine-LearnNote/Notes/tmp.md",
 		"/E/KBEngine-LearnNote/README.md",
@@ -313,7 +295,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"topSpeed",
 			"UNICODE",
 			"D:",
 			"ClassName",
@@ -353,28 +334,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "scripts/entity_defs/Account.def",
+					"file": "test.py",
 					"settings":
 					{
-						"buffer_size": 1744,
+						"buffer_size": 827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								188,
-								22
+								13,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -385,22 +366,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "scripts/cell/Account.py",
+					"file": "test2.py",
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								83,
+								83
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -411,37 +393,10 @@
 				},
 				{
 					"buffer": 2,
-					"file": "scripts/base/Account.py",
+					"file": "list.py",
 					"settings":
 					{
-						"buffer_size": 6575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2943,
-								2943
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1344.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/entity_defs/Avatar.def",
-					"settings":
-					{
-						"buffer_size": 1189,
+						"buffer_size": 1351,
 						"regions":
 						{
 						},
@@ -454,43 +409,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "scripts/common/GlobalConst.py",
-					"settings":
-					{
-						"buffer_size": 286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 42.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -515,18 +437,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.890492381882,
 			1.0
 		],
 		"rows":
@@ -608,7 +523,7 @@
 		[
 			[
 				"",
-				"/E/kbengine/kbengine_demos_assets/scripts/cell/learnNote.sublime-project"
+				"/E/kbengine/kbengine_demos_assets/project.sublime-project"
 			]
 		],
 		"width": 693.0
@@ -617,6 +532,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 286.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true
 }

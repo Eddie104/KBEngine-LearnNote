@@ -119,7 +119,7 @@ class Account(KBEngine.Proxy):
 		spaceUType = GlobalConst.g_demoMaps.get(self.getClientDatas(), 1)
 		spaceData = d_spaces.datas.get(spaceUType)
 		
-		props = {
+		props = {4
 			"name"				: name,
 			"roleType"			: roleType,
 			"level"				: 1,
@@ -173,8 +173,8 @@ class Account(KBEngine.Proxy):
 			avatarinfo[1] = avatar.cellData["name"]
 			avatarinfo[2] = avatar.roleType
 			avatarinfo[3] = 1
+			
 			self.writeToDB()
-
 			avatar.destroy()
 		
 		if self.client:

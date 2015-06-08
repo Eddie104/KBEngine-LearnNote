@@ -61,6 +61,7 @@
 		</Properties>
 	</AVATAR_INFOS>	
 	
+
 	<AVATAR_INFOS_LIST>	FIXED_DICT
 		<implementedBy>AVATAR_INFOS.avatar_info_list_inst</implementedBy>
 		<Properties>
