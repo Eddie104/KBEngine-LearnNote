@@ -1,0 +1,37 @@
+  INFO root [2015-06-07 00:09:10,578] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-07 00:09:10,579] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO root [2015-06-07 00:09:10,580] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO root [2015-06-07 00:09:10,581] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO root [2015-06-07 00:09:10,584] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:20013 )
+  INFO root [2015-06-07 00:09:10,586] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:20013, SOMAXCONN=128.
+  INFO root [2015-06-07 00:09:10,588] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19199 )
+  INFO root [2015-06-07 00:09:10,589] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19199, SOMAXCONN=128.
+  INFO root [2015-06-07 00:09:10,589] - server-configs:
+  INFO root [2015-06-07 00:09:10,589] - 	internalAddr : 192.168.1.34:19199
+  INFO root [2015-06-07 00:09:10,590] - 	externalAddr : 192.168.1.34:20013
+  INFO root [2015-06-07 00:09:10,590] - 	componentID : 9000
+  INFO root [2015-06-07 00:09:10,886] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 17:30:04 May 30 2015. AppID: 9000. UID: 64149. PID: 11632 ----
+  INFO root [2015-06-07 00:09:10,887] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO root [2015-06-07 00:09:10,887] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-07 00:09:10,887] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-07 00:09:11,739] - ---- loginapp is running ----
+ DEBUG root [2015-06-07 00:09:11,740] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-07 00:09:18,782] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-07 00:09:18,962] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+  INFO root [2015-06-07 00:09:18,962] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2015-06-07 00:09:18,973] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [2015-06-07 00:09:18,988] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+  INFO root [2015-06-07 00:09:19,112] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+  INFO root [2015-06-07 00:09:19,113] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO root [2015-06-07 00:09:19,135] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+  WARN root [2015-06-07 00:09:20,135] - Forwarding logs to logger[192.168.1.34:19182/0/0/0]...
+ ERROR root [2015-06-07 00:24:04,605] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [2015-06-07 00:24:04,678] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2015-06-07 00:24:04,685] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [2015-06-07 00:24:04,694] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2015-06-07 00:24:04,696] - Shutdowner::onShutdown: shutting down
+  INFO root [2015-06-07 00:24:04,697] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2015-06-07 00:24:04,697] - ThreadPool::destroy(): starting size 2.
+  WARN root [2015-06-07 00:24:04,998] - ThreadPool::destroy(): waiting for thread(2)[0x5558c0,0x555928,], try=1

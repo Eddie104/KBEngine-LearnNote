@@ -1,0 +1,57 @@
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,436] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,437] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,438] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,438] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,441] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19198 )
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,442] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19198, SOMAXCONN=5.
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,442] - server-configs:
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,442] - 	gameUpdateHertz : 10
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,442] - 	defaultAoIRadius : 80
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,442] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,443] - 	entryScriptFile : kbengine
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,443] - 	internalAddr : 192.168.1.34:19198
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,443] - 	componentID : 8001
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,455] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 17:32:28 May 30 2015. AppID: 8001. UID: 64149. PID: 11316 ----
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,456] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,456] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,457] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,596] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,596] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,597] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,602] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,602] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,603] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:10,645] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,693] - Script::install(): is successfully, Python=(3.4.2 (default, May 30 2015, 17:33:16) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,694] - Script::install(): KBExtra is successfully!
+  INFO root [0x00002bd0] [2015-06-07 00:09:10,706] - TelnetServer server is running on port 50000
+  INFO root [0x00002bd0] [2015-06-07 00:09:11,594] - ---- cellapp is running ----
+ DEBUG root [0x00002bd0] [2015-06-07 00:09:11,595] - Components::process(): Request for the process of identity...
+  WARN root [0x00002bd0] [2015-06-07 00:09:11,905] - BundleBroadcast::BundleBroadcast: Couldn't bind listener socket to port 20950, errorno=10048
+  WARN root [0x00002bd0] [2015-06-07 00:09:14,911] - EntityApp::checkTickPeriod: tick took 3317% (3.32 seconds)!
+  INFO root [0x00002bd0] [2015-06-07 00:09:15,939] - Components::findInterfaces: find logger(1)...
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,062] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,063] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,079] - Components::findInterfaces: find dbmgr(2)...
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,088] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,209] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,210] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO root [0x00002bd0] [2015-06-07 00:09:16,232] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+  WARN root [0x00002bd0] [2015-06-07 00:09:17,232] - Forwarding logs to logger[192.168.1.34:19182/0/0/0]...
+ ERROR root [0x00002bd0] [2015-06-07 00:24:04,602] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.
+  WARN root [0x00002bd0] [2015-06-07 00:24:04,678] - TCPPacketReceiver::processPendingEvents: Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002bd0] [2015-06-07 00:24:04,702] - Components::removeComponentFromChannel: dbmgr : 4000, Abnormal exit.
+  INFO root [0x00002bd0] [2015-06-07 00:24:04,703] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002bd0] [2015-06-07 00:24:04,706] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002bd0] [2015-06-07 00:24:04,707] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,729] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,729] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,730] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,730] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,730] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,730] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,731] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002bd0] [2015-06-07 00:24:04,739] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002bd0] [2015-06-07 00:24:04,740] - ThreadPool::destroy(): starting size 2.

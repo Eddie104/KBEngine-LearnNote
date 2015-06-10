@@ -1,0 +1,57 @@
+  INFO root [2015-06-07 00:09:09,761] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2015-06-07 00:09:09,762] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO root [2015-06-07 00:09:09,762] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO root [2015-06-07 00:09:09,763] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO root [2015-06-07 00:09:09,765] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19185 )
+  INFO root [2015-06-07 00:09:09,766] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19185, SOMAXCONN=5.
+  INFO root [2015-06-07 00:09:09,766] - server-configs:
+  INFO root [2015-06-07 00:09:09,767] - 	internalAddr : 192.168.1.34:19185
+  INFO root [2015-06-07 00:09:09,767] - 	componentID : 4000
+  INFO root [2015-06-07 00:09:09,778] - ---- dbmgr Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 01F0300A56038A2D328D8A761E71B892. Config: Debug. Built: 17:30:09 May 30 2015. AppID: 4000. UID: 64149. PID: 6792 ----
+  INFO root [2015-06-07 00:09:09,779] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO root [2015-06-07 00:09:09,779] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-07 00:09:09,780] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2015-06-07 00:09:09,886] - Dbmgr::initializeEnd: digest(E56911AD96C8C905BFDB9E7062C94EB7)
+  INFO root [2015-06-07 00:09:09,887] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(normal), chargeType:(normal).
+  WARN root [2015-06-07 00:09:10,177] - DBUtil::createInterface: db password is not encrypted!
+please use password(rsa):
+4E89F447ACCA27A3A292D4FEA7207864C79A582E70B5B88EB45C92BDEFEC55F5F4EAA347BF67AB92FCC6CCB74156EF7D43507249E173074A273199D1F0D6F5EE57C4A5CCB28FBF5DB3FBA658F0D1CC425DBE106108D3F446EF9E6A32B0F1C6604417766B3E88743E483AB4B934A4F2DBCD8ED84E51C738B2C0C425144119CBC0
+ DEBUG root [2015-06-07 00:09:10,181] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,199] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2015-06-07 00:09:10,200] - DBUtil::createInterface[0x18f104]: dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+  INFO root [2015-06-07 00:09:10,200] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2015-06-07 00:09:10,201] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2015-06-07 00:09:10,202] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,202] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,203] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,203] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,207] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2015-06-07 00:09:10,208] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-07 00:09:10,208] - DBThread::onStart(): 0x394d88!
+ DEBUG root [2015-06-07 00:09:10,211] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-07 00:09:10,212] - DBThread::onStart(): 0x394c50!
+ DEBUG root [2015-06-07 00:09:10,222] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-07 00:09:10,223] - DBThread::onStart(): 0x394df0!
+ DEBUG root [2015-06-07 00:09:10,227] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-07 00:09:10,227] - DBThread::onStart(): 0x394d20!
+ DEBUG root [2015-06-07 00:09:10,228] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2015-06-07 00:09:10,228] - DBThread::onStart(): 0x394cb8!
+  INFO root [2015-06-07 00:09:10,303] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,309] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,313] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,314] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,315] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,316] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,317] - DBInterfaceMysql::query: successfully!
+  INFO root [2015-06-07 00:09:10,666] - DBInterfaceMysql::query: successfully!
+  WARN root [2015-06-07 00:09:10,667] - DBTask::process(): took 0.36 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_entitylog (entityDBID bigint(20) unsigned not null DEFAULT 0,entityType int unsigned not null DEFAULT 0,entityID int unsigned not null DEFAULT 0,ip varchar(64),port int unsigned not null DEFAULT 0,componentID bigint unsigned not null DEFAULT 0,PRIMARY KEY (entityDBID, entityType))ENGINE=InnoDB)
+  INFO root [2015-06-07 00:09:11,524] - ---- dbmgr is running ----
+ DEBUG root [2015-06-07 00:09:11,525] - Components::process(): Request for the process of identity...
+  INFO root [2015-06-07 00:09:18,564] - Components::findInterfaces: find logger(1)...
+  INFO root [2015-06-07 00:09:18,615] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+  INFO root [2015-06-07 00:09:18,616] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2015-06-07 00:09:18,619] - Forwarding logs to logger[192.168.1.34:19182/0/0/0]...
+ ERROR root [2015-06-07 00:24:04,605] - Components::removeComponentFromChannel: logger : 2000, Abnormal exit.

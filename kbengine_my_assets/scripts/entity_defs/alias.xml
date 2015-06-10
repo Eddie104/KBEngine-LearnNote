@@ -1,0 +1,21 @@
+<root>
+    <DBID>				UINT64		</DBID>
+
+    <AVATAR_INFO>
+         <implementedBy> AVATAR_INFO_PICKLER.avatar_info_inst </implementedBy>
+        <Properties>
+            <dbid>
+                <Type> DBID </Type>
+            </dbid>
+            <roleType>
+                <Type> UINT8 </Type>
+            </roleType>
+            <name>
+                <Type> STRING </Type>
+            </name>
+            <level>
+				<Type>	UINT8	</Type>
+			</level>
+        </Properties>
+    </AVATAR_INFO>
+</root>

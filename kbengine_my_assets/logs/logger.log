@@ -1,0 +1,91 @@
+  INFO [0x00002a8c] [2015-06-06 22:56:00,054] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00002a8c] [2015-06-06 22:56:00,055] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO [0x00002a8c] [2015-06-06 22:56:00,056] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO [0x00002a8c] [2015-06-06 22:56:00,056] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO [0x00002a8c] [2015-06-06 22:56:00,059] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:17642 )
+  INFO [0x00002a8c] [2015-06-06 22:56:00,060] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:17642, SOMAXCONN=5.
+  INFO [0x00002a8c] [2015-06-06 22:56:00,062] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:17643 )
+  INFO [0x00002a8c] [2015-06-06 22:56:00,062] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:17643, SOMAXCONN=5.
+  INFO [0x00002a8c] [2015-06-06 22:56:00,071] - ---- logger Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 62A318066CCF4E3CFDB01ABD6C74D005. Config: Debug. Built: 17:30:08 May 30 2015. AppID: 2000. UID: 64149. PID: 8780 ----
+  INFO [0x00002a8c] [2015-06-06 22:56:00,072] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO [0x00002a8c] [2015-06-06 22:56:00,072] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002a8c] [2015-06-06 22:56:00,073] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00002a8c] [2015-06-06 22:56:00,174] - ---- logger is running ----
+ DEBUG [0x00002a8c] [2015-06-06 22:56:00,174] - Components::process(): Request for the process of identity...
+  INFO [0x00002a8c] [2015-06-06 22:56:07,279] - Components::process(): Found all the components!
+  INFO [0x00002a8c] [2015-06-06 22:56:08,394] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17647, extaddr:nonsupport, extport:0,  from 192.168.1.34:17664/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:08,395] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002a8c] [2015-06-06 22:56:08,566] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17650, extaddr:nonsupport, extport:0,  from 192.168.1.34:17665/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:08,566] - Components::addComponent[cellappmgr], uid=64149, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00002a8c] [2015-06-06 22:56:09,096] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17659, extaddr:nonsupport, extport:0,  from 192.168.1.34:17666/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:09,096] - Components::addComponent[cellapp], uid=64149, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002a8c] [2015-06-06 22:56:09,377] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17658, extaddr:192.168.1.34, extport:20015,  from 192.168.1.34:17667/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:09,377] - Components::addComponent[baseapp], uid=64149, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00002a8c] [2015-06-06 22:56:09,413] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17661, extaddr:192.168.1.34, extport:20013,  from 192.168.1.34:17668/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:09,414] - Components::addComponent[loginapp], uid=64149, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002a8c] [2015-06-06 22:56:13,626] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:17646, extaddr:nonsupport, extport:0,  from 192.168.1.34:17674/0/0/0.
+  INFO [0x00002a8c] [2015-06-06 22:56:13,626] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x00002a8c] [2015-06-06 22:56:22,847] - ServerApp::lookApp: 192.168.1.34:17696/0/0/0
+  INFO [0x00002a8c] [2015-06-06 22:56:24,534] - Logger::registerLogWatcher: addr=192.168.1.34:17699 is successfully!
+  INFO [0x000011a0] [2015-06-06 23:20:24,267] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000011a0] [2015-06-06 23:20:24,269] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO [0x000011a0] [2015-06-06 23:20:24,269] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO [0x000011a0] [2015-06-06 23:20:24,270] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO [0x000011a0] [2015-06-06 23:20:24,275] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:18308 )
+  INFO [0x000011a0] [2015-06-06 23:20:24,276] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:18308, SOMAXCONN=5.
+  INFO [0x000011a0] [2015-06-06 23:20:24,279] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:18309 )
+  INFO [0x000011a0] [2015-06-06 23:20:24,280] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:18309, SOMAXCONN=5.
+  INFO [0x000011a0] [2015-06-06 23:20:24,291] - ---- logger Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 62A318066CCF4E3CFDB01ABD6C74D005. Config: Debug. Built: 17:30:08 May 30 2015. AppID: 2000. UID: 64149. PID: 11616 ----
+  INFO [0x000011a0] [2015-06-06 23:20:24,293] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO [0x000011a0] [2015-06-06 23:20:24,293] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000011a0] [2015-06-06 23:20:24,294] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000011a0] [2015-06-06 23:20:24,395] - ---- logger is running ----
+ DEBUG [0x000011a0] [2015-06-06 23:20:24,395] - Components::process(): Request for the process of identity...
+  INFO [0x000011a0] [2015-06-06 23:20:31,515] - Components::process(): Found all the components!
+  INFO [0x000011a0] [2015-06-06 23:20:32,535] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18311, extaddr:nonsupport, extport:0,  from 192.168.1.34:18323/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:32,536] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000011a0] [2015-06-06 23:20:32,595] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18312, extaddr:nonsupport, extport:0,  from 192.168.1.34:18324/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:32,596] - Components::addComponent[cellappmgr], uid=64149, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000011a0] [2015-06-06 23:20:32,958] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18315, extaddr:nonsupport, extport:0,  from 192.168.1.34:18325/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:32,959] - Components::addComponent[cellapp], uid=64149, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000011a0] [2015-06-06 23:20:33,088] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18316, extaddr:192.168.1.34, extport:20013,  from 192.168.1.34:18326/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:33,088] - Components::addComponent[loginapp], uid=64149, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000011a0] [2015-06-06 23:20:33,198] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18314, extaddr:192.168.1.34, extport:20015,  from 192.168.1.34:18327/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:33,198] - Components::addComponent[baseapp], uid=64149, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000011a0] [2015-06-06 23:20:33,508] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:18310, extaddr:nonsupport, extport:0,  from 192.168.1.34:18328/0/0/0.
+  INFO [0x000011a0] [2015-06-06 23:20:33,508] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:09,469] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x000026c8] [2015-06-07 00:09:09,470] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+  INFO [0x000026c8] [2015-06-07 00:09:09,471] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+  INFO [0x000026c8] [2015-06-07 00:09:09,471] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+  INFO [0x000026c8] [2015-06-07 00:09:09,474] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19181 )
+  INFO [0x000026c8] [2015-06-07 00:09:09,474] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:19181, SOMAXCONN=5.
+  INFO [0x000026c8] [2015-06-07 00:09:09,475] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19182 )
+  INFO [0x000026c8] [2015-06-07 00:09:09,476] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19182, SOMAXCONN=5.
+  INFO [0x000026c8] [2015-06-07 00:09:09,482] - ---- logger Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 62A318066CCF4E3CFDB01ABD6C74D005. Config: Debug. Built: 17:30:08 May 30 2015. AppID: 2000. UID: 64149. PID: 10484 ----
+  INFO [0x000026c8] [2015-06-07 00:09:09,483] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+  INFO [0x000026c8] [2015-06-07 00:09:09,483] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000026c8] [2015-06-07 00:09:09,484] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x000026c8] [2015-06-07 00:09:09,584] - ---- logger is running ----
+ DEBUG [0x000026c8] [2015-06-07 00:09:09,585] - Components::process(): Request for the process of identity...
+  INFO [0x000026c8] [2015-06-07 00:09:16,085] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19198, extaddr:nonsupport, extport:0,  from 192.168.1.34:19201/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:16,086] - Components::addComponent[cellapp], uid=64149, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:16,673] - Components::process(): Found all the components!
+  INFO [0x000026c8] [2015-06-07 00:09:17,985] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19187, extaddr:nonsupport, extport:0,  from 192.168.1.34:19202/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:17,986] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:18,185] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19189, extaddr:nonsupport, extport:0,  from 192.168.1.34:19203/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:18,186] - Components::addComponent[cellappmgr], uid=64149, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:18,625] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19185, extaddr:nonsupport, extport:0,  from 192.168.1.34:19204/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:18,626] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:18,785] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19197, extaddr:192.168.1.34, extport:20015,  from 192.168.1.34:19205/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:18,786] - Components::addComponent[baseapp], uid=64149, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000026c8] [2015-06-07 00:09:18,985] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19199, extaddr:192.168.1.34, extport:20013,  from 192.168.1.34:19206/0/0/0.
+  INFO [0x000026c8] [2015-06-07 00:09:18,986] - Components::addComponent[loginapp], uid=64149, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG [0x000026c8] [2015-06-07 00:09:20,865] - ServerApp::lookApp: 192.168.1.34:19211/0/0/0
+  INFO [0x000026c8] [2015-06-07 00:09:25,425] - Logger::registerLogWatcher: addr=192.168.1.34:19229 is successfully!

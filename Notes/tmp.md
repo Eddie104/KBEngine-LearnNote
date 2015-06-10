@@ -9,3 +9,6 @@ http://gamedevelopment.tutsplus.com/series/create-ai-for-a-hockey-game-using-ste
 http://gamedevelopment.tutsplus.com/tutorials/quick-tip-use-quadtrees-to-detect-likely-collisions-in-2d-space--gamedev-374
 
 四叉树
+
+
+KBEngine 关于弱联网的思路

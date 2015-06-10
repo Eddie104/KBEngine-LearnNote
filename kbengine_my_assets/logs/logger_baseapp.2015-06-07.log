@@ -1,0 +1,70 @@
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 252] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 253] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 253] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 254] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 256] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:20015 )
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 257] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:20015, SOMAXCONN=128.
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 259] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19197 )
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 260] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19197, SOMAXCONN=128.
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 260] - server-configs:
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 261] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 261] - 	entryScriptFile : kbengine
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 261] - 	internalAddr : 192.168.1.34:19197
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 262] - 	externalAddr : 192.168.1.34:20015
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 262] - 	componentID : 7001
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 563] - ---- baseapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 98670BB559BC40DD73E41BC67006A9BA. Config: Debug. Built: 17:30:23 May 30 2015. AppID: 7001. UID: 64149. PID: 7716 ----
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 564] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 564] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 565] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 704] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 705] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 705] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 712] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 712] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 713] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 759] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 806] - Script::install(): is successfully, Python=(3.4.2 (default, May 30 2015, 17:31:01) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 806] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:10 819] - loaded script:Account(1).
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 820] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:10 820] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:11 584] - ---- baseapp is running ----
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:11 585] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 64149 7001  [2015-06-07 00:09:17 613] - EntityApp::checkTickPeriod: tick took 6028% (6.03 seconds)!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 654] - Components::findInterfaces: find logger(1)...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 763] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 763] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 779] - Components::findInterfaces: find dbmgr(2)...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 789] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 913] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 914] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:18 937] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+ WARNING    baseapp-1 64149 7001  [2015-06-07 00:09:19 937] - EntityApp::checkTickPeriod: tick took 1353% (1.35 seconds)!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:20 954] - Components::findInterfaces: find baseappmgr(1)...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:20 984] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:19187
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:20 984] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:21 008] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:19187
+ WARNING    baseapp-1 64149 7001  [2015-06-07 00:09:22 008] - EntityApp::checkTickPeriod: tick took 1124% (1.12 seconds)!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:23 054] - Components::findInterfaces: find cellappmgr(1)...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:23 081] - Components::findInterfaces: found cellappmgr, addr:192.168.1.34:19189
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:23 081] - Components::addComponent[cellappmgr], uid=64149, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:23 104] - Components::findInterfaces: found cellappmgr, addr:192.168.1.34:19189
+ WARNING    baseapp-1 64149 7001  [2015-06-07 00:09:24 104] - EntityApp::checkTickPeriod: tick took 1120% (1.12 seconds)!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 254] - Components::findInterfaces: register self to dbmgr...
+   DEBUG    baseapp-1 64149 7001  [2015-06-07 00:09:25 255] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 284] - Components::findInterfaces: register self to baseappmgr...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 295] - Components::findInterfaces: register self to cellappmgr...
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 296] - Components::process(): Found all the components!
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 385] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19198, extaddr:nonsupport, extport:0,  from 192.168.1.34:19227/0/0/0.
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 385] - Components::addComponent[cellapp], uid=64149, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:25 385] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.34, intport:19198, extaddr:nonsupport, extport:0,  from 192.168.1.34:19227/0/0/0.
+    INFO    baseapp-1 64149 7001  [2015-06-07 00:09:28 385] - EntityApp::onDbmgrInitCompleted: entityID alloc(1025-2049), startGlobalOrder=6, startGroupOrder=1, digest=E56911AD96C8C905BFDB9E7062C94EB7.
+    INFO    baseapp01 64149 7001  [2015-06-07 00:09:28 385] - IDClient::onAddRange: number of ids increased from 1025 to 2049.
+  S_INFO    baseapp01 64149 7001  [2015-06-07 00:09:28 386] - onInit::isReload:0
+   DEBUG    baseapp01 64149 7001  [2015-06-07 00:09:28 654] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 64149 7001  [2015-06-07 00:09:28 655] - onBaseAppReady: isBootstrap=True, bootstrapGroupIndex=1, bootstrapGlobalIndex=6
+   DEBUG    baseapp01 64149 7001  [2015-06-07 00:09:28 685] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 64149 7001  [2015-06-07 00:14:02 887] - PendingLoginMgr::add: zhangsan, size=1.
+   DEBUG    baseapp01 64149 7001  [2015-06-07 00:16:03 823] - PendingLoginMgr::process: [zhangsan] is timeout, currsize=0.

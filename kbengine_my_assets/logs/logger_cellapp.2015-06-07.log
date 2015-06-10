@@ -1,0 +1,63 @@
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 437] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 437] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 438] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 438] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 441] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:19198 )
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 442] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:19198, SOMAXCONN=5.
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 442] - server-configs:
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 442] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 442] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 443] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 443] - 	entryScriptFile : kbengine
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 443] - 	internalAddr : 192.168.1.34:19198
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 443] - 	componentID : 8001
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 455] - ---- cellapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: 8E4D667806C69CB2931D5BBF3CEB53D0. Config: Debug. Built: 17:32:28 May 30 2015. AppID: 8001. UID: 64149. PID: 11316 ----
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 456] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 456] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 458] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 596] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 596] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 597] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 602] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 602] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 603] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:10 645] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 694] - Script::install(): is successfully, Python=(3.4.2 (default, May 30 2015, 17:33:16) [MSC v.1800 32 bit (Intel)])!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 694] - Script::install(): KBExtra is successfully!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:10 706] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:11 595] - ---- cellapp is running ----
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:11 595] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 64149 8001  [2015-06-07 00:09:11 905] - BundleBroadcast::BundleBroadcast: Couldn't bind listener socket to port 20950, errorno=10048
+ WARNING    cellapp-1 64149 8001  [2015-06-07 00:09:14 912] - EntityApp::checkTickPeriod: tick took 3317% (3.32 seconds)!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:15 939] - Components::findInterfaces: find logger(1)...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 063] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 063] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 079] - Components::findInterfaces: find dbmgr(2)...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 088] - Components::findInterfaces: found logger, addr:192.168.1.34:19182
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 209] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 210] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:16 232] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:19185
+ WARNING    cellapp-1 64149 8001  [2015-06-07 00:09:17 233] - EntityApp::checkTickPeriod: tick took 1338% (1.34 seconds)!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:18 239] - Components::findInterfaces: find cellappmgr(1)...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:18 369] - Components::findInterfaces: found cellappmgr, addr:192.168.1.34:19189
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:18 369] - Components::addComponent[cellappmgr], uid=64149, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:18 392] - Components::findInterfaces: found cellappmgr, addr:192.168.1.34:19189
+ WARNING    cellapp-1 64149 8001  [2015-06-07 00:09:19 392] - EntityApp::checkTickPeriod: tick took 1197% (1.20 seconds)!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:20 395] - Components::findInterfaces: find baseappmgr(1)...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:20 588] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:19187
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:20 588] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:20 613] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:19187
+ WARNING    cellapp-1 64149 8001  [2015-06-07 00:09:21 613] - EntityApp::checkTickPeriod: tick took 1318% (1.32 seconds)!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:22 739] - Components::findInterfaces: register self to dbmgr...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:22 794] - Components::findInterfaces: register self to cellappmgr...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:22 838] - Components::findInterfaces: register self to baseappmgr...
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:22 894] - Components::process(): Found all the components!
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:25 294] - ServerApp::onRegisterNewApp: uid:64149, username:admin, componentType:baseapp, componentID:7001, globalorderID=6, grouporderID=1, intaddr:192.168.1.34, intport:19197, extaddr:192.168.1.34, extport:20015,  from 192.168.1.34:19185/0/0/0.
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:25 294] - Components::addComponent[baseapp], uid=64149, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+   DEBUG    cellapp-1 64149 8001  [2015-06-07 00:09:27 195] - Cellapp::lookApp: 192.168.1.34:19232/0/0/0
+    INFO    cellapp-1 64149 8001  [2015-06-07 00:09:28 295] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-1025), startGlobalOrder=4, startGroupOrder=1, digest=E56911AD96C8C905BFDB9E7062C94EB7.
+    INFO    cellapp01 64149 8001  [2015-06-07 00:09:28 295] - IDClient::onAddRange: number of ids increased from 1 to 1025.
+   S_DBG    cellapp01 64149 8001  [2015-06-07 00:09:28 296] - onInit::isReload:0
+   DEBUG    cellapp01 64149 8001  [2015-06-07 00:09:28 396] - InitProgressHandler::~InitProgressHandler()

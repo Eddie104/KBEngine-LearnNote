@@ -1,0 +1,77 @@
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 050] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:20013 )
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:20013, SOMAXCONN=128.
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:17661 )
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:17661, SOMAXCONN=128.
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - server-configs:
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - 	internalAddr : 192.168.1.34:17661
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - 	externalAddr : 192.168.1.34:20013
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 051] - 	componentID : 9000
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 328] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 17:30:04 May 30 2015. AppID: 9000. UID: 64149. PID: 12196 ----
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 328] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 329] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:01 329] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:02 128] - ---- loginapp is running ----
+   DEBUG   loginapp-1 64149 9000  [2015-06-06 22:56:02 128] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 221] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 396] - Components::findInterfaces: found logger, addr:192.168.1.34:17643
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 396] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 405] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 418] - Components::findInterfaces: found logger, addr:192.168.1.34:17643
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 580] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:17646
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 581] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:09 601] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:17646
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:11 623] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:11 764] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:17647
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:11 764] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:11 779] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:17647
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:13 813] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:13 829] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:13 845] - Components::process(): Found all the components!
+   DEBUG   loginapp-1 64149 9000  [2015-06-06 22:56:17 790] - ServerApp::lookApp: 192.168.1.34:17691/0/0/0
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:18 970] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=E56911AD96C8C905BFDB9E7062C94EB7.
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:18 970] - HTTPCBHandler::bind: 192.168.1.34:21103
+    INFO   loginapp-1 64149 9000  [2015-06-06 22:56:19 350] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 516] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 517] - Resmgr::initialize: KBE_ROOT=D:/KBengine/kbengine/
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 518] - Resmgr::initialize: KBE_RES_PATH=D:/KBengine/kbengine/kbe/res/;D:/KBengine/kbengine/kbengine_my_assets/;D:/KBengine/kbengine/kbengine_my_assets/scripts/;D:/KBengine/kbengine/kbengine_my_assets/res/
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 518] - Resmgr::initialize: KBE_BIN_PATH=D:/KBengine/kbengine/kbe/bin/server/
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 525] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:20013 )
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 527] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.1.34:20013, SOMAXCONN=128.
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 529] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.1.34 ( 192.168.1.34:18316 )
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 530] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.1.34:18316, SOMAXCONN=128.
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 531] - server-configs:
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 531] - 	internalAddr : 192.168.1.34:18316
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 531] - 	externalAddr : 192.168.1.34:20013
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 532] - 	componentID : 9000
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 865] - ---- loginapp Version: 0.6.1. ScriptVersion: 0.1.0. Protocol: BC31472677FC548A5CD2FA3F68A420D3. Config: Debug. Built: 17:30:04 May 30 2015. AppID: 9000. UID: 64149. PID: 11640 ----
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 866] - Server admin:       Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 866] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:24 867] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:25 865] - ---- loginapp is running ----
+   DEBUG   loginapp-1 64149 9000  [2015-06-06 23:20:25 865] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:32 949] - Components::findInterfaces: find logger(1)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 078] - Components::findInterfaces: found logger, addr:192.168.1.34:18309
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 078] - Components::addComponent[logger], uid=64149, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 088] - Components::findInterfaces: find dbmgr(2)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 108] - Components::findInterfaces: found logger, addr:192.168.1.34:18309
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 318] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:18310
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 318] - Components::addComponent[dbmgr], uid=64149, componentID=4000, globalorderid=8, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:33 338] - Components::findInterfaces: found dbmgr, addr:192.168.1.34:18310
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:35 352] - Components::findInterfaces: find baseappmgr(1)...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:35 392] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:18311
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:35 392] - Components::addComponent[baseappmgr], uid=64149, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:35 412] - Components::findInterfaces: found baseappmgr, addr:192.168.1.34:18311
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:37 451] - Components::findInterfaces: register self to dbmgr...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:37 471] - Components::findInterfaces: register self to baseappmgr...
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:37 491] - Components::process(): Found all the components!
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:42 934] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=4, startGroupOrder=1, digest=E56911AD96C8C905BFDB9E7062C94EB7.
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:42 934] - HTTPCBHandler::bind: 192.168.1.34:21103
+    INFO   loginapp-1 64149 9000  [2015-06-06 23:20:43 268] - Loginapp::onBaseappInitProgress: progress=1.

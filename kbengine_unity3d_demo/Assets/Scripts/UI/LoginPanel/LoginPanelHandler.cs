@@ -24,7 +24,7 @@ public class LoginPanelHandler : MonoBehaviour {
        EventDelegate.Add(btn_Register.onClick, btn_Register_OnClick);
 
        //listen CreateAccount callBack
-       KBEngine.Event.registerOut("onCreateAccountResult", this, "onCreateAccountResult");
+       //KBEngine.Event.registerOut("onCreateAccountResult", this, "onCreateAccountResult");
        KBEngine.Event.registerOut("onLoginSuccessfully", this, "onLoginSuccessfully");
     }
 
@@ -34,23 +34,23 @@ public class LoginPanelHandler : MonoBehaviour {
 
         KBEngine.Event.fireIn("createAccount", stringAccount, stringPasswd, System.Text.Encoding.UTF8.GetBytes("kbengine_unity3d_demo"));
     }
-    public void onCreateAccountResult(UInt16 retcode, byte[] datas)
-    {
-        if (retcode != 0)
-        {
-            Debug.LogError("createAccount is error(注册账号错误)! err=" + KBEngineApp.app.serverErr(retcode));
-            return;
-        }
+    //public void onCreateAccountResult(UInt16 retcode, byte[] datas)
+    //{
+    //    if (retcode != 0)
+    //    {
+    //        Debug.LogError("createAccount is error(注册账号错误)! err=" + KBEngineApp.app.serverErr(retcode));
+    //        return;
+    //    }
 
-        if (KBEngineApp.validEmail(stringAccount))
-        {
-            Debug.LogError("createAccount is successfully, Please activate your Email!(注册账号成功，请激活Email!)");
-        }
-        else
-        {
-            Debug.LogError("createAccount is successfully!(注册账号成功!)");
-        }
-    }
+    //    if (KBEngineApp.validEmail(stringAccount))
+    //    {
+    //        Debug.LogError("createAccount is successfully, Please activate your Email!(注册账号成功，请激活Email!)");
+    //    }
+    //    else
+    //    {
+    //        Debug.LogError("createAccount is successfully!(注册账号成功!)");
+    //    }
+    //}
 
 
     public void btn_Login_OnClick()
@@ -70,5 +70,14 @@ public class LoginPanelHandler : MonoBehaviour {
     public void onLoginSuccessfully(UInt64 rndUUID, Int32 eid, Account accountEntity)
     {
         Debug.Log("login is successfully!(登陆成功!)");
+    }
+
+    void OnGUI()
+    {
+        if (GUI.Button(new Rect(10, 10, 150, 100), "reqCreateAvatar"))
+        {
+            Account account = (Account)KBEngineApp.app.player();
+            account.reqCreateAvatar(1, "haha");
+        }
     }
 }

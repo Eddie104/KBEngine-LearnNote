@@ -1,0 +1,28 @@
+<root>
+	<Properties>
+		<character>
+			<Type>			AVATAR_INFO		</Type>
+			<Flags>			BASE				</Flags>
+			<Default>						</Default>
+			<Persistent>		true				</Persistent>
+		</character>
+	</Properties>
+
+	<ClientMethods>
+		<onReqAvatarList>
+			<Arg>	AVATAR_INFO	</Arg>
+		</onReqAvatarList>
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqCreateAvatar>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>	<!-- roleType -->
+			<Arg>	STRING	</Arg>	<!-- name -->
+		</reqCreateAvatar>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
