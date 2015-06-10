@@ -151,6 +151,9 @@ loginApp处理登录转发, 客户端接收 "KBEngine::Client_onLoginSuccessfull
 [KBEngine简单RPG-Demo源码解析](http://bbs.kbengine.org/forum.php?mod=viewthread&tid=166&highlight=RPG)
 
 
+https://github.com/daaoling/KBEngine-LearnNote.git
+
+
 
 
 
